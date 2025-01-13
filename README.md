@@ -1,6 +1,6 @@
 # Web Development Portfolio | devjashele.tech
 
-[ ] Transition from WordPress to GitHub.
+[ ] Transition domain from WordPress to GitHub.
 
 [ ] Build out new site with HTML and Tailwind CSS.
 

@@ -12,4 +12,4 @@
 
 <br>
 
-[ ] Launch brand new site by **1/18/2025** 🎉
+[ ] Launch brand new site by **1/31/2025** 🎉

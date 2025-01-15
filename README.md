@@ -4,11 +4,11 @@
 
 <br>
 
-[ ] Move domain from WordPress to a new registrar.
+[ *in progress* ] Build out new site with HTML and Tailwind CSS.
 
 <br>
 
-[ *in progress* ] Build out new site with HTML and Tailwind CSS.
+[ ] Move domain from WordPress to a new registrar.
 
 <br>
 

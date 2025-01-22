@@ -718,6 +718,10 @@ video {
   overflow: visible;
 }
 
+.text-wrap {
+  text-wrap: wrap;
+}
+
 .text-balance {
   text-wrap: balance;
 }
@@ -875,6 +879,10 @@ video {
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {

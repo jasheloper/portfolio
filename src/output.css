@@ -949,6 +949,22 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
+.decoration-blue-400 {
+  text-decoration-color: #60a5fa;
+}
+
+.decoration-amber-400 {
+  text-decoration-color: #fbbf24;
+}
+
+.decoration-8 {
+  text-decoration-thickness: 8px;
+}
+
 .opacity-30 {
   opacity: 0.3;
 }
@@ -1190,5 +1206,11 @@ video {
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:decoration-blue-600 {
+    text-decoration-color: #2563eb;
   }
 }

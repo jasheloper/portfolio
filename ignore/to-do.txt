@@ -1,0 +1,17 @@
+Design:
+[ ] Responsiveness
+
+MVP:
+[ ✅ ] Header | Summary | Icons
+[ ] Projects
+[ ] About Me
+[ ] Footer
+
+----
+
+
+responsive design tweaks
+
+design tweaks for small screens
+
+homepage updates

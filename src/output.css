@@ -731,14 +731,29 @@
   .-mt-6 {
     margin-top: calc(var(--spacing) * -6);
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
+  }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
+  }
+  .mt-17 {
+    margin-top: calc(var(--spacing) * 17);
   }
   .mt-auto {
     margin-top: auto;
@@ -862,6 +877,9 @@
   }
   .h-40 {
     height: calc(var(--spacing) * 40);
+  }
+  .h-41 {
+    height: calc(var(--spacing) * 41);
   }
   .h-48 {
     height: calc(var(--spacing) * 48);
@@ -1863,6 +1881,9 @@
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
+  .p-px {
+    padding: 1px;
+  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -1895,6 +1916,9 @@
   }
   .py-24 {
     padding-block: calc(var(--spacing) * 24);
+  }
+  .pe-0 {
+    padding-inline-end: calc(var(--spacing) * 0);
   }
   .pt-0 {
     padding-top: calc(var(--spacing) * 0);
@@ -2532,6 +2556,9 @@
   .\[keywords\:node-addon-api\] {
     keywords: node-addon-api;
   }
+  .\[lSM\:�S-O�\1c �P��\\��\$\/�rSGIղ�\/�L\15 U\] {
+    lSM: �S-O��P��\��$/�rSGIղ�/�LU;
+  }
   .\[mask-image\:radial-gradient\(64rem_64rem_at_top\,white\,transparent\)\] {
     mask-image: radial-gradient(64rem 64rem at top,white,transparent);
   }
@@ -2849,6 +2876,11 @@
   .md\:mx-auto {
     @media (width >= 48rem) {
       margin-inline: auto;
+    }
+  }
+  .md\:mt-15 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 15);
     }
   }
   .md\:w-16 {

@@ -1516,6 +1516,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
   .border-4 {
     border-style: var(--tw-border-style);
     border-width: 4px;
@@ -1579,11 +1583,23 @@
   .border-gray-200 {
     border-color: var(--color-gray-200);
   }
+  .border-gray-400 {
+    border-color: var(--color-gray-400);
+  }
+  .border-gray-500 {
+    border-color: var(--color-gray-500);
+  }
   .border-indigo-50 {
     border-color: var(--color-indigo-50);
   }
   .border-indigo-200 {
     border-color: var(--color-indigo-200);
+  }
+  .border-indigo-500 {
+    border-color: var(--color-indigo-500);
+  }
+  .border-yellow-500 {
+    border-color: var(--color-yellow-500);
   }
   .bg-\(--my_variable\) {
     background-color: var(--my_variable);
@@ -1837,6 +1853,9 @@
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
@@ -2610,6 +2629,38 @@
   }
   .transform-view {
     transform-box: view-box;
+  }
+  .marker\:text-blue-200 {
+    & *::marker {
+      color: var(--color-blue-200);
+    }
+    &::marker {
+      color: var(--color-blue-200);
+    }
+  }
+  .marker\:text-blue-300 {
+    & *::marker {
+      color: var(--color-blue-300);
+    }
+    &::marker {
+      color: var(--color-blue-300);
+    }
+  }
+  .marker\:text-blue-400 {
+    & *::marker {
+      color: var(--color-blue-400);
+    }
+    &::marker {
+      color: var(--color-blue-400);
+    }
+  }
+  .marker\:text-blue-500 {
+    & *::marker {
+      color: var(--color-blue-500);
+    }
+    &::marker {
+      color: var(--color-blue-500);
+    }
   }
   .marker\:text-indigo-500 {
     & *::marker {

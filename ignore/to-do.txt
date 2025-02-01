@@ -9,9 +9,18 @@ MVP:
 
 ----
 
+update to projects
 
-responsive design tweaks
 
-design tweaks for small screens
+card design for projects
 
-homepage updates
+general design tweaks for small and large screens
+
+design tweak(s) for smaller screens
+
+design tweaks
+
+390px
+414px
+830px
+1018px

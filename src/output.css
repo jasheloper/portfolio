@@ -2854,6 +2854,11 @@
       text-wrap: balance;
     }
   }
+  .md\:text-pretty {
+    @media (width >= 48rem) {
+      text-wrap: pretty;
+    }
+  }
   .lg\:h-18 {
     @media (width >= 64rem) {
       height: calc(var(--spacing) * 18);

@@ -731,12 +731,6 @@
   .-mt-6 {
     margin-top: calc(var(--spacing) * -6);
   }
-  .mt-2 {
-    margin-top: calc(var(--spacing) * 2);
-  }
-  .mt-4 {
-    margin-top: calc(var(--spacing) * 4);
-  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -745,21 +739,6 @@
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
-  }
-  .mt-12 {
-    margin-top: calc(var(--spacing) * 12);
-  }
-  .mt-14 {
-    margin-top: calc(var(--spacing) * 14);
-  }
-  .mt-15 {
-    margin-top: calc(var(--spacing) * 15);
-  }
-  .mt-16 {
-    margin-top: calc(var(--spacing) * 16);
-  }
-  .mt-18 {
-    margin-top: calc(var(--spacing) * 18);
   }
   .mt-auto {
     margin-top: auto;
@@ -875,9 +854,6 @@
   .h-3\.5 {
     height: calc(var(--spacing) * 3.5);
   }
-  .h-6 {
-    height: calc(var(--spacing) * 6);
-  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -922,9 +898,6 @@
   }
   .w-3\.5 {
     width: calc(var(--spacing) * 3.5);
-  }
-  .w-6 {
-    width: calc(var(--spacing) * 6);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -2816,24 +2789,9 @@
       margin-top: calc(var(--spacing) * 15);
     }
   }
-  .md\:mb-14 {
-    @media (width >= 48rem) {
-      margin-bottom: calc(var(--spacing) * 14);
-    }
-  }
-  .md\:mb-16 {
-    @media (width >= 48rem) {
-      margin-bottom: calc(var(--spacing) * 16);
-    }
-  }
   .md\:mb-18 {
     @media (width >= 48rem) {
       margin-bottom: calc(var(--spacing) * 18);
-    }
-  }
-  .md\:mb-20 {
-    @media (width >= 48rem) {
-      margin-bottom: calc(var(--spacing) * 20);
     }
   }
   .md\:w-16 {
@@ -2873,6 +2831,12 @@
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
+  .md\:text-base {
+    @media (width >= 48rem) {
+      font-size: var(--text-base);
+      line-height: var(--tw-leading, var(--text-base--line-height));
+    }
+  }
   .md\:text-lg {
     @media (width >= 48rem) {
       font-size: var(--text-lg);
@@ -2888,11 +2852,6 @@
   .md\:text-balance {
     @media (width >= 48rem) {
       text-wrap: balance;
-    }
-  }
-  .md\:text-pretty {
-    @media (width >= 48rem) {
-      text-wrap: pretty;
     }
   }
   .lg\:h-18 {

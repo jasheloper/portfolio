@@ -683,6 +683,9 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
+  .left-1 {
+    left: calc(var(--spacing) * 1);
+  }
   .left-1\/2 {
     left: calc(1/2 * 100%);
   }
@@ -958,6 +961,10 @@
     width: calc(var(--spacing) * 32);
     height: calc(var(--spacing) * 32);
   }
+  .size-1200 {
+    width: calc(var(--spacing) * 1200);
+    height: calc(var(--spacing) * 1200);
+  }
   .h-3\.5 {
     height: calc(var(--spacing) * 3.5);
   }
@@ -1023,6 +1030,9 @@
   }
   .w-\[128rem\] {
     width: 128rem;
+  }
+  .w-auto {
+    width: auto;
   }
   .w-screen {
     width: 100vw;
@@ -1744,6 +1754,9 @@
   }
   .bg-indigo-500 {
     background-color: var(--color-indigo-500);
+  }
+  .bg-indigo-900 {
+    background-color: var(--color-indigo-900);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);

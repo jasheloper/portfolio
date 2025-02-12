@@ -1850,9 +1850,6 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
-  .py-1 {
-    padding-block: calc(var(--spacing) * 1);
-  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -1864,12 +1861,6 @@
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
-  }
-  .py-8 {
-    padding-block: calc(var(--spacing) * 8);
-  }
-  .py-10 {
-    padding-block: calc(var(--spacing) * 10);
   }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
@@ -2763,11 +2754,6 @@
       width: 72.1875rem;
     }
   }
-  .sm\:py-18 {
-    @media (width >= 40rem) {
-      padding-block: calc(var(--spacing) * 18);
-    }
-  }
   .sm\:py-32 {
     @media (width >= 40rem) {
       padding-block: calc(var(--spacing) * 32);
@@ -2865,16 +2851,6 @@
       text-wrap: pretty;
     }
   }
-  .lg\:flex {
-    @media (width >= 64rem) {
-      display: flex;
-    }
-  }
-  .lg\:grid {
-    @media (width >= 64rem) {
-      display: grid;
-    }
-  }
   .lg\:h-18 {
     @media (width >= 64rem) {
       height: calc(var(--spacing) * 18);
@@ -2883,16 +2859,6 @@
   .lg\:w-18 {
     @media (width >= 64rem) {
       width: calc(var(--spacing) * 18);
-    }
-  }
-  .lg\:max-w-2xl {
-    @media (width >= 64rem) {
-      max-width: var(--container-2xl);
-    }
-  }
-  .lg\:grid-cols-2 {
-    @media (width >= 64rem) {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
   .lg\:overflow-visible {

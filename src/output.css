@@ -1920,6 +1920,9 @@
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
   }
+  .pb-7 {
+    padding-bottom: calc(var(--spacing) * 7);
+  }
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
   }

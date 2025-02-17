@@ -2278,6 +2278,9 @@
   .text-gray-900 {
     color: var(--color-gray-900);
   }
+  .text-indigo-50 {
+    color: var(--color-indigo-50);
+  }
   .text-indigo-300 {
     color: var(--color-indigo-300);
   }

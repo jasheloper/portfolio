@@ -2829,6 +2829,11 @@
       padding-inline: calc(var(--spacing) * 7);
     }
   }
+  .md\:px-12 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 12);
+    }
+  }
   .md\:text-center {
     @media (width >= 48rem) {
       text-align: center;

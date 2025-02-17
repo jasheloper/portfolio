@@ -860,6 +860,9 @@
   .h-3\.5 {
     height: calc(var(--spacing) * 3.5);
   }
+  .h-6 {
+    height: calc(var(--spacing) * 6);
+  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -913,6 +916,9 @@
   }
   .w-3xs {
     width: var(--container-3xs);
+  }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -1115,8 +1121,29 @@
   .scale-none {
     scale: none;
   }
+  .rotate-1 {
+    rotate: 1deg;
+  }
+  .rotate-2 {
+    rotate: 2deg;
+  }
   .rotate-3 {
     rotate: 3deg;
+  }
+  .rotate-4 {
+    rotate: 4deg;
+  }
+  .rotate-6 {
+    rotate: 6deg;
+  }
+  .rotate-8 {
+    rotate: 8deg;
+  }
+  .rotate-\[-2\] {
+    rotate: -2;
+  }
+  .rotate-\[-4\] {
+    rotate: -4;
   }
   .rotate-none {
     rotate: none;
@@ -2251,8 +2278,20 @@
   .text-gray-900 {
     color: var(--color-gray-900);
   }
+  .text-indigo-300 {
+    color: var(--color-indigo-300);
+  }
+  .text-indigo-400 {
+    color: var(--color-indigo-400);
+  }
   .text-indigo-500 {
     color: var(--color-indigo-500);
+  }
+  .text-indigo-600 {
+    color: var(--color-indigo-600);
+  }
+  .text-indigo-700 {
+    color: var(--color-indigo-700);
   }
   .text-indigo-800 {
     color: var(--color-indigo-800);
@@ -2268,6 +2307,15 @@
   }
   .text-white {
     color: var(--color-white);
+  }
+  .text-yellow-400 {
+    color: var(--color-yellow-400);
+  }
+  .text-yellow-600 {
+    color: var(--color-yellow-600);
+  }
+  .text-yellow-900 {
+    color: var(--color-yellow-900);
   }
   .capitalize {
     text-transform: capitalize;

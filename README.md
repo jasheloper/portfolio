@@ -4,7 +4,8 @@
 
 <br>
 
-[ *in progress* ] Build out new site with HTML and Tailwind CSS.
+[ *in progress* ] Build out new site with HTML and Tailwind CSS. <br>
+Started Jan 10th
 
 <br>
 
@@ -12,4 +13,4 @@
 
 <br>
 
-[ ] Launch brand new site by **1/31/2025** 🎉
+[ ] Launch brand new site by **2/2025** 🎉

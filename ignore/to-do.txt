@@ -1,24 +1,23 @@
-Design:
-[ ] Responsiveness
+Review Each Section
 
-MVP:
-[ ✅ ] Header | Summary | Icons
-[ ] Projects
-[ ] About Me
-[ ] Footer
+-links
+-grammar
+-Desktop & Mobile
 
 ----
 
-update to projects
+✅
+
+[ ✅ ] Header
+[ in progress ] About Me
+[ ] Skills 
+[ ] Coding Projects
+[ ] Published Articles
+[ ] Tech Content 
+[ ] The End 
 
 
-card design for projects
-
-general design tweaks for small and large screens
-
-design tweak(s) for smaller screens
-
-design tweaks
+----
 
 390px
 414px

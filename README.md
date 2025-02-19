@@ -4,7 +4,7 @@
 
 <br>
 
-[ *in progress* ] Build out new site with HTML and Tailwind CSS. <br>
+[ *QA* ] Build out new site with HTML and Tailwind CSS. <br>
 Started Jan 10th
 
 <br>

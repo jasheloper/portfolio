@@ -5,6 +5,10 @@ Quality checks
 [ ✅ ] About Me
 [ ✅ ] Skills 
 [ in progress ] Coding Projects
+    [ ] silly story generator
+    [ ] image gallery 
+    [ ] color tiles
+    [ ] portfolio 
 [ ] Published Articles
 [ ] Tech Content 
 [ ] The End 

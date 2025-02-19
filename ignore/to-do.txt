@@ -3,12 +3,16 @@ Quality checks
 ---------------------
 [ ✅ ] Header
 [ ✅ ] About Me
-[ ] Skills 
+[ ✅ ] Skills 
 [ ] Coding Projects
 [ ] Published Articles
 [ ] Tech Content 
 [ ] The End 
+[ ] Code Clean up 
 
+
+thoughts:
+are the boxes too wide for each section?
 
 ----
 

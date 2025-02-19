@@ -1,15 +1,8 @@
-Review Each Section
-
--links
--grammar
--Desktop & Mobile
-
-----
-
 ✅
-
+Quality checks
+---------------------
 [ ✅ ] Header
-[ in progress ] About Me
+[ ✅ ] About Me
 [ ] Skills 
 [ ] Coding Projects
 [ ] Published Articles

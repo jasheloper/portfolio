@@ -16,7 +16,8 @@ Quality checks
 
 
 thoughts:
-are the boxes too wide for each section?
+design: are the boxes too wide for each section?
+projects: should there just be 1 large project and then the others in 2 column rows?
 
 ----
 

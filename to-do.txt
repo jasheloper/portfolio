@@ -4,11 +4,7 @@ Quality checks
 [ ✅ ] Header
 [ ✅ ] About Me
 [ ✅ ] Skills 
-[ in progress ] Coding Projects
-    [ ✅ ] silly story generator
-    [ ] image gallery 
-    [ ] color tiles
-    [ ] portfolio 
+[ ] Coding Projects
 [ ] Published Articles
 [ ] Tech Content 
 [ ] The End 
@@ -16,8 +12,7 @@ Quality checks
 
 
 thoughts:
-design: are the boxes too wide for each section?
-projects: should there just be 1 large project and then the others in 2 column rows?
+are the boxes too wide for each section?
 
 ----
 

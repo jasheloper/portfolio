@@ -9,7 +9,7 @@ Quality checks
     [ ] image gallery 
     [ ] color tiles
     [ ] portfolio 
-[ ] Published Articles90
+[ ] Published Articles
 [ ] Tech Content 
 [ ] The End 
 [ ] Code Clean up 

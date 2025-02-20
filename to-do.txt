@@ -5,7 +5,7 @@ Quality checks
 [ ✅ ] About Me
 [ ✅ ] Skills 
 [ in progress ] Coding Projects
-    [ in progress ] silly story generator
+    [ ✅ ] silly story generator
     [ ] image gallery 
     [ ] color tiles
     [ ] portfolio 

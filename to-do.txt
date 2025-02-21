@@ -4,7 +4,13 @@ Quality checks
 [ ✅ ] Header
 [ ✅ ] About Me
 [ ✅ ] Skills 
-[ ] Coding Projects
+
+[ reviewing ] Coding Projects
+    [ ] silly story generator
+    [ ] image gallery 
+    [ ] color tiles
+    [ ] portfolio - just needs an image now 
+
 [ ] Published Articles
 [ ] Tech Content 
 [ ] The End 
@@ -12,7 +18,13 @@ Quality checks
 
 
 thoughts:
-are the boxes too wide for each section?
+about me: implement. whether it's problem solving or...?
+
+design: are the boxes too wide for each section?
+
+projects: should there just be 1 large project and then the others in 2 column rows?
+
+skills: the skill kbd's seem to take a while to load on one of my devices and makes it look off initially. is it the custom css i have?
 
 ----
 
@@ -20,3 +32,17 @@ are the boxes too wide for each section?
 414px
 830px
 1018px
+
+
+HTML
+•
+Tailwind CSS
+
+DevJashele.Tech
+My personal portfolio website to showcase more about me and my web projects.
+
+Key Features:
+A single-page layout with distinct sections showcasing my professional journey, skills, and projects.
+A minimalist design that presents key information concisely to keep users engaged with easy navigation.
+
+Key Concepts: CSS Library Implementation • Responsive Design

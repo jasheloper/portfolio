@@ -33,3 +33,6 @@ skills: the skill kbd's seem to take a while to load on one of my devices and ma
 830px
 1018px
 
+----
+possible later features:
+a nav clicking to sections

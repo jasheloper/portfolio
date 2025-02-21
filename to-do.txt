@@ -33,16 +33,3 @@ skills: the skill kbd's seem to take a while to load on one of my devices and ma
 830px
 1018px
 
-
-HTML
-•
-Tailwind CSS
-
-DevJashele.Tech
-My personal portfolio website to showcase more about me and my web projects.
-
-Key Features:
-A single-page layout with distinct sections showcasing my professional journey, skills, and projects.
-A minimalist design that presents key information concisely to keep users engaged with easy navigation.
-
-Key Concepts: CSS Library Implementation • Responsive Design

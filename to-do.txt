@@ -22,11 +22,12 @@ Quality checks
 thoughts:
 about me: implement. whether it's problem solving or...?
 
-des🔄ign: are the boxes too wide for each section?
+design: are the boxes too wide for each section?
+if i lessen the width, be sure to also lessen the width of the project cards.
 
-projects: should there just be 1 large project and then the others in 2 column rows?
 
 skills: the skill kbd's seem to take a while to load on one of my devices and makes it look off initially. is it the custom css i have?
+*i think phone just needed a software update - seems resolved now
 
 ----
 
@@ -39,6 +40,7 @@ skills: the skill kbd's seem to take a while to load on one of my devices and ma
 possible later features:
 a nav clicking to sections
 
+projects: should there just be 1 large project and then the others in 2 column rows?
 
 ---
 

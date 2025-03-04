@@ -1,7 +1,19 @@
 ✅
 🔄
+
+Commands
+---------------------
+npm install tailwindcss @tailwindcss/cli
+
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+https://tailwindcss.com/docs/installation/tailwind-cli
+
+
+
 Quality checks
 ---------------------
+
 [ ✅ ] Header
 [ ✅ ] About Me
 [ ✅ ] Skills 

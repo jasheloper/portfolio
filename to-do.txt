@@ -39,7 +39,8 @@ if i lessen the width, be sure to also lessen the width of the project cards.
 
 
 skills: the skill kbd's seem to take a while to load on one of my devices and makes it look off initially. is it the custom css i have?
-*i think phone just needed a software update - seems resolved now
+*i think phone just needed a software update - seems resolved now 
+*tested, it's actually still loading oddly on my smaller iphone but it eventually resolves.
 
 ----
 

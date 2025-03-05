@@ -29,6 +29,9 @@ Quality checks
 [ ] Tech Content 
 [ ] The End 
 [ ] Code Clean up 
+    [ ] check alt tags
+
+
 
 
 thoughts:

@@ -33,9 +33,11 @@
     --color-gray-900: oklch(0.21 0.034 264.665);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --container-3xs: 16rem;
     --container-2xs: 18rem;
     --container-xs: 20rem;
     --container-sm: 24rem;
+    --container-md: 28rem;
     --container-lg: 32rem;
     --container-xl: 36rem;
     --container-2xl: 42rem;
@@ -625,8 +627,17 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
+  .w-1\/4 {
+    width: calc(1/4 * 100%);
+  }
+  .w-2xs {
+    width: var(--container-2xs);
+  }
   .w-3\.5 {
     width: calc(var(--spacing) * 3.5);
+  }
+  .w-3xs {
+    width: var(--container-3xs);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -643,6 +654,9 @@
   .w-96 {
     width: calc(var(--spacing) * 96);
   }
+  .w-270 {
+    width: calc(var(--spacing) * 270);
+  }
   .w-\[36\.125rem\] {
     width: 36.125rem;
   }
@@ -652,8 +666,17 @@
   .w-full {
     width: 100%;
   }
+  .w-md {
+    width: var(--container-md);
+  }
   .w-screen {
     width: 100vw;
+  }
+  .w-sm {
+    width: var(--container-sm);
+  }
+  .w-xs {
+    width: var(--container-xs);
   }
   .max-w-2xl {
     max-width: var(--container-2xl);

@@ -23,10 +23,10 @@ Quality checks
     [ ✅ ] silly story generator
     [ ✅ ] image gallery 
     [ ✅ ] color tiles
-    [ 🔄 ] portfolio - just needs an image now 
+    [ 🔄 ] portfolio - just needs an image preview 
 
 [ ✅ ] Published Articles
-[ ] Tech Content 
+[ 🔄 ] Tech Content - tech blog just needs an image preview
 [ ] The End 
 [ ] Code Clean up 
     [ ] check alt tags
@@ -65,3 +65,5 @@ projects: should there just be 1 large project and then the others in 2 column r
 QA/tweaks
 
 WIP: redoing tech content section
+
+updates TODOS

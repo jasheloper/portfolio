@@ -35,6 +35,8 @@ Quality checks
 
 
 thoughts:
+social media at top: add youtube 
+
 about me: implement. whether it's problem solving or...?
 
 design: are the boxes too wide for each section?
@@ -61,3 +63,5 @@ projects: should there just be 1 large project and then the others in 2 column r
 ---
 
 QA/tweaks
+
+WIP: redoing tech content section

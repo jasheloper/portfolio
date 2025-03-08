@@ -4,8 +4,9 @@
 
 <br>
 
-[ *QA* ] Build out new site with HTML and Tailwind CSS. <br>
-Started Jan 10th
+[ ✅  ] Build out new site with HTML and Tailwind CSS. <br>
+- Started Jan. 10th
+- Completed - March 8th
 
 <br>
 

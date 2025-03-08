@@ -4,14 +4,14 @@
 
 <br>
 
-[ ✅  ] Build out new site with HTML and Tailwind CSS. <br>
+[ ✅ ] Build out new site with HTML and Tailwind CSS. <br>
 - Started Jan. 10th
 - Completed - March 8th
 
 <br>
 
-[ ] Move domain from WordPress to a new registrar.
+[ ✅ ] Launch brand new site by **3/2025** 🎉
 
 <br>
 
-[ ] Launch brand new site by **3/2025** 🎉
+[ ] Move domain from WordPress to a new registrar.

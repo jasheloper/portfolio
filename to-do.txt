@@ -30,8 +30,7 @@ Quality checks
 [ ] The End 
 [ ] Code Clean up 
     [ ] check alt tags
-
-
+    [ ] check semantics
 
 
 thoughts:

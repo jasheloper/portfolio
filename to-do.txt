@@ -44,7 +44,7 @@ Quality checks - complete
 
 Additional:
 ---------------------
-[ ] try HTMLG for additional clean up.
+[ ] try HTMLG for additional code clean up.
 
 
 thoughts:

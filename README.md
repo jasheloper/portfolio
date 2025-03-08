@@ -13,4 +13,4 @@ Started Jan 10th
 
 <br>
 
-[ ] Launch brand new site by **2/2025** 🎉
+[ ] Launch brand new site by **3/2025** 🎉

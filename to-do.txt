@@ -27,7 +27,7 @@ Quality checks
 
 [ ✅ ] Published Articles
 [ 🔄 ] Tech Content - tech blog just needs an image preview
-[ ] The End 
+[ ✅ ] The End 
 [ ] Code Clean up 
     [ ] check alt tags
     [ ] check semantics
@@ -35,7 +35,7 @@ Quality checks
 
 
 thoughts:
-social media at top: add youtube 
+✅ social media at top: add youtube 
 
 about me: implement. whether it's problem solving or...?
 

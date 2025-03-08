@@ -18,7 +18,7 @@ Screen testing:
 1018px
 
 
-Quality checks
+Quality checks - complete
 ---------------------
 
 [ ✅ ] Header

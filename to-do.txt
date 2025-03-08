@@ -31,6 +31,7 @@ Quality checks
 [ ] Code Clean up 
     [ ] check alt tags
     [ ] check semantics
+    [ ] delete comments
 
 
 thoughts:
@@ -38,7 +39,7 @@ social media at top: add youtube
 
 about me: implement. whether it's problem solving or...?
 
-design: are the boxes too wide for each section?
+✅ design: are the boxes too wide for each section?
 if i lessen the width, be sure to also lessen the width of the project cards.
 
 

@@ -23,15 +23,15 @@ Quality checks
     [ ✅ ] silly story generator
     [ ✅ ] image gallery 
     [ ✅ ] color tiles
-    [ 🔄 ] portfolio - just needs an image preview 
+    [ ✅ ] portfolio - just needs an image preview 
 
 [ ✅ ] Published Articles
-[ 🔄 ] Tech Content - tech blog just needs an image preview
+[ ✅ ] Tech Content - tech blog just needs an image preview
 [ ✅ ] The End 
 [ ] Code Clean up 
-    [ ✅  ] check alt tags
-    [ ] check semantics
-    [ ] delete unecessary comments
+    [ ✅ ] check alt tags
+    [ ✅ ] check semantics
+    [ ✅ ] delete unecessary comments
 
 
 thoughts:
@@ -67,3 +67,7 @@ QA/tweaks
 WIP: redoing tech content section
 
 updates TODOS
+
+mvp
+
+last min QA/tweaks

@@ -2,80 +2,876 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/output.css" rel="stylesheet">
-    <title>DevJashele.Tech will be back soon...</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jashele T. | Web Portfolio</title>
+<link href="./src/output.css" rel="stylesheet">
 </head>
+
+<style>
+html a {
+color: #6875F5;
+}
+
+html a:hover {
+color: #4338CA;
+}
+
+.azure {
+color: azure
+}
+
+.azure:hover {
+color: #e8eaf6
+}
+
+kbd {
+background-color: #CDDBFE;
+border-radius: 3px;
+border: 1px solid #42389D;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+color: #362F78;
+display: inline-block;
+font-size: 0.9em;
+/* font-weight: 600; */
+line-height: 1;
+padding: 6px;
+margin: 4px;
+/* letter-spacing: 2px; */
+}
+
+kbd:hover {
+background-color: #42389D;
+/* Darken the background */
+color: #CDDBFE;
+/* Lighten the text */
+border-color: #2e276b;
+/* Darker border */
+cursor: pointer;
+/* Change cursor to indicate it's interactive */
+}
+</style>
 
 <body>
 
-    <main class="bg-white">
+<main class="bg-white">
 
-        <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+<div id="top" class="relative isolate overflow-hidden bg-white px-6 pt-8 lg:overflow-visible">
 
-            <div class="absolute inset-0 -z-10 overflow-hidden">
-                <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
-                    aria-hidden="true">
-                    <defs>
-                        <pattern id="e813992c-7d03-4cc4-a2bd-151760b470a0" width="200" height="200" x="50%" y="-1"
-                            patternUnits="userSpaceOnUse">
-                            <path d="M100 200V.5M.5 .5H200" fill="none" />
-                        </pattern>
-                    </defs>
-                    <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
-                        <path
-                            d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                            stroke-width="0" />
-                    </svg>
-                    <rect width="100%" height="100%" stroke-width="0"
-                        fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
-                </svg>
-            </div>
+<!--background pattern-->
+<div class="absolute inset-0 -z-10 overflow-hidden">
+<svg
+class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+aria-hidden="true">
+<defs>
+<pattern id="e813992c-7d03-4cc4-a2bd-151760b470a0" width="200" height="200" x="50%" y="-1"
+  patternUnits="userSpaceOnUse">
+  <path d="M100 200V.5M.5 .5H200" fill="none" />
+</pattern>
+</defs>
+<svg x="50%" y="-1" class="overflow-visible fill-gray-50">
+<path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
+  stroke-width="0" />
+</svg>
+<rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
+</svg>
+</div>
+
+<!--header section-->
+<header class="mx-auto max-w-2xl pb-8">
+
+<div class="text-center">
+
+<!--title-->
+<h1 class="text-4xl font-semibold tracking-tight text-gray-900 mt-8 md:text-5xl lg:text-7xl">Dev <span
+  class="px-3 bg-indigo-500 text-white rounded shadow-lg inline-block transform rotate-3 hover:bg-indigo-600 hover:scale-105 transition duration-300 ease-in-out">Jashele</span>
+.Tech
+</h1>
+
+<!--intro-->
+<p
+class="text-balance mt-8 font-medium text-gray-500 leading-loose text-lg md:text-xl md:text-pretty lg:text-2xl">
+Hi, I'm Jashele! An Arizona-based technical professional who is passionate about the web!
+</p>
+
+</div>
+</header>
+
+<!--socials-->
+<section class="max-w-xs mx-auto mb-10 bg-white shadow-md rounded-lg border-4 border-indigo-50 py-2">
+<div class="flex gap-4 justify-center">
+
+<!--linkedin-->
+<a href="https://www.linkedin.com/in/jashelet/" target="_blank"><svg
+  class="w-14 h-14 md:w-16 md:h-16 lg:w-18 lg:h-18 fill-indigo-500 hover:fill-indigo-600 transition duration-300 ease-in-out transform hover:scale-105"
+  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
+  <path
+    d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z">
+  </path>
+</svg></a>
+
+<!--github-->
+<a href="https://github.com/jasheloper" target="_blank"><svg
+  class="w-14 h-14 md:w-16 md:h-16 lg:w-18 lg:h-18 fill-indigo-500 hover:fill-indigo-600 transition duration-300 ease-in-out transform hover:scale-105"
+  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 30 30">
+  <path
+    d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z">
+  </path>
+</svg></a>
+
+<!--youtube-->
+<a href="https://www.youtube.com/jashelet" target="_blank">
+<svg
+  class="w-14 h-14 md:w-16 md:h-16 lg:w-18 lg:h-18 fill-indigo-500 hover:fill-indigo-600 transition duration-300 ease-in-out transform hover:scale-105"
+  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24 24">
+  <path fill-rule="evenodd"
+    d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
+    clip-rule="evenodd" />
+</svg>
+</a>
+
+</div>
+</section>
+
+<!--about me section-->
+<section
+class="max-w-4xl mx-auto bg-white shadow-md rounded-lg border-4 border-indigo-50 px-4 py-6 mb-8 md:mb-18 md:px-7">
+
+<div class="text-center flex flex-col items-center">
+
+<!--section icon-->
+<div class="pb-6">
+<svg class="w-16 h-16 text-indigo-500 max-sm:w-14 max-sm:h-14" aria-hidden="true"
+  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    d="M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm7 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" />
+</svg>
+</div>
+
+<!--about me summary-->
+<div class="pb-2">
+
+<h2
+  class="mb-6 text-3xl font-semibold tracking-tight text-indigo-500 md:text-4xl px-3 bg-indigo-500 text-white rounded shadow-lg inline-block transform hover:bg-indigo-600 hover:scale-105 transition duration-300 ease-in-out">
+  About Me</h2>
+
+<p class="max-w-2xl leading-loose font-medium text-gray-500 text-balance md:text-pretty md:text-lg">
+
+  Currently, I work as a Web Producer at Red Ventures.
+
+  I have experience working in a variety of roles including web development, website management, and web
+  content production.
+  <br><br>
+
+  Technologies I work with include HTML, CSS, JavaScript, and a variety of content management systems.
+
+  My dynamic experience has amplified my adaptability and readiness to take on new challenges! 🚀
+  <br><br>
+
+  Connect with me on <a href="https://www.linkedin.com/in/jashelet/" target="_blank">LinkedIn</a> or keep
+  scrolling to learn more! ☕️
+</p>
+
+</div>
+</div>
+</section>
+
+<!--skills sections-->
+<section
+class="max-w-4xl mx-auto bg-white shadow-md rounded-lg border-4 border-indigo-50 px-4 py-6 mb-8 md:mb-18 md:px-7">
+
+<div class="text-center flex flex-col items-center">
+
+<!--section icon-->
+<div class="pb-6">
+<svg class="w-16 h-16 text-indigo-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+  height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2-9-2-9-2m9-2h.01" />
+</svg>
+</div>
+
+<!--skills list-->
+<div class="pb-2">
+
+<h2
+  class="mb-6 text-3xl font-semibold tracking-tight text-indigo-500 md:text-4xl px-3 bg-indigo-500 text-white rounded shadow-lg inline-block transform hover:bg-indigo-600 hover:scale-105 transition duration-300 ease-in-out">
+  Skills</h2>
+
+<div class="max-w-2xl leading-loose font-medium text-gray-500 text-balance pb-3 text-base md:text-lg">
+
+  <p class="pb-7">A comprehensive overview of my areas of expertise, showcasing the technologies and tools I
+    have actively worked with and acquired professional experience in.</p>
+
+  <div class="mb-8 pb-5 bg-gray-50 p-2 rounded-lg shadow-sm border-2 border-indigo-100">
+    <h3 class="font-bold pb-3 text-indigo-800 text-lg md:text-xl">Technologies & CMS</h3>
+    <div class="leading-12">
+      <kbd>HTML5</kbd>
+      <kbd>CSS3</kbd>
+      <kbd>Tailwind CSS</kbd>
+      <kbd>JavaScript</kbd>
+      <kbd>Magento</kbd>
+      <kbd>Drupal</kbd>
+      <kbd>WordPress</kbd>
+    </div>
+  </div>
+
+  <div class="mb-8 pb-5 bg-gray-50 p-2 rounded-lg shadow-sm border-2 border-indigo-100">
+    <h3 class="font-bold pb-3 text-indigo-800 text-lg md:text-xl">Additional Skills</h3>
+    <div class="leading-12">
+      <kbd>DNS</kbd>
+      <kbd>SSL</kbd>
+      <kbd>NGINX</kbd>
+      <kbd>SEO</kbd>
+    </div>
+  </div>
+
+  <div class="pb-5 bg-gray-50 p-2 rounded-lg shadow-sm border-2 border-indigo-100">
+    <h3 class="font-bold pb-3 text-indigo-800 text-lg md:text-xl">Tools & Collaboration</h3>
+    <div class="leading-12">
+      <kbd>Git</kbd>
+      <kbd>GitHub</kbd>
+      <kbd>CLI</kbd>
+      <kbd>Jira</kbd>
+      <kbd>Asana</kbd>
+      <kbd>Microsoft Office</kbd>
+      <kbd>Google Workspace</kbd>
+    </div>
+  </div>
 
 
-            <header class="mx-auto max-w-2xl pb-16">
-                <div class="text-center">
+</div>
 
-                    <!--header-->
-                    <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Down for
-                        Maintenance</h1>
+</div>
 
-                    <!--message-->
-                    <div class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                        Hi! 👋 Thanks for stopping by to view my work!
-                    </div>
+</div>
 
-                    <div class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                        Unfortunately, viewing is unavailable at this time as I'm currently transitioning this site off
-                        of WordPress and performing a complete revamp.
-                    </div>
+</section>
 
-                    <div class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                        For all professional inquiries, please refer to my <a
-                            href="https://www.linkedin.com/in/jashelet/" target="_blank" style="color: blue;">LinkedIn
-                            page</a> at this time.
-                    </div>
+<!--coding projects section-->
+<section
+class="max-w-4xl mx-auto bg-white shadow-md rounded-lg border-4 border-indigo-50 px-4 pt-6 pb-2 mb-8 md:mb-18 md:px-7">
 
-                    <div class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                        ~ <span style="font-weight: bold;" class="text-purple-800">Website Launch ETA:</span> 3/2025
-                        ~
-                    </div>
+<div class="text-center flex flex-col items-center">
 
-                </div>
-            </header>
+<!--section icon-->
+<div class="pb-6">
 
-            <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-                aria-hidden="true">
-                <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-                </div>
-            </div>
+<svg class="w-16 h-16 text-indigo-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+  height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2" />
+</svg>
+</div>
 
-        </div>
+<!--coding projects summary-->
+<div class="pb-2">
 
-    </main>
+<h2
+  class="mb-6 text-3xl font-semibold tracking-tight text-indigo-500 md:text-4xl px-3 bg-indigo-500 text-white rounded shadow-lg inline-block transform hover:bg-indigo-600 hover:scale-105 transition duration-300 ease-in-out">
+  Coding Projects</h2>
 
+<p class="max-w-2xl leading-loose font-medium text-gray-500 text-balance pb-6 text-base md:text-lg">
+
+  Currently, I'm focusing on refining my skills in JavaScript development and I'm completing a <a
+    class="font-bold" href="https://github.com/jasheloper/100-days-of-code" target="_blank">100 Days of Code
+    challenge</a> to document my progress. <br><br>
+
+  Check out some of my favorite projects that I've showcased below!
+</p>
+</div>
+
+
+<!--projects div-->
+<div class="mb-12">
+
+<!--project card-->
+<div class="mx-auto max-w-4xl shadow-lg rounded-xl text-left md:text-center">
+
+  <!--project image-->
+  <a href="https://jasheloper.github.io/silly-story-js/" target="_blank">
+    <img class="rounded-t-lg" src="./images/silly-story-project.gif"
+      alt="Silly Story JavaScript Project - Jashele Tillman" />
+  </a>
+
+  <div class="p-5">
+
+    <!--technologies-->
+    <div class="flex gap-1 justify-center items-center mb-5 text-indigo-500">
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">JavaScript</span>
+      &bull;
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">HTML</span>
+      &bull;
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">CSS</span>
+    </div>
+
+    <!--title + summary-->
+    <div>
+      <a href="https://jasheloper.github.io/silly-story-js/" target="_blank">
+
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-indigo-500 lg:text-3xl">Silly Story Generator
+        </h5>
+      </a>
+
+      <p class="mb-3 font-normal text-gray-700 leading-loose text-sm lg:text-lg lg:pb-4">
+        An interactive web app that dynamically generates a customized story based on user input.
+      </p>
+    </div>
+
+    <!--key features-->
+    <div>
+      <h6 class="mb-2 text-xl font-bold tracking-tight text-gray-600 underline lg:text-2xl">Key Features:
+      </h6>
+
+      <ul
+        class="list-disc list-inside marker:text-indigo-500 font-normal text-gray-700 leading-loose text-sm text-pretty px-2 md:list-none lg:text-base lg:leading-9 lg:pb-4">
+        <li>
+          A text field for the user to enter a name to customize the story.
+        </li>
+        <li>
+          A location selection (U.S. or UK) used to determine the output for temperature and weight
+          measurements.
+        </li>
+      </ul>
+    </div>
+
+    <!--project buttons-->
+    <div class="flex gap-4 mt-6 justify-center lg:pb-4">
+
+      <!--demo button-->
+      <a href="https://jasheloper.github.io/silly-story-js/" target="_blank"
+        class="azure inline-flex items-center px-3 py-4 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-5 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">Live
+        Demo<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+
+      <!--repo button-->
+      <a href="https://github.com/jasheloper/silly-story-js" target="_blank"
+        class="azure inline-flex items-center px-3 py-4 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-5 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">View
+        Repo<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+    </div>
+
+    <!--concepts-->
+    <div
+      class="text-center leading-7 my-6 p-2 bg-indigo-50 border-4 border-indigo-200 text-sm md:max-w-lg md:mx-auto">
+
+      <span class="font-bold">JS Concepts:</span> DOM manipulation &bull; Event handling &bull; String
+      manipulation &bull; Arithmetic operations
+    </div>
+
+  </div>
+</div>
+
+<!--project card-->
+<div class="mx-auto max-w-4xl shadow-lg rounded-xl text-left mt-10 md:mt-15 md:text-center">
+
+  <!--project image-->
+  <a href="https://jasheloper.github.io/img-gallery-js-2/" target="_blank">
+    <img class="rounded-t-lg" src="./images/image-gallery-project.png"
+      alt="Image Gallery JavaScript Project - Jashele Tillman" />
+  </a>
+
+  <div class="p-5">
+
+    <!--technologies-->
+    <div class="flex gap-1 justify-center items-center mb-5 text-indigo-500">
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">JavaScript</span>
+      &bull;
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">HTML</span>
+      &bull;
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">CSS</span>
+
+    </div>
+
+    <!--title + summary-->
+    <div>
+      <a href="https://jasheloper.github.io/img-gallery-js-2/" target="_blank">
+
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-indigo-500 lg:text-3xl">Jashele's Image
+          Gallery</h5>
+      </a>
+
+      <p class="mb-3 font-normal text-gray-700 leading-loose text-sm lg:text-lg lg:pb-4">
+        An interactive image gallery designed with a thumbnail-based image switcher.
+      </p>
+    </div>
+
+    <!--key features-->
+    <div>
+      <h6 class="mb-2 text-xl font-bold tracking-tight text-gray-600 underline lg:text-2xl"> Key Features:
+      </h6>
+
+      <ul
+        class="list-disc list-inside marker:text-indigo-500 font-normal text-gray-700 leading-loose text-sm text-pretty px-2 md:list-none lg:text-base lg:leading-9 lg:pb-4">
+        <li>
+          Each thumbnail can be clicked to display as the main image.
+        </li>
+        <li>
+          A toggle button that adds or removes a semi-transparent overlay on the image.
+        </li>
+        <li>
+          A gallery of images captured by Jashele Tillman for viewing pleasure.
+        </li>
+      </ul>
+    </div>
+
+    <!--project buttons-->
+    <div class="flex gap-4 mt-6 justify-center lg:pb-4">
+
+      <!--demo button-->
+      <a href="https://jasheloper.github.io/img-gallery-js-2/" target="_blank"
+        class="azure inline-flex items-center px-3 py-4 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-5 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">Live
+        Demo<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+
+      <!--repo button-->
+      <a href="https://github.com/jasheloper/img-gallery-js-2" target="_blank"
+        class="azure inline-flex items-center px-3 py-4 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-5 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">View
+        Repo<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+    </div>
+
+    <!--concepts-->
+    <div
+      class="text-center leading-7 my-6 p-2 bg-indigo-50 border-4 border-indigo-200 text-sm md:max-w-lg md:mx-auto">
+
+      <span class="font-bold">JS Concepts:</span> DOM manipulation &bull; Event handling &bull;
+      CSS&nbsp;Manipulation &bull; Object Literals and Arrays
+
+    </div>
+
+  </div>
+</div>
+
+<!--project card-->
+<div class="mx-auto max-w-4xl shadow-lg rounded-xl text-left mt-10 md:mt-15 md:text-center">
+
+  <!--project image-->
+  <a href="https://jasheloper.github.io/color-tile-playground/" target="_blank">
+    <img class="rounded-t-lg" src="./images/color-tile-gen.gif"
+      alt="Color Tile Playground JavaScript Project - Jashele Tillman" />
+  </a>
+
+  <div class="p-5">
+
+    <!--technologies-->
+    <div class="flex gap-1 justify-center items-center mb-5 text-indigo-500">
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">JavaScript</span>
+      &bull;
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">HTML</span>
+      &bull;
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">CSS</span>
+
+    </div>
+
+    <!--title + summary-->
+    <div>
+      <a href="https://jasheloper.github.io/color-tile-playground/" target="_blank">
+
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-indigo-500 lg:text-3xl">Color Tile Playground
+        </h5>
+      </a>
+
+      <p class="mb-3 font-normal text-gray-700 leading-loose text-sm lg:text-lg lg:pb-4">
+        An interactive web app that showcases a layout of tiles that generate random colors.
+      </p>
+    </div>
+
+    <!--key features-->
+    <div>
+      <h6 class="mb-2 text-xl font-bold tracking-tight text-gray-600 underline lg:text-2xl">Key Features:
+      </h6>
+
+      <ul
+        class="list-disc list-inside marker:text-indigo-500 font-normal text-gray-700 leading-loose text-sm text-pretty px-2 md:list-none lg:text-base lg:leading-9 lg:pb-4">
+        <li>Each tile updates to a random color upon user interaction.</li>
+        <li>Supports both mouse hover on desktop and touch interaction on mobile devices.</li>
+      </ul>
+    </div>
+
+    <!--project buttons-->
+    <div class="flex gap-4 mt-6 justify-center lg:pb-4">
+
+      <!--demo button-->
+      <a href="https://jasheloper.github.io/color-tile-playground/" target="_blank"
+        class="azure inline-flex items-center px-3 py-4 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-5 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">Live
+        Demo<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+
+      <!--repo button-->
+      <a href="https://github.com/jasheloper/color-tile-playground" target="_blank"
+        class="azure inline-flex items-center px-3 py-4 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-5 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">View
+        Repo<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+    </div>
+
+    <!--concepts-->
+    <div
+      class="text-center leading-7 my-6 p-2 bg-indigo-50 border-4 border-indigo-200 text-sm md:max-w-lg md:mx-auto">
+
+      <span class="font-bold">JS Concepts:</span> Event Handling &bull; DOM Manipulation &bull; Math
+      Functions
+    </div>
+
+  </div>
+</div>
+
+<!--project card-->
+<div class="mx-auto max-w-4xl shadow-lg rounded-xl text-left mt-10 md:mt-15 md:text-center">
+
+  <!--project image-->
+  <a href="https://github.com/jasheloper/portfolio" target="_blank">
+    <img class="rounded-t-lg" src="./images/jashele-tillman-portfolio.gif" alt="Web Development Portfolio - Jashele Tillman" />
+  </a>
+
+  <div class="p-5">
+
+    <!--technologies-->
+    <div class="flex gap-1 justify-center items-center mb-5 text-indigo-500">
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">HTML</span>
+      &bull;
+      <span
+        class="p-1 rounded-lg bg-indigo-100 border-1 border-indigo-200 text-sm text-gray-800 font-bold">Tailwind
+        CSS</span>
+
+    </div>
+
+
+    <!--title + summary-->
+    <div>
+      <a href="#portfolio-project">
+
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-indigo-500 lg:text-3xl">DevJashele.Tech</h5>
+      </a>
+
+      <p class="mb-3 font-normal text-gray-700 leading-loose text-sm lg:text-lg lg:pb-4">
+        My personal portfolio website to showcase my web development projects and career journey.
+      </p>
+    </div>
+
+    <!--key features-->
+    <div>
+      <h6 class="mb-2 text-xl font-bold tracking-tight text-gray-600 underline lg:text-2xl">Key Features:
+      </h6>
+
+      <ul
+        class="list-disc list-inside marker:text-indigo-500 font-normal text-gray-700 leading-loose text-sm text-pretty px-2 md:list-none lg:text-base lg:leading-9 lg:pb-4">
+        <li>A single-page layout with distinct sections showcasing my professional summary, skills, and
+          projects.</li>
+        <li>A minimalist design that presents key information concisely to keep users engaged with a
+          user-friendly experience.</li>
+      </ul>
+    </div>
+
+    <!--project buttons-->
+    <div class="flex gap-4 mt-6 justify-center lg:pb-4">
+
+      <!--demo button-->
+      <a href="#portfolio-project"
+        class="azure inline-flex items-center px-3 py-4 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-5 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">Live
+        Demo<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+
+      <!--repo button-->
+      <a href="https://github.com/jasheloper/portfolio" target="_blank"
+        class="azure inline-flex items-center px-3 py-4 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-5 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">View
+        Repo<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+    </div>
+
+    <!--concepts-->
+    <div
+      class="text-center leading-7 my-6 p-2 bg-indigo-50 border-4 border-indigo-200 text-sm md:max-w-lg md:mx-auto">
+
+      <span class="font-bold">Key Concepts:</span>
+      CSS Library Integration
+      &bull; Semantic HTML
+      &bull; Responsive Design
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!--articles section-->
+<section
+class="max-w-4xl mx-auto bg-white shadow-md rounded-lg border-4 border-indigo-50 px-4 py-6 mb-8 md:mb-18 md:px-7">
+
+<div class="text-center flex flex-col items-center">
+
+<!--section icon-->
+<div class="pb-6">
+<svg class="w-16 h-16 text-indigo-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+  height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd"
+    d="M14 4.182A4.136 4.136 0 0 1 16.9 3c1.087 0 2.13.425 2.899 1.182A4.01 4.01 0 0 1 21 7.037c0 1.068-.43 2.092-1.194 2.849L18.5 11.214l-5.8-5.71 1.287-1.31.012-.012Zm-2.717 2.763L6.186 12.13l2.175 2.141 5.063-5.218-2.141-2.108Zm-6.25 6.886-1.98 5.849a.992.992 0 0 0 .245 1.026 1.03 1.03 0 0 0 1.043.242L10.282 19l-5.25-5.168Zm6.954 4.01 5.096-5.186-2.218-2.183-5.063 5.218 2.185 2.15Z"
+    clip-rule="evenodd" />
+</svg>
+
+</div>
+
+<!--summary-->
+<div class="pb-2">
+
+<h2
+  class="mb-6 text-3xl font-semibold tracking-tight text-indigo-500 md:text-4xl px-3 bg-indigo-500 text-white rounded shadow-lg inline-block transform hover:bg-indigo-600 hover:scale-105 transition duration-300 ease-in-out">
+  Published Articles</h2>
+
+<div
+  class="max-w-2xl mx-auto leading-loose font-medium text-gray-500 text-balance pb-6 text-base md:text-lg md:text-pretty">
+  <p>In my free time, I enjoy writing about tech and the web.
+
+    This passion has led to amazing opportunities as a guest blogger for the following sites!</p>
+</div>
+
+<div class="mx-auto px-4 leading-7 md:text-center">
+
+  <!--screenpal article-->
+  <div
+    class="bg-indigo-50 p-6 mb-8 border border-indigo-200 rounded-lg shadow-sm flex flex-col h-full md:text-lg">
+
+    <img src="/images/screenpal.png" alt="ScreenPal Article - Jashele Tillman"
+      class="max-w-48 mx-auto pb-7">
+
+    <h3 class="text-balance pb-6 lg:pb-8 text-indigo-500 font-bold text-lg underline md:text-xl"> <a
+        href="https://screenpal.com/blog/screenpal-for-remote-work-and-content-creation"
+        target="_blank">ScreenPal for Remote Work and Content Creation</a> </h3>
+
+    <p class="pb-6 lg:pb-8">Published by ScreenPal on <span class="italic">February 20, 2024</span>
+
+    <div class="flex gap-4 justify-center lg:pb-4">
+      <a href="https://screenpal.com/blog/screenpal-for-remote-work-and-content-creation" target="_blank"
+        class="azure inline-flex items-center px-3 py-3 text-sm font-medium text-center text-white bg-indigo-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-3 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">View
+        Article<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+    </div>
+  </div>
+
+
+  <!--onymos article-->
+  <div
+    class="bg-indigo-50 p-6 border border-indigo-200 rounded-lg shadow-sm lex flex-col h-full md:text-lg">
+
+    <img src="/images/onymos.png" alt="Onymos Article - Jashele Tillman" class="max-w-40 mx-auto pb-5">
+
+    <h3 class="pb-6 lg:pb-7 text-indigo-500 font-bold text-lg underline md:text-xl"><a
+        href="https://onymos.com/blog/mdn-code-nuggets-5-piece-meal/" target="_blank">MDN Code Nuggets</a>
+    </h3>
+
+    <p class="pb-6 lg:pb-8">Published by Onymos on <span class="italic">September 22, 2021</span></p>
+
+    <div class="flex gap-4 justify-center lg:pb-4">
+      <a href="https://onymos.com/blog/mdn-code-nuggets-5-piece-meal/" target="_blank"
+        class="azure inline-flex items-center px-3 py-3 text-sm font-medium text-center text-white bg-indigo-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 lg:px-8 lg:py-3 lg:text-base inline-block transform transition duration-300 ease-in-out hover:scale-105">View
+        Article<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg></a>
+    </div>
+
+  </div>
+
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--tech content section-->
+<section
+class="max-w-4xl mx-auto bg-white shadow-md rounded-lg border-4 border-indigo-50 px-4 pt-6 pb-8 mb-8 md:mb-18 md:px-7">
+
+<div class="text-center flex flex-col items-center">
+
+<!--section icon-->
+<div class="pb-6">
+<svg class="w-16 h-16 text-indigo-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+  width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    d="M19 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1Zm0 0-4 4m5 0H4m1 0 4-4m1 4 4-4m-4 7v6l4-3-4-3Z" />
+</svg>
+</div>
+
+<!--info-->
+<div>
+
+<h2
+  class="mb-6 text-3xl font-semibold tracking-tight text-indigo-500 md:text-4xl px-3 bg-indigo-500 text-white rounded shadow-lg inline-block transform hover:bg-indigo-600 hover:scale-105 transition duration-300 ease-in-out">
+  Tech Content</h2>
+
+
+<div class="pt-4 max-w-3xl leading-loose font-medium text-gray-500 text-balance md:text-lg">
+
+  <!--tech channel-->
+  <div class="pt-6 lg:pt-8 pb-4 lg:pb-6 mb-8 bg-gray-50 rounded-lg border-2 border-gray-200 shadow-sm">
+    <h3 class="pb-3 text-2xl font-bold underline"><a href="https://www.youtube.com/jashelet"
+        target="_blank">JasheleTechTV</a></h3>
+    <p class="px-6 text-sm leading-loose px-2 md:text-lg">I enjoy creating tech videos to share my career
+      journey and to connect with others in the tech industry, which has now grown to a community of 3400+
+      subscribers.</p>
+
+    <!--YouTube embed for mobile-->
+    <div class="md:hidden">
+      <iframe class="mx-auto my-5 p-2 rounded-lg shadow-sm bg-white border-2 border-indigo-200" width="270"
+        height="160" src="https://www.youtube.com/embed/orno8kg23bA?si=9c7Phi9WSRdrY1V0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!--YouTube embed for desktop-->
+    <div class="max-sm:hidden">
+      <iframe class="mx-auto my-5 p-2 rounded-lg shadow-sm bg-white border-2 border-indigo-200" width="600"
+        height="300" src="https://www.youtube.com/embed/orno8kg23bA?si=9c7Phi9WSRdrY1V0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+  </div>
+
+  <!--tech blog-->
+  <div class="pt-6 lg:pt-8 pb-4 lg:pb-6 bg-gray-50 rounded-lg border-2 border-gray-200 shadow-sm">
+
+    <h3 class="pb-2 text-2xl font-bold underline"><a href="#blog">Tech Blog</a></h3>
+    <p class="px-8 text-sm leading-loose px-2 md:text-lg">My tech blog is a place to share my career growth
+      and to reflect on what I’m learning professionally and personally.</p>
+
+    <!--blog image-->
+    <div id="blog" class="w-3xs md:w-xl mx-auto my-5 p-4 rounded-lg shadow-sm bg-white border-2 border-indigo-200">
+      <a href="#blog">
+        <img src="./images/jashele-tillman-tech-blog.png" alt="Tech Blog - Jashele Tillman" />
+      </a>
+    </div>
+
+    <div>
+      <p class="italic px-8 text-sm leading-loose px-2 md:text-lg">*Blog is undergoing maintenance & temporarily unavailable.</p>
+    </div>
+
+  </div>
+
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<!--end section-->
+<section
+class="max-w-4xl mx-auto bg-white shadow-md rounded-lg border-4 border-indigo-50 px-4 py-6 mb-8 md:mb-18 md:px-7">
+
+<div class="text-center flex flex-col items-center">
+
+<!--section icon-->
+<div class="pb-6">
+
+<svg class="w-16 h-16 text-indigo-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+  height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z" />
+</svg>
+
+</div>
+
+<!--summary-->
+<div class="pb-2">
+
+<h2
+  class="mb-6 text-3xl font-semibold tracking-tight text-indigo-500 md:text-4xl px-3 bg-indigo-500 text-white rounded shadow-lg inline-block transform hover:bg-indigo-600 hover:scale-105 transition duration-300 ease-in-out">
+  The End</h2>
+
+<div class="max-w-2xl leading-loose font-medium text-gray-500 text-balance pb-6 md:text-lg">
+
+  <p class="pb-5 font-bold">Connect with me:</p>
+
+  <div class="p-6 rounded-lg shadow-sm bg-indigo-50 border border-indigo-100 grid grid-col-2">
+    <p> <a href="https://www.linkedin.com/in/jashelet/" target="_blank">LinkedIn</a> &bull;
+      <a href="https://github.com/jasheloper" target="_blank">GitHub</a> &bull;
+      <a href="https://www.youtube.com/jashelet" target="_blank">YouTube</a> &bull;
+    </p>
+
+    <p> <a href="https://x.com/jasheloper" target="_blank">Twitter/X</a> &bull;
+      <a href="https://www.instagram.com/jasheloper/" target="_blank">Instagram</a> &bull;
+      <a href="https://codepen.io/jt_1" target="_blank">CodePen</a>
+    </p>
+  </div>
+
+  <p class="mt-5 pt-4 pb-2 border-t-4 border-indigo-500">Thanks for stopping by!</p>
+  <p>[<a href="#top">Back to top</a>]</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--background decoration-->
+<div
+class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+aria-hidden="true">
+<div
+class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+</div>
+</div>
+
+</div>
+
+</main>
 </body>
 
 </html>

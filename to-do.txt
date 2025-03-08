@@ -29,9 +29,9 @@ Quality checks
 [ 🔄 ] Tech Content - tech blog just needs an image preview
 [ ✅ ] The End 
 [ ] Code Clean up 
-    [ ] check alt tags
+    [ ✅  ] check alt tags
     [ ] check semantics
-    [ ] delete comments
+    [ ] delete unecessary comments
 
 
 thoughts:

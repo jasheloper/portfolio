@@ -38,6 +38,7 @@
     --container-xs: 20rem;
     --container-sm: 24rem;
     --container-lg: 32rem;
+    --container-xl: 36rem;
     --container-2xl: 42rem;
     --container-3xl: 48rem;
     --container-4xl: 56rem;
@@ -2603,9 +2604,29 @@
       height: calc(var(--spacing) * 16);
     }
   }
+  .md\:w-2xl {
+    @media (width >= 48rem) {
+      width: var(--container-2xl);
+    }
+  }
   .md\:w-16 {
     @media (width >= 48rem) {
       width: calc(var(--spacing) * 16);
+    }
+  }
+  .md\:w-full {
+    @media (width >= 48rem) {
+      width: 100%;
+    }
+  }
+  .md\:w-lg {
+    @media (width >= 48rem) {
+      width: var(--container-lg);
+    }
+  }
+  .md\:w-xl {
+    @media (width >= 48rem) {
+      width: var(--container-xl);
     }
   }
   .md\:max-w-lg {

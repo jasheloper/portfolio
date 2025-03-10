@@ -45,6 +45,9 @@ Quality checks - complete
 Additional:
 ---------------------
 [ ] try HTMLG for additional code clean up.
+[ ✅ ] add a fav icon
+[ ] headshot image
+[ ] Move domain from WordPress to a new registrar.
 
 
 thoughts:

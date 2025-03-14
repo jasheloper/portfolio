@@ -2,6 +2,9 @@
 
 [DevJashele.Tech](https://devjashele.tech/) is my personal portfolio website to showcase my web development projects and career journey.
 
+<img src="./images/jashele-tillman-portfolio.gif" width="285" height="200">
+
+
 ## Features
  
 - A single-page layout with distinct sections showcasing my professional summary, skills, and projects.
@@ -10,4 +13,4 @@
 
 ## Key Concepts
 
-CSS Library Integration • Semantic HTML • Responsive Design
+CSS Library Integration with Tailwind CSS • Semantic HTML • Responsive Design

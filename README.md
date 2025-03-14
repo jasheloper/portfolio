@@ -1,17 +1,13 @@
-# Web Development Portfolio | devjashele.tech
+# Web Portfolio
 
-[ ✅ ] Switch from WordPress to GitHub
+[DevJashele.Tech](https://devjashele.tech/) is my personal portfolio website to showcase my web development projects and career journey.
 
-<br>
+## Features
+ 
+- A single-page layout with distinct sections showcasing my professional summary, skills, and projects.
 
-[ ✅ ] Build out new site with HTML and Tailwind CSS. <br>
-- Started Jan. 10th
-- Completed - March 8th
+- A minimalist design that presents key information concisely to keep users engaged with a user-friendly experience.
 
-<br>
+## Key Concepts
 
-[ ✅ ] Launch brand new site by **3/2025** 🎉
-
-<br>
-
-[ ] Move domain from WordPress to a new registrar.
+CSS Library Integration • Semantic HTML • Responsive Design

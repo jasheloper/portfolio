@@ -17,4 +17,4 @@
 
 ## Key Concepts
 
-CSS Library Integration with Tailwind CSS • Semantic HTML • Responsive Design
+CSS Library Integration (Tailwind CSS) • Semantic HTML • Responsive Design

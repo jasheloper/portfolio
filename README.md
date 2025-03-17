@@ -2,6 +2,8 @@
 
 [DevJashele.Tech](https://devjashele.tech/) is my personal portfolio website to showcase my web development projects and career journey.
 
+<br>
+
 <div align="center">
 <img src="./images/jashele-tillman-portfolio.gif" style="border:5px solid #9CA3AF;" width="625" height="450">
 </div>

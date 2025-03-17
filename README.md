@@ -3,7 +3,7 @@
 [DevJashele.Tech](https://devjashele.tech/) is my personal portfolio website to showcase my web development projects and career journey.
 
 <div align="center">
-<img src="./images/jashele-tillman-portfolio.gif" width="425" height="300">
+<img src="./images/jashele-tillman-portfolio.gif" width="625" height="450">
 </div>
 
 

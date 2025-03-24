@@ -5,7 +5,7 @@
 <br>
 
 <div align="center">
-<img src="./images/devjasheletech_preview.gif" style="border:5px solid #9CA3AF;" width="625" height="450">
+<img src="./images/devjasheletech_preview.gif" style="border:5px solid #9CA3AF;" width="525" height="350">
 </div>
 
 

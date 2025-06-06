@@ -486,6 +486,9 @@
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
+  .h-32 {
+    height: calc(var(--spacing) * 32);
+  }
   .h-36 {
     height: calc(var(--spacing) * 36);
   }
@@ -542,6 +545,9 @@
   }
   .w-24 {
     width: calc(var(--spacing) * 24);
+  }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
   }
   .w-36 {
     width: calc(var(--spacing) * 36);
@@ -646,6 +652,9 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
@@ -657,6 +666,13 @@
       --tw-space-y-reverse: 0;
       margin-block-start: calc(calc(var(--spacing) * 1) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-2 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
   .overflow-hidden {
@@ -963,6 +979,10 @@
     @supports (color: color-mix(in lab, red, red)) {
       --tw-gradient-from: color-mix(in oklab, var(--color-purple-100) 80%, transparent);
     }
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-purple-200 {
+    --tw-gradient-from: var(--color-purple-200);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .from-purple-300 {
@@ -1411,6 +1431,9 @@
   .underline-offset-4 {
     text-underline-offset: 4px;
   }
+  .underline-offset-8 {
+    text-underline-offset: 8px;
+  }
   .opacity-5 {
     opacity: 5%;
   }
@@ -1757,6 +1780,16 @@
   .md\:mt-15 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 15);
+    }
+  }
+  .md\:mr-8 {
+    @media (width >= 48rem) {
+      margin-right: calc(var(--spacing) * 8);
+    }
+  }
+  .md\:mb-0 {
+    @media (width >= 48rem) {
+      margin-bottom: calc(var(--spacing) * 0);
     }
   }
   .md\:mb-18 {

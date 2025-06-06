@@ -1718,6 +1718,10 @@
   .underline-offset-8 {
     text-underline-offset: 8px;
   }
+  .antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
   .opacity-5 {
     opacity: 5%;
   }
@@ -1780,6 +1784,9 @@
   }
   .ring-purple-200 {
     --tw-ring-color: var(--color-purple-200);
+  }
+  .ring-purple-300 {
+    --tw-ring-color: var(--color-purple-300);
   }
   .ring-white {
     --tw-ring-color: var(--color-white);

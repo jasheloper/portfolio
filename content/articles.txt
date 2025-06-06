@@ -1,0 +1,20 @@
+Featured Articles
+
+My tech blog is a place to share my career growth and to reflect on what I’m learning professionally and personally.
+
+Simple Ways to Improve Website Image Performance
+When it comes to building websites, I learned that performance doesn’t have to be an afterthought. There are very simple methods that you can implement to improve image performance using HTML.
+Keep Reading 
+
+
+Divs VS Semantic HTML
+Understanding how to code well starts with simple concepts. I explain the best practice of using semantic HTML vs divs.
+Keep Reading 
+
+
+CSS: Rem & Em vs Px
+I discuss what I’ve learned recently about using Rem and Em units as an approach to sizing properties in CSS and some benefits of using them over Px units.
+Keep Reading 
+
+
+See More Posts 

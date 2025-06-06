@@ -1,0 +1,19 @@
+Coding & Projects
+
+Sample Projects
+
+
+
+Silly Story Generator
+An interactive web app that dynamically generates a customized story based on user input.
+View Demo | GitHub
+
+
+Jashele's Image Gallery
+An interactive image gallery designed with a thumbnail-based image switcher.
+View Demo | GitHub
+
+
+Color Tile Playground
+An interactive web app that showcases a layout of tiles that generate random colors.
+View Demo | GitHub

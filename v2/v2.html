@@ -170,8 +170,8 @@ Contact
 
 
 <!-- Featured Articles -->
-<section id="featured-articles" class="py-16 bg-gradient-to-br from-purple-50 to-white">
-  <div class="max-w-4xl mx-auto px-4">
+<section id="featured-articles" class="py-16 bg-gradient-to-b from-purple-50 to-white">
+  <div class="max-w-3xl mx-auto px-4">
     <!-- Section Header -->
     <span class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-purple-800 bg-purple-100 rounded-full uppercase tracking-wider">
       <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -182,42 +182,51 @@ Contact
     </span>
     <h2 class="text-3xl md:text-4xl font-extrabold text-purple-700 mb-2 text-center">Featured Articles</h2>
     <div class="w-16 h-1 bg-gradient-to-r from-purple-300 via-purple-400 to-purple-200 rounded-full mx-auto mb-8"></div>
-    <p class="text-lg text-gray-700 text-center mb-8">
+    <p class="text-lg text-gray-700 text-center mb-10">
       My tech blog is a place to share my career growth and to reflect on what I’m learning professionally and personally.
     </p>
-    <!-- Horizontal Scrollable Cards -->
-    <div class="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory">
+    <!-- Timeline List -->
+    <ol class="relative border-l-4 border-purple-200">
       <!-- Article 1 -->
-      <div class="min-w-[300px] bg-white rounded-2xl shadow-lg border-t-4 border-purple-500 flex flex-col snap-start">
-        <div class="p-6 flex flex-col flex-grow">
-          <h3 class="text-lg font-bold text-purple-700 mb-2">Simple Ways to Improve Website Image Performance</h3>
-          <p class="text-gray-700 mb-4 flex-grow">
-            When it comes to building websites, I learned that performance doesn’t have to be an afterthought. There are very simple methods that you can implement to improve image performance using HTML.
-          </p>
-          <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-700 transition text-center">Keep Reading &rarr;</a>
-        </div>
-      </div>
+      <li class="mb-10 ml-6">
+        <span class="absolute -left-4 flex items-center justify-center w-8 h-8 bg-purple-100 rounded-full ring-4 ring-white">
+          <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <rect x="4" y="4" width="16" height="16" rx="2"/>
+          </svg>
+        </span>
+        <h3 class="text-xl font-bold text-purple-700 mb-2">Simple Ways to Improve Website Image Performance</h3>
+        <p class="text-gray-700 mb-3">
+          When it comes to building websites, I learned that performance doesn’t have to be an afterthought. There are very simple methods that you can implement to improve image performance using HTML.
+        </p>
+        <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-700 transition text-center">Keep Reading &rarr;</a>
+      </li>
       <!-- Article 2 -->
-      <div class="min-w-[300px] bg-white rounded-2xl shadow-lg border-t-4 border-purple-500 flex flex-col snap-start">
-        <div class="p-6 flex flex-col flex-grow">
-          <h3 class="text-lg font-bold text-purple-700 mb-2">Divs VS Semantic HTML</h3>
-          <p class="text-gray-700 mb-4 flex-grow">
-            Understanding how to code well starts with simple concepts. I explain the best practice of using semantic HTML vs divs.
-          </p>
-          <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-700 transition text-center">Keep Reading &rarr;</a>
-        </div>
-      </div>
+      <li class="mb-10 ml-6">
+        <span class="absolute -left-4 flex items-center justify-center w-8 h-8 bg-purple-100 rounded-full ring-4 ring-white">
+          <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </span>
+        <h3 class="text-xl font-bold text-purple-700 mb-2">Divs VS Semantic HTML</h3>
+        <p class="text-gray-700 mb-3">
+          Understanding how to code well starts with simple concepts. I explain the best practice of using semantic HTML vs divs.
+        </p>
+        <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-700 transition text-center">Keep Reading &rarr;</a>
+      </li>
       <!-- Article 3 -->
-      <div class="min-w-[300px] bg-white rounded-2xl shadow-lg border-t-4 border-purple-500 flex flex-col snap-start">
-        <div class="p-6 flex flex-col flex-grow">
-          <h3 class="text-lg font-bold text-purple-700 mb-2">CSS: Rem & Em vs Px</h3>
-          <p class="text-gray-700 mb-4 flex-grow">
-            I discuss what I’ve learned recently about using Rem and Em units as an approach to sizing properties in CSS and some benefits of using them over Px units.
-          </p>
-          <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-700 transition text-center">Keep Reading &rarr;</a>
-        </div>
-      </div>
-    </div>
+      <li class="ml-6">
+        <span class="absolute -left-4 flex items-center justify-center w-8 h-8 bg-purple-100 rounded-full ring-4 ring-white">
+          <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+          </svg>
+        </span>
+        <h3 class="text-xl font-bold text-purple-700 mb-2">CSS: Rem & Em vs Px</h3>
+        <p class="text-gray-700 mb-3">
+          I discuss what I’ve learned recently about using Rem and Em units as an approach to sizing properties in CSS and some benefits of using them over Px units.
+        </p>
+        <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-700 transition text-center">Keep Reading &rarr;</a>
+      </li>
+    </ol>
     <!-- See More Posts Button -->
     <div class="flex justify-center mt-10">
       <a href="#" class="inline-block bg-gradient-to-r from-purple-500 to-purple-700 text-white px-6 py-3 rounded-full font-semibold shadow hover:from-purple-600 hover:to-purple-800 transition">

@@ -114,9 +114,9 @@
 
 
 <!-- About Me Section with Experience Timeline (Tailwind CSS) -->
-<section id="about" class="py-16 bg-gradient-to-b from-white to-purple-50 relative">
-  <!-- Decorative background accent -->
-  <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-purple-300 opacity-30 rounded-full blur-3xl z-0"></div>
+<section id="about" class="py-16 bg-gradient-to-b from-white to-purple-50 relative overflow-x-hidden">
+  <!-- Responsive Decorative background accent -->
+  <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-full max-w-lg sm:max-w-xl md:max-w-2xl h-40 sm:h-60 md:h-[300px] bg-purple-300 opacity-30 rounded-full blur-3xl z-0"></div>
 
   <div class="max-w-4xl mx-auto px-6 relative z-10">
     <!-- About Me Badge and Header -->
@@ -162,93 +162,90 @@
     </div>
   </div>
 
-<!-- Experience Subsection: FULL WIDTH with standout background -->
-<div class="w-full bg-gradient-to-r from-purple-100 via-fuchsia-100 to-purple-200 py-12">
-  <div class="max-w-4xl mx-auto px-6">
-    <h3 class="text-2xl font-bold text-purple-600 mb-1 underline">Experience</h3>
-    <p class="text-gray-700 mb-2">
-      I have experience contributing to and supporting the front end of various software projects in industries such as Higher Education and E-commerce, with a proven track record of delivering quality work.
-    </p>
-    <ol class="relative border-s-2 border-purple-300 ml-4 mt-6">
-      <!-- 2024: Web Publisher at Red Ventures -->
-      <li class="mb-10 ms-6">
-        <span class="absolute -start-5 flex items-center justify-center w-7 h-7 bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-600 rounded-full ring-8 ring-purple-100 shadow-lg animate-pulse transition-transform duration-300 hover:scale-110">
-          <!-- Briefcase icon for work -->
-          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 7V5a2 2 0 012-2h8a2 2 0 012 2v2M6 7h12M6 7v10a2 2 0 002 2h8a2 2 0 002-2V7"></path>
-          </svg>
-        </span>
-        <div>
-          <time class="block text-sm text-purple-400 font-semibold">2024</time>
-          <h4 class="text-lg font-bold text-purple-800 underline">Web Publisher at Red Ventures</h4>
-          <p class="text-gray-700 mt-1">
-            Managed web pages, transformed content into coded HTML/CSS, and performed website maintenance for educational brands.
-          </p>
-        </div>
-      </li>
-      <!-- 2022: Web Administrator at AVB Marketing -->
-      <li class="mb-10 ms-6">
-        <span class="absolute -start-5 flex items-center justify-center w-7 h-7 bg-gradient-to-br from-purple-400 via-blue-400 to-purple-600 rounded-full ring-8 ring-purple-100 shadow-lg animate-pulse transition-transform duration-300 hover:scale-110">
-          <!-- Code icon for tech -->
-          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6"></path>
-          </svg>
-        </span>
-        <div>
-          <time class="block text-sm text-purple-400 font-semibold">2022</time>
-          <h4 class="text-lg font-bold text-purple-800 underline">Web Administrator at AVB Marketing</h4>
-          <p class="text-gray-700 mt-1">
-            Supported custom e-commerce websites for independent retailers for 2+ years.
-          </p>
-        </div>
-      </li>
-      <!-- View More on LinkedIn -->
-      <li class="ms-6">
-        <span class="absolute -start-5 flex items-center justify-center w-7 h-7 bg-gradient-to-br from-gray-400 via-blue-400 to-blue-600 rounded-full ring-8 ring-gray-100 shadow-lg transition-transform duration-300 hover:scale-110">
-          <!-- LinkedIn icon -->
-          <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.36-1.54 2.81-1.54 3.01 0 3.57 1.98 3.57 4.56v4.75z"/>
-          </svg>
-        </span>
-        <div>
-          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer"
-             class="inline-block mt-2 px-4 py-2 bg-purple-600 text-white font-semibold rounded hover:bg-purple-700 transition underline">
-            View more on LinkedIn
-          </a>
-        </div>
-      </li>
-    </ol>
+  <!-- Experience Subsection: FULL WIDTH with standout background -->
+  <div class="w-full bg-gradient-to-r from-purple-100 via-fuchsia-100 to-purple-200 py-12">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-2xl font-bold text-purple-600 mb-1 underline">Experience</h3>
+      <p class="text-gray-700 mb-2">
+        I have experience contributing to and supporting the front end of various software projects in industries such as Higher Education and E-commerce, with a proven track record of delivering quality work.
+      </p>
+      <ol class="relative border-s-2 border-purple-300 ml-4 mt-6">
+        <!-- 2024: Web Publisher at Red Ventures -->
+        <li class="mb-10 ms-6">
+          <span class="absolute -start-5 flex items-center justify-center w-7 h-7 bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-600 rounded-full ring-8 ring-purple-100 shadow-lg animate-pulse transition-transform duration-300 hover:scale-110">
+            <!-- Briefcase icon for work -->
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 7V5a2 2 0 012-2h8a2 2 0 012 2v2M6 7h12M6 7v10a2 2 0 002 2h8a2 2 0 002-2V7"></path>
+            </svg>
+          </span>
+          <div>
+            <time class="block text-sm text-purple-400 font-semibold">2024</time>
+            <h4 class="text-lg font-bold text-purple-800 underline">Web Publisher at Red Ventures</h4>
+            <p class="text-gray-700 mt-1">
+              Managed web pages, transformed content into coded HTML/CSS, and performed website maintenance for educational brands.
+            </p>
+          </div>
+        </li>
+        <!-- 2022: Web Administrator at AVB Marketing -->
+        <li class="mb-10 ms-6">
+          <span class="absolute -start-5 flex items-center justify-center w-7 h-7 bg-gradient-to-br from-purple-400 via-blue-400 to-purple-600 rounded-full ring-8 ring-purple-100 shadow-lg animate-pulse transition-transform duration-300 hover:scale-110">
+            <!-- Code icon for tech -->
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6"></path>
+            </svg>
+          </span>
+          <div>
+            <time class="block text-sm text-purple-400 font-semibold">2022</time>
+            <h4 class="text-lg font-bold text-purple-800 underline">Web Administrator at AVB Marketing</h4>
+            <p class="text-gray-700 mt-1">
+              Supported custom e-commerce websites for independent retailers for 2+ years.
+            </p>
+          </div>
+        </li>
+        <!-- View More on LinkedIn -->
+        <li class="ms-6">
+          <span class="absolute -start-5 flex items-center justify-center w-7 h-7 bg-gradient-to-br from-gray-400 via-blue-400 to-blue-600 rounded-full ring-8 ring-gray-100 shadow-lg transition-transform duration-300 hover:scale-110">
+            <!-- LinkedIn icon -->
+            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.36-1.54 2.81-1.54 3.01 0 3.57 1.98 3.57 4.56v4.75z"/>
+            </svg>
+          </span>
+          <div>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer"
+               class="inline-block mt-2 px-4 py-2 bg-purple-600 text-white font-semibold rounded hover:bg-purple-700 transition underline">
+              View more on LinkedIn
+            </a>
+          </div>
+        </li>
+      </ol>
+    </div>
   </div>
-</div>
 
-<!-- Stylish Divider -->
-<div class="w-full flex items-center justify-center -my-2">
-  <div class="flex items-center w-full max-w-4xl px-6">
-    <div class="flex-grow h-0.5 bg-gradient-to-r from-purple-200 via-fuchsia-300 to-pink-200 rounded-full"></div>
-    <span class="mx-4 flex items-center justify-center rounded-full bg-white shadow-md border border-fuchsia-200 w-10 h-10">
-      <!-- Upward arrow icon for growth -->
-      <svg class="w-6 h-6 text-fuchsia-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M12 19V5m0 0l-7 7m7-7l7 7"/>
-      </svg>
-    </span>
-    <div class="flex-grow h-0.5 bg-gradient-to-l from-purple-200 via-fuchsia-300 to-pink-200 rounded-full"></div>
+  <!-- Stylish Divider -->
+  <div class="w-full flex items-center justify-center -my-2">
+    <div class="flex items-center w-full max-w-4xl px-6">
+      <div class="flex-grow h-0.5 bg-gradient-to-r from-purple-200 via-fuchsia-300 to-pink-200 rounded-full"></div>
+      <span class="mx-4 flex items-center justify-center rounded-full bg-white shadow-md border border-fuchsia-200 w-10 h-10">
+        <!-- Upward arrow icon for growth -->
+        <svg class="w-6 h-6 text-fuchsia-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 19V5m0 0l-7 7m7-7l7 7"/>
+        </svg>
+      </span>
+      <div class="flex-grow h-0.5 bg-gradient-to-l from-purple-200 via-fuchsia-300 to-pink-200 rounded-full"></div>
+    </div>
   </div>
-</div>
 
-<!-- Continuous Growth Subsection: FULL WIDTH with a different standout background -->
-<div class="w-full bg-gradient-to-r from-rose-50 via-pink-100 to-fuchsia-100 py-12">
-  <div class="max-w-4xl mx-auto px-6">
-    <h3 class="text-2xl font-bold text-purple-600 mb-1 underline">Continuous Growth</h3>
-    <p class="text-gray-700 max-w-2xl">
-      I’m committed to learning new things to improve my skills and discover new approaches to solving problems. Each role presents opportunities to explore fresh ideas and contribute to exceptional online experiences.
-    </p>
+  <!-- Continuous Growth Subsection: FULL WIDTH with a different standout background -->
+  <div class="w-full bg-gradient-to-r from-rose-50 via-pink-100 to-fuchsia-100 py-12">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-2xl font-bold text-purple-600 mb-1 underline">Continuous Growth</h3>
+      <p class="text-gray-700 max-w-2xl">
+        I’m committed to learning new things to improve my skills and discover new approaches to solving problems. Each role presents opportunities to explore fresh ideas and contribute to exceptional online experiences.
+      </p>
+    </div>
   </div>
-</div>
-
-
-
-
 </section>
+
 
 
 

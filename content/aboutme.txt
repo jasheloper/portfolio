@@ -1,18 +1,17 @@
 Summary
 
 About Me
+I’m a passionate problem-solver dedicated to utilizing my skills to enhance and improve web experiences. My approach is rooted in curiosity, creativity, and a drive to make a positive impact through technology.
 
-I'm a passionate problem-solver dedicated to utilizing my skills to enhance and improve web experiences.
-
-Values:
 Loves Community
 Always Learning
 Creative Builder
 
 
 Experience
-I have experience contributing to and supporting the front end of various software projects in industries such as Higher Education and E-commerce, with a proven track record of delivering quality work. Previously, I worked as a Web Publisher at Red Ventures, where I managed web pages—primarily transforming content into coded HTML/CSS and performing website maintenance for a portfolio of educational brands. I also worked on the technology team at AVB Marketing as a Web Administrator for 2+ years, primarily managing and supporting custom e-commerce websites for independent retailers.
+I have experience contributing to and supporting the front end of various software projects in industries such as Higher Education and E-commerce, with a proven track record of delivering quality work.
 
-
+Web Publisher at Red Ventures: Managed web pages, transformed content into coded HTML/CSS, and performed website maintenance for educational brands.
+Web Administrator at AVB Marketing: Supported custom e-commerce websites for independent retailers for 2+ years.
 Continuous Growth
-I’m committed to learning new things in order to improve my skills and find new approaches to solving problems. My roles continually present me with opportunities to explore fresh problem-solving approaches and contribute to the creation of exceptional online experiences.
+I’m committed to learning new things to improve my skills and discover new approaches to solving problems. Each role presents opportunities to explore fresh ideas and contribute to exceptional online experiences.

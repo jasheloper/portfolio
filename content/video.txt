@@ -7,4 +7,9 @@ Ai Tool for Documentation - Scribe
 
 Scribe is a handy Ai tool for quickly creating documentation and step-by-step guides. In this video, I show a simple demo of how this tool works.
 
+https://youtu.be/no2xIVDLD8Q
+
+
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/no2xIVDLD8Q?si=VwJIf7CMlC66q7uS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

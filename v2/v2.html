@@ -432,7 +432,6 @@
 
 
 
-<!-- Sample Projects Section: Card Style Layout with Small Colored Buttons -->
 <section id="sample-projects" class="w-full bg-gradient-to-b from-white to-fuchsia-50 py-20 relative overflow-hidden">
   <div class="max-w-4xl mx-auto px-6 relative z-10">
     <!-- Badge and Section Header -->
@@ -446,56 +445,182 @@
     </span>
     <div class="relative w-fit mb-8">
       <h2 class="text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-left underline decoration-fuchsia-300 decoration-4 underline-offset-8">
-        Sample Coding Projects
+        Sample Projects
       </h2>
       <span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
     </div>
 
-    <!-- Projects Grid -->
-    <div class="grid grid-cols-1 gap-10">
+    <!-- Split-Screen Projects List -->
+    <div class="flex flex-col gap-12">
       <!-- Project 1 -->
-      <div class="flex flex-col sm:flex-row bg-white rounded-2xl shadow-lg border border-fuchsia-100 overflow-hidden">
-        <img src="/images/silly-story-project.gif" alt="Silly Story Generator demo" class="w-full sm:w-72 h-56 object-cover object-top rounded-t-2xl sm:rounded-l-2xl sm:rounded-t-none">
-        <div class="flex flex-col flex-1 p-6">
-          <h3 class="text-lg font-semibold text-fuchsia-800 mb-2">Silly Story Generator</h3>
-          <p class="text-gray-700 mb-4 flex-1">
+      <div class="group flex flex-col md:flex-row bg-white rounded-2xl shadow-lg border border-fuchsia-100 overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <!-- Image Side -->
+        <div class="md:w-1/2 w-full relative overflow-hidden">
+          <img 
+            src="/images/silly-story-project.gif" 
+            alt="Silly Story Generator demo"
+            class="w-full h-64 md:h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
+          />
+        </div>
+        <!-- Content Side -->
+        <div class="md:w-1/2 w-full flex flex-col justify-center p-8">
+          <h3 class="text-2xl font-bold text-fuchsia-800 mb-2 group-hover:underline decoration-fuchsia-300 decoration-2 underline-offset-4 transition">
+            Silly Story Generator
+          </h3>
+          <p class="text-gray-700 mb-4">
             An interactive web app that dynamically generates a customized story based on user input.
           </p>
-          <div class="flex gap-3 mt-auto">
-            <a href="#" class="px-3 py-1 text-sm bg-fuchsia-600 text-white font-semibold rounded-full hover:bg-fuchsia-700 transition shadow">View Demo</a>
-            <a href="#" class="px-3 py-1 text-sm bg-purple-600 text-white font-semibold rounded-full hover:bg-purple-700 transition shadow">GitHub</a>
+          <div class="flex gap-3">
+            <a href="#" class="px-4 py-2 bg-fuchsia-600 text-white text-sm font-semibold rounded-full hover:bg-fuchsia-700 transition shadow">View Demo</a>
+            <a href="#" class="px-4 py-2 bg-purple-600 text-white text-sm font-semibold rounded-full hover:bg-purple-700 transition shadow">GitHub</a>
           </div>
         </div>
       </div>
+
       <!-- Project 2 -->
-      <div class="flex flex-col sm:flex-row bg-white rounded-2xl shadow-lg border border-fuchsia-100 overflow-hidden">
-        <img src="/images/image-gallery-project.png" alt="Jashele's Image Gallery demo" class="w-full sm:w-72 h-56 object-cover object-top rounded-t-2xl sm:rounded-l-2xl sm:rounded-t-none">
-        <div class="flex flex-col flex-1 p-6">
-          <h3 class="text-lg font-semibold text-fuchsia-800 mb-2">Jashele's Image Gallery</h3>
-          <p class="text-gray-700 mb-4 flex-1">
+      <div class="group flex flex-col md:flex-row-reverse bg-white rounded-2xl shadow-lg border border-fuchsia-100 overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <!-- Image Side -->
+        <div class="md:w-1/2 w-full relative overflow-hidden">
+          <img 
+            src="/images/image-gallery-project.png" 
+            alt="Jashele's Image Gallery demo"
+            class="w-full h-64 md:h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
+          />
+        </div>
+        <!-- Content Side -->
+        <div class="md:w-1/2 w-full flex flex-col justify-center p-8">
+          <h3 class="text-2xl font-bold text-fuchsia-800 mb-2 group-hover:underline decoration-fuchsia-300 decoration-2 underline-offset-4 transition">
+            Jashele's Image Gallery
+          </h3>
+          <p class="text-gray-700 mb-4">
             An interactive image gallery designed with a thumbnail-based image switcher.
           </p>
-          <div class="flex gap-3 mt-auto">
-            <a href="#" class="px-3 py-1 text-sm bg-fuchsia-600 text-white font-semibold rounded-full hover:bg-fuchsia-700 transition shadow">View Demo</a>
-            <a href="#" class="px-3 py-1 text-sm bg-purple-600 text-white font-semibold rounded-full hover:bg-purple-700 transition shadow">GitHub</a>
+          <div class="flex gap-3">
+            <a href="#" class="px-4 py-2 bg-fuchsia-600 text-white text-sm font-semibold rounded-full hover:bg-fuchsia-700 transition shadow">View Demo</a>
+            <a href="#" class="px-4 py-2 bg-purple-600 text-white text-sm font-semibold rounded-full hover:bg-purple-700 transition shadow">GitHub</a>
           </div>
         </div>
       </div>
+
       <!-- Project 3 -->
-      <div class="flex flex-col sm:flex-row bg-white rounded-2xl shadow-lg border border-fuchsia-100 overflow-hidden">
-        <img src="/images/color-tile-gen.gif" alt="Color Tile Playground demo" class="w-full sm:w-72 h-56 object-cover object-top rounded-t-2xl sm:rounded-l-2xl sm:rounded-t-none">
-        <div class="flex flex-col flex-1 p-6">
-          <h3 class="text-lg font-semibold text-fuchsia-800 mb-2">Color Tile Playground</h3>
-          <p class="text-gray-700 mb-4 flex-1">
+      <div class="group flex flex-col md:flex-row bg-white rounded-2xl shadow-lg border border-fuchsia-100 overflow-hidden transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <!-- Image Side -->
+        <div class="md:w-1/2 w-full relative overflow-hidden">
+          <img 
+            src="/images/color-tile-gen.gif" 
+            alt="Color Tile Playground demo"
+            class="w-full h-64 md:h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
+          />
+        </div>
+        <!-- Content Side -->
+        <div class="md:w-1/2 w-full flex flex-col justify-center p-8">
+          <h3 class="text-2xl font-bold text-fuchsia-800 mb-2 group-hover:underline decoration-fuchsia-300 decoration-2 underline-offset-4 transition">
+            Color Tile Playground
+          </h3>
+          <p class="text-gray-700 mb-4">
             An interactive web app that showcases a layout of tiles that generate random colors.
           </p>
-          <div class="flex gap-3 mt-auto">
-            <a href="#" class="px-3 py-1 text-sm bg-fuchsia-600 text-white font-semibold rounded-full hover:bg-fuchsia-700 transition shadow">View Demo</a>
-            <a href="#" class="px-3 py-1 text-sm bg-purple-600 text-white font-semibold rounded-full hover:bg-purple-700 transition shadow">GitHub</a>
+          <div class="flex gap-3">
+            <a href="#" class="px-4 py-2 bg-fuchsia-600 text-white text-sm font-semibold rounded-full hover:bg-fuchsia-700 transition shadow">View Demo</a>
+            <a href="#" class="px-4 py-2 bg-purple-600 text-white text-sm font-semibold rounded-full hover:bg-purple-700 transition shadow">GitHub</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Contributions Section: Consistent Background with Projects/Articles/Video Sections -->
+<section id="contributions" class="w-full bg-gradient-to-b from-white to-fuchsia-50 py-20 relative overflow-hidden">
+  <div class="max-w-4xl mx-auto px-6 relative z-10">
+    <!-- Badge and Section Header -->
+    <span class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
+      <!-- Heart/Contribution Icon -->
+      <svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21C12 21 4 13.5 4 8.5C4 5.46 6.46 3 9.5 3C11.24 3 12.91 4.03 13.44 5.58C13.97 4.03 15.64 3 17.38 3C20.42 3 22.88 5.46 22.88 8.5C22.88 13.5 15 21 15 21H12Z"/>
+      </svg>
+      Community
+    </span>
+    <div class="relative w-fit mb-8">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-left underline decoration-fuchsia-300 decoration-4 underline-offset-8">
+        Contributions
+      </h2>
+      <span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
+    </div>
+    <!-- Timeline Container -->
+    <div class="relative flex flex-col gap-14">
+      <!-- Vertical Timeline Line -->
+      <div class="absolute left-1/2 top-0 h-full w-1 bg-gradient-to-b from-fuchsia-200 via-purple-200 to-fuchsia-100 rounded-full -translate-x-1/2 z-0"></div>
+      
+      <!-- Timeline Item 1 -->
+      <div class="relative flex flex-col md:flex-row items-center md:items-stretch z-10">
+        <!-- Dot & Connector -->
+        <div class="flex flex-col items-center md:w-1/2 md:pr-8">
+          <div class="flex items-center justify-center relative z-10" style="width: 144px; height: 144px;">
+            <img 
+              src="/images/screenpal.png" 
+              alt="ScreenPal Logo" 
+              class="w-36 h-36 object-contain rounded-full border-4 border-white dark:border-fuchsia-900 shadow-lg"
+              style="background: #fff; opacity: 1;"
+            />
+          </div>
+          <div class="hidden md:block flex-1 border-r-2 border-dotted border-fuchsia-300 mx-auto"></div>
+        </div>
+        <!-- Card -->
+        <div class="bg-white dark:bg-gray-900 rounded-xl shadow-xl border border-fuchsia-100 p-8 flex-1 ml-0 md:ml-8 mt-8 md:mt-0 hover:-translate-y-2 transition-transform duration-300 group">
+          <h3 class="text-xl font-bold text-fuchsia-800 mb-2 underline decoration-fuchsia-300 decoration-2 underline-offset-4 group-hover:text-fuchsia-600 transition">
+            ScreenPal
+          </h3>
+          <p class="text-gray-700 text-base leading-relaxed">
+            From time to time, I share some of my favorite software tools that I use via my YouTube tech channel. ScreenPal is one of them that I use to create all my screen recordings and clips. The ScreenPal team found my video and invited me to write a blog post to talk more about how I use this tool in my everyday life.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Timeline Item 2 -->
+      <div class="relative flex flex-col md:flex-row-reverse items-center md:items-stretch z-10">
+        <!-- Dot & Connector -->
+        <div class="flex flex-col items-center md:w-1/2 md:pl-8">
+          <div class="flex items-center justify-center relative z-10" style="width: 144px; height: 144px;">
+            <img 
+              src="/images/onymos.png" 
+              alt="Onymos Logo" 
+              class="w-36 h-36 object-contain rounded-full border-4 border-white dark:border-purple-900 shadow-lg"
+              style="background: #fff; opacity: 1;"
+            />
+          </div>
+          <div class="hidden md:block flex-1 border-l-2 border-dotted border-purple-300 mx-auto"></div>
+        </div>
+        <!-- Card -->
+        <div class="bg-white dark:bg-gray-900 rounded-xl shadow-xl border border-purple-100 p-8 flex-1 mr-0 md:mr-8 mt-8 md:mt-0 hover:-translate-y-2 transition-transform duration-300 group">
+          <h3 class="text-xl font-bold text-purple-800 mb-2 underline decoration-fuchsia-300 decoration-2 underline-offset-4 group-hover:text-purple-600 transition">
+            Onymos
+          </h3>
+          <p class="text-gray-700 text-base leading-relaxed">
+            I previously wrote a blog post where I shared some HTML code nuggets that I find very useful. The team at Onymos really liked this post and invited me as a guest blogger.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Decorative SVG Divider -->
+  <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
+    <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-12">
+      <path fill="url(#gradient)" d="M0,0 C480,60 960,0 1440,60 L1440,60 L0,60 Z"></path>
+      <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#fbcfe8"/>
+          <stop offset="1" stop-color="#c7d2fe"/>
+        </linearGradient>
+      </defs>
+    </svg>
   </div>
 </section>
 

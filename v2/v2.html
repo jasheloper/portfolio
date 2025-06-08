@@ -15,25 +15,23 @@
 
 <!-- Header-->
 <header class="w-full bg-gradient-to-b from-fuchsia-50 via-white to-purple-100 py-10 px-4 flex flex-col items-center relative overflow-hidden shadow-md">
-  <!-- Decorative Dots Pattern -->
-  <div class="absolute inset-0 pointer-events-none z-0 opacity-10">
+  <!-- Decorative Dots Pattern: Slightly More Visible -->
+  <div class="absolute inset-0 pointer-events-none z-0 opacity-20">
     <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <pattern id="cuteDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-          <circle cx="2" cy="2" r="1.5" fill="#e879f9"/>
-        </pattern>
-      </defs>
-      <rect width="100%" height="100%" fill="url(#cuteDotPattern)" />
+      <pattern id="dotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="8" cy="8" r="1.5" fill="#a5b4fc" />
+      </pattern>
+      <rect width="100%" height="100%" fill="url(#dotPattern)" />
     </svg>
   </div>
 
-  <!-- Main Header Content: Profile + Name/Tagline + Social Icons -->
+  <!-- Main Header Content -->
   <div class="flex flex-col md:flex-row items-center justify-center gap-8 z-10 w-full max-w-3xl">
     <!-- Profile Image -->
     <div class="relative mb-4 md:mb-0 w-32 h-32 flex items-center justify-center">
       <!-- Pastel gradient glow ring -->
       <span class="absolute inset-0 w-36 h-36 rounded-full bg-gradient-to-br from-[#ffceec] via-[#d9b8f5] to-[#a5b4fc] blur-md opacity-70 z-0"></span>
-      <!-- Floating effect and border -->
+      <!-- Profile Image -->
       <img
         src="/images/headshot-circle.png"
         alt="Jashele T. headshot"
@@ -56,24 +54,15 @@
       </style>
     </div>
 
-    <!-- Name, Tagline, and Social Icons (Stacked on mobile, horizontal on desktop) -->
+    <!-- Name, Tagline, and Social Icons -->
     <div class="flex flex-col items-center md:items-start gap-3 flex-1">
-<h1 class="mb-1 md:mb-0 font-serif text-5xl md:text-6xl font-extrabold uppercase tracking-wide bg-gradient-to-r from-fuchsia-500 via-purple-400 to-sky-400 bg-clip-text text-transparent animate-pulse inline-block drop-shadow-lg">
-  Jashele T.
-</h1>
-
-
-
-<p class="py-2 px-4 md:text-lg font-medium text-purple-100 bg-gradient-to-r from-fuchsia-600/80 via-purple-700/80 to-sky-700/80 backdrop-blur-md rounded-full shadow-lg border border-white/10">
-  Building with Passion, Learning for Life
-</p>
-
-
-
-
-
-
-      <!-- Social Media Icons: Inline with content -->
+      <h1 class="mb-1 md:mb-0 font-serif text-5xl md:text-6xl font-extrabold uppercase tracking-wide bg-gradient-to-r from-fuchsia-500 via-purple-400 to-sky-400 bg-clip-text text-transparent animate-pulse inline-block drop-shadow-lg">
+        Jashele T.
+      </h1>
+      <p class="py-2 px-4 md:text-lg font-medium text-purple-100 bg-gradient-to-r from-fuchsia-600/80 via-purple-700/80 to-sky-700/80 backdrop-blur-md rounded-full shadow-lg border border-white/10">
+        Building with Passion, Learning for Life
+      </p>
+      <!-- Social Media Icons -->
       <div class="flex gap-4 mt-2">
         <!-- LinkedIn -->
         <a href="https://www.linkedin.com/in/jashelet/" target="_blank" aria-label="LinkedIn"
@@ -100,6 +89,7 @@
     </div>
   </div>
 </header>
+
 
 <!-- Nav with Solid Color Link Backgrounds and Hamburger Menu with Label -->
 <nav class="w-full sticky top-0 z-30 bg-white/60 backdrop-blur-md border-b border-purple-200 shadow-sm">

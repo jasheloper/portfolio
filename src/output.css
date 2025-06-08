@@ -1156,6 +1156,12 @@
       background-color: color-mix(in oklab, var(--color-white) 10%, transparent);
     }
   }
+  .bg-white\/30 {
+    background-color: color-mix(in srgb, #fff 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-white) 30%, transparent);
+    }
+  }
   .bg-white\/60 {
     background-color: color-mix(in srgb, #fff 60%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -1468,6 +1474,9 @@
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);
+  }
+  .p-1\.5 {
+    padding: calc(var(--spacing) * 1.5);
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
@@ -2193,6 +2202,13 @@
       }
     }
   }
+  .hover\:text-fuchsia-600 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-fuchsia-600);
+      }
+    }
+  }
   .hover\:text-fuchsia-700 {
     &:hover {
       @media (hover: hover) {
@@ -2238,6 +2254,14 @@
       }
     }
   }
+  .hover\:ring-2 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+      }
+    }
+  }
   .hover\:shadow-fuchsia-300 {
     &:hover {
       @media (hover: hover) {
@@ -2245,6 +2269,13 @@
         @supports (color: color-mix(in lab, red, red)) {
           --tw-shadow-color: color-mix(in oklab, var(--color-fuchsia-300) var(--tw-shadow-alpha), transparent);
         }
+      }
+    }
+  }
+  .hover\:ring-fuchsia-300 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-ring-color: var(--color-fuchsia-300);
       }
     }
   }
@@ -2738,6 +2769,14 @@
       background-color: var(--color-gray-800);
     }
   }
+  .dark\:bg-gray-800\/40 {
+    @media (prefers-color-scheme: dark) {
+      background-color: color-mix(in srgb, oklch(27.8% 0.033 256.848) 40%, transparent);
+      @supports (color: color-mix(in lab, red, red)) {
+        background-color: color-mix(in oklab, var(--color-gray-800) 40%, transparent);
+      }
+    }
+  }
   .dark\:bg-gray-900 {
     @media (prefers-color-scheme: dark) {
       background-color: var(--color-gray-900);
@@ -2859,6 +2898,11 @@
     @media (prefers-color-scheme: dark) {
       --tw-gradient-to: var(--color-sky-900);
       --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+  .dark\:text-fuchsia-100 {
+    @media (prefers-color-scheme: dark) {
+      color: var(--color-fuchsia-100);
     }
   }
   .dark\:text-fuchsia-200 {

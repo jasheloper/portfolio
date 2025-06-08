@@ -2521,9 +2521,19 @@
       flex-direction: row;
     }
   }
+  .sm\:items-center {
+    @media (width >= 40rem) {
+      align-items: center;
+    }
+  }
   .sm\:items-start {
     @media (width >= 40rem) {
       align-items: flex-start;
+    }
+  }
+  .sm\:justify-center {
+    @media (width >= 40rem) {
+      justify-content: center;
     }
   }
   .sm\:justify-start {

@@ -27,43 +27,74 @@
     </svg>
   </div>
 
-  <!-- Profile Image -->
-  <div class="relative mb-4 w-32 h-32 flex items-center justify-center">
-    <!-- Pastel gradient glow ring -->
-    <span class="absolute inset-0 w-36 h-36 rounded-full bg-gradient-to-br from-[#ffceec] via-[#d9b8f5] to-[#a5b4fc] blur-md opacity-70 z-0"></span>
-    <!-- Floating effect and border -->
-    <img
-      src="/images/headshot-circle.png"
-      alt="Jashele T. headshot"
-      class="relative z-10 w-32 h-32 rounded-full border-4 border-white shadow-xl ring-4 ring-fuchsia-200 transition-transform duration-500 animate-[float_3s_ease-in-out_infinite]"
-      style="background: #fff;"
-      loading="lazy"
-    />
-    <!-- Subtle drop shadow -->
-    <span class="absolute inset-0 w-36 h-36 rounded-full shadow-2xl opacity-20 z-0"></span>
-    <!-- Online Badge -->
-    <span class="absolute bottom-2 right-2 w-5 h-5 bg-green-400 border-2 border-white rounded-full z-20 shadow-md flex items-center justify-center">
-      <span class="w-2.5 h-2.5 bg-white rounded-full opacity-70"></span>
-      <span class="sr-only">Online</span>
-    </span>
-    <style>
-      @keyframes float {
-        0%, 100% { transform: translateY(0);}
-        50% { transform: translateY(-10px);}
-      }
-    </style>
-  </div>
+  <!-- Main Header Content: Profile + Name/Tagline + Social Icons -->
+  <div class="flex flex-col md:flex-row items-center justify-center gap-8 z-10 w-full max-w-3xl">
+    <!-- Profile Image -->
+    <div class="relative mb-4 md:mb-0 w-32 h-32 flex items-center justify-center">
+      <!-- Pastel gradient glow ring -->
+      <span class="absolute inset-0 w-36 h-36 rounded-full bg-gradient-to-br from-[#ffceec] via-[#d9b8f5] to-[#a5b4fc] blur-md opacity-70 z-0"></span>
+      <!-- Floating effect and border -->
+      <img
+        src="/images/headshot-circle.png"
+        alt="Jashele T. headshot"
+        class="relative z-10 w-32 h-32 rounded-full border-4 border-white shadow-xl ring-4 ring-fuchsia-200 transition-transform duration-500 animate-[float_3s_ease-in-out_infinite]"
+        style="background: #fff;"
+        loading="lazy"
+      />
+      <!-- Subtle drop shadow -->
+      <span class="absolute inset-0 w-36 h-36 rounded-full shadow-2xl opacity-20 z-0"></span>
+      <!-- Online Badge -->
+      <span class="absolute bottom-2 right-2 w-5 h-5 bg-green-400 border-2 border-white rounded-full z-20 shadow-md flex items-center justify-center">
+        <span class="w-2.5 h-2.5 bg-white rounded-full opacity-70"></span>
+        <span class="sr-only">Online</span>
+      </span>
+      <style>
+        @keyframes float {
+          0%, 100% { transform: translateY(0);}
+          50% { transform: translateY(-10px);}
+        }
+      </style>
+    </div>
 
-  <!-- Name and Tagline -->
-  <div class="flex flex-col items-center z-10">
-    <h1 class="text-4xl md:text-5xl font-extrabold text-purple-800 mb-2 underline decoration-fuchsia-300 decoration-4 underline-offset-8">
-      Jashele T.
-    </h1>
-    <p class="text-lg md:text-xl font-medium text-purple-600 bg-white/70 px-4 py-2 rounded-full shadow mt-2 mb-2">
-      Building with Passion, Learning for Life
-    </p>
+    <!-- Name, Tagline, and Social Icons (Stacked on mobile, horizontal on desktop) -->
+    <div class="flex flex-col items-center md:items-start gap-3 flex-1">
+<h1 class="font-serif text-5xl md:text-6xl font-extrabold uppercase tracking-wide bg-gradient-to-r from-fuchsia-500 via-purple-400 to-sky-400 bg-clip-text text-transparent animate-pulse inline-block drop-shadow-lg">
+  Jashele T.
+</h1>
+
+
+
+      <p class="text-lg md:text-xl font-medium text-purple-600 bg-white/70 px-4 py-2 rounded-full shadow mt-1 mb-1">
+        Building with Passion, Learning for Life
+      </p>
+      <!-- Social Media Icons: Inline with content -->
+      <div class="flex gap-4 mt-2">
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn"
+           class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+          <svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <!-- GitHub -->
+        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"
+           class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+          <svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.85 10.91.57.1.78-.25.78-.56 0-.27-.01-1.17-.02-2.13-3.19.69-3.86-1.39-3.86-1.39-.52-1.31-1.27-1.66-1.27-1.66-1.04-.71.08-.7 0 .7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.33.96.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.07 0 0 .96-.31 3.15 1.18a10.9 10.9 0 012.87-.39c.97 0 1.95.13 2.87.39 2.18-1.49 3.14-1.18 3.14-1.18.62 1.6.23 2.78.11 3.07.73.81 1.18 1.84 1.18 3.1 0 4.43-2.68 5.41-5.23 5.7.41.35.77 1.04.77 2.10 0 1.52-.01 2.74-.01 3.11 0 .31.21.67.79.56C20.71 21.39 24 17.08 24 12c0-6.35-5.15-11.5-12-11.5z"/>
+          </svg>
+        </a>
+        <!-- YouTube -->
+        <a href="https://youtube.com/@yourusername" target="_blank" aria-label="YouTube"
+           class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+          <svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M23.498 6.186a2.993 2.993 0 0 0-2.107-2.12C19.262 3.5 12 3.5 12 3.5s-7.262 0-9.391.566a2.993 2.993 0 0 0-2.107 2.12C0 8.32 0 12 0 12s0 3.68.502 5.814a2.993 2.993 0 0 0 2.107 2.12C4.738 20.5 12 20.5 12 20.5s7.262 0 9.391-.566a2.993 2.993 0 0 0 2.107-2.12C24 15.68 24 12 24 12s0-3.68-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
   </div>
 </header>
+
 
 
 
@@ -104,7 +135,7 @@
     </span>
 
     <div class="relative w-fit mb-8">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-purple-700 mb-2 text-left">About Me</h2>
+      <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-700 mb-2 text-left">About Me</h2>
       <span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
     </div>
 
@@ -272,7 +303,7 @@
       </svg>
       Community
     </span>
-    <h2 class="text-3xl md:text-4xl font-extrabold text-purple-800 mb-8 text-center underline decoration-fuchsia-300 decoration-4 underline-offset-8">
+    <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-8 text-center underline decoration-fuchsia-300 decoration-4 underline-offset-8">
       Featured Video
     </h2>
     <!-- Timeline: Top Info -->
@@ -331,7 +362,7 @@
       Technical Writing
     </span>
     <div class="relative w-fit mb-8">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-left underline decoration-fuchsia-300 decoration-4 underline-offset-8">
+      <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-left underline decoration-fuchsia-300 decoration-4 underline-offset-8">
         Featured Articles
       </h2>
       <span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
@@ -402,7 +433,7 @@
       Coding & Projects
     </span>
     <div class="relative w-fit mb-8">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-left underline decoration-fuchsia-300 decoration-4 underline-offset-8">
+      <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-left underline decoration-fuchsia-300 decoration-4 underline-offset-8">
         Sample Projects
       </h2>
       <span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
@@ -510,7 +541,7 @@
       Community
     </span>
     <div class="relative w-fit mb-8">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-left underline decoration-fuchsia-300 decoration-4 underline-offset-8">
+      <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-left underline decoration-fuchsia-300 decoration-4 underline-offset-8">
         Contributions
       </h2>
       <span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
@@ -601,7 +632,7 @@
       </span>
 
 <div class="relative w-fit">
-  <h2 class="text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-center underline decoration-fuchsia-300 decoration-4 underline-offset-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-center underline decoration-fuchsia-300 decoration-4 underline-offset-8">
     Contact
   </h2>
 </div>

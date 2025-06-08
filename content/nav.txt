@@ -1,1 +1,6 @@
-About, Projects, Articles, Contributions, Contact
+About
+Videos
+Articles
+Projects
+Contributions
+Contact

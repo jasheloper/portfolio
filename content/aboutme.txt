@@ -30,3 +30,31 @@ Supported custom e-commerce websites for independent retailers for 2+ years.
 2021 : HTML Email Developer at meltmedia 
 2020 : Software Developer Specialist at Maricopa Community Colleges 
 2019 : Student Team Lead at BloomTech
+
+
+-
+
+on a previous version of my portfolio, i had the skills showing as icons instead. try displaying the following as icons:
+
+HTML5
+CSS3
+Magento 
+Drupal 
+WordPress
+Git 
+GitHub 
+Command Line 
+NGINX 
+DNS 
+SSL 
+VS Code 
+Jira 
+Adobe Photoshop 
+
+
+
+HTML5 CSS3 Tailwind CSS JavaScript Magento Drupal WordPress
+
+Responsive Design SEO Accessibility DNS SSL NGINX Web/Email Hosting
+
+Git GitHub CLI VS Code Photoshop Jira/Confluence Asana Google Workspace Microsoft Office

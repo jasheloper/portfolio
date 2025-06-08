@@ -58,3 +58,10 @@ HTML5 CSS3 Tailwind CSS JavaScript Magento Drupal WordPress
 Responsive Design SEO Accessibility DNS SSL NGINX Web/Email Hosting
 
 Git GitHub CLI VS Code Photoshop Jira/Confluence Asana Google Workspace Microsoft Office
+
+-
+
+
+Whether it’s solving website technical issues or transforming concepts into digital realities, I find immense joy and purpose in my work.
+
+I have experience contributing to and supporting the front end of various software projects in industries such as E-commerce and Higher Education, with a proven track record of delivering quality work.

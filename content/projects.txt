@@ -1,0 +1,8 @@
+Title:
+Portfolio Website 
+
+Description:
+My personal portfolio website to showcase my technical work and career journey. It highlights my skills, projects, and professional story with a clean, modern design focused on visual branding and usability.
+
+Technologies:
+HTML, Tailwind CSS

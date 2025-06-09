@@ -1228,6 +1228,12 @@
   .bg-fuchsia-50 {
     background-color: var(--color-fuchsia-50);
   }
+  .bg-fuchsia-50\/80 {
+    background-color: color-mix(in srgb, oklch(97.7% 0.017 320.058) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-fuchsia-50) 80%, transparent);
+    }
+  }
   .bg-fuchsia-100 {
     background-color: var(--color-fuchsia-100);
   }
@@ -1416,6 +1422,10 @@
   }
   .from-fuchsia-500 {
     --tw-gradient-from: var(--color-fuchsia-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-fuchsia-600 {
+    --tw-gradient-from: var(--color-fuchsia-600);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .from-fuchsia-600\/80 {
@@ -1742,6 +1752,9 @@
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
+  }
+  .px-7 {
+    padding-inline: calc(var(--spacing) * 7);
   }
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
@@ -2122,6 +2135,9 @@
   .underline-offset-4 {
     text-underline-offset: 4px;
   }
+  .underline-offset-7 {
+    text-underline-offset: 7px;
+  }
   .underline-offset-8 {
     text-underline-offset: 8px;
   }
@@ -2318,6 +2334,14 @@
   .select-none {
     -webkit-user-select: none;
     user-select: none;
+  }
+  .group-hover\:translate-x-1 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        --tw-translate-x: calc(var(--spacing) * 1);
+        translate: var(--tw-translate-x) var(--tw-translate-y);
+      }
+    }
   }
   .group-hover\:scale-105 {
     &:is(:where(.group):hover *) {
@@ -2595,6 +2619,13 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-white);
+      }
+    }
+  }
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
       }
     }
   }

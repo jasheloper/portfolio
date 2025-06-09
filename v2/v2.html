@@ -593,9 +593,13 @@
       </svg>
       Community
     </span>
-    <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-8 text-center underline decoration-fuchsia-300 decoration-4 underline-offset-8">
-      Featured Video
-    </h2>
+
+<div class="relative w-fit mb-8 mx-auto">
+  <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-700 mb-2">Featured Video</h2>
+  <span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
+</div>
+
+
     <!-- Timeline: Top Info -->
     <div class="relative flex flex-col items-center w-full mb-8">
       <div class="absolute left-1/2 top-0 -translate-x-1/2 w-1 h-full bg-gradient-to-b from-fuchsia-200 via-purple-200 to-white rounded-full"></div>
@@ -660,58 +664,95 @@
         </svg>
         Technical Writing
       </span>
-      <div class="relative w-fit mb-8 mx-auto">
-        <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-center underline decoration-fuchsia-300 decoration-4 underline-offset-8">
-          Featured Articles
-        </h2>
-        <!-- Removed the decorative <span> underline here -->
-      </div>
+<div class="relative w-fit mb-8 mx-auto">
+  <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-700 mb-2">Featured Articles</h2>
+  <span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
+</div>
+
     </div>
     <!-- Intro Text -->
     <p class="text-gray-700 mb-10 max-w-2xl mx-auto text-center">
       My tech blog is a place to share my career growth and to reflect on what I’m learning professionally and personally.
     </p>
     
-    <!-- Timeline Articles List -->
-    <ol class="relative border-l-2 border-fuchsia-300 ml-4 space-y-10">
-      <!-- Article 1 -->
-      <li class="relative pl-6">
-        <span class="absolute -left-3 w-6 h-6 bg-fuchsia-600 rounded-full ring-4 ring-white"></span>
-        <h3 class="text-lg font-semibold text-purple-800 mb-2">
-          Simple Ways to Improve Website Image Performance
-        </h3>
-        <p class="text-gray-700">
-          When it comes to building websites, I learned that performance doesn’t have to be an afterthought. There are very simple methods that you can implement to improve image performance using HTML.
-        </p>
-      </li>
-      <!-- Article 2 -->
-      <li class="relative pl-6">
-        <span class="absolute -left-3 top-2 w-6 h-6 bg-fuchsia-600 rounded-full ring-4 ring-white"></span>
-        <h3 class="text-lg font-semibold text-purple-800 mb-2">
-          Divs VS Semantic HTML
-        </h3>
-        <p class="text-gray-700">
-          Understanding how to code well starts with simple concepts. I explain the best practice of using semantic HTML vs divs.
-        </p>
-      </li>
-      <!-- Article 3 -->
-      <li class="relative pl-6">
-        <span class="absolute -left-3 top-2 w-6 h-6 bg-fuchsia-600 rounded-full ring-4 ring-white"></span>
-        <h3 class="text-lg font-semibold text-purple-800 mb-2">
-          CSS: Rem & Em vs Px
-        </h3>
-        <p class="text-gray-700">
-          I discuss what I’ve learned recently about using Rem and Em units as an approach to sizing properties in CSS and some benefits of using them over Px units.
-        </p>
-      </li>
-    </ol>
 
-    <!-- See More Posts Link -->
-    <div class="mt-12 text-center">
-      <a href="#" class="inline-block px-6 py-3 bg-fuchsia-600 text-white font-semibold rounded-full hover:bg-purple-700 transition shadow">
-        See More Posts
-      </a>
+<!-- Timeline Articles List -->
+<ol class="relative border-l-2 border-fuchsia-300 ml-4 space-y-10">
+  <!-- Article 1 -->
+  <li class="relative pl-6">
+    <span class="absolute -left-3 w-6 h-6 bg-fuchsia-600 rounded-full ring-4 ring-white"></span>
+    <div class="bg-fuchsia-50/80 p-5 rounded-lg shadow-sm">
+      <h3 class="text-lg font-semibold text-purple-800 mb-2">
+        <a 
+          href="https://devjashele.wordpress.com/2022/07/06/simple-ways-to-improve-website-image-performance/"
+          target="_blank" 
+          class="underline decoration-fuchsia-300 decoration-2 underline-offset-4 hover:text-fuchsia-700 transition-colors"
+        >
+          Simple Ways to Improve Website Image Performance
+        </a>
+      </h3>
+      <p class="text-gray-700">
+        When it comes to building websites, I learned that performance doesn’t have to be an afterthought. There are very simple methods that you can implement to improve image performance using HTML.
+      </p>
     </div>
+  </li>
+  <!-- Article 2 -->
+  <li class="relative pl-6">
+    <span class="absolute -left-3 top-2 w-6 h-6 bg-fuchsia-600 rounded-full ring-4 ring-white"></span>
+    <div class="bg-fuchsia-50/80 p-5 rounded-lg shadow-sm">
+      <h3 class="text-lg font-semibold text-purple-800 mb-2">
+        <a 
+          href="https://devjashele.wordpress.com/2022/01/12/divs-vs-semantic-html/" 
+          target="_blank"
+          class="underline decoration-fuchsia-300 decoration-2 underline-offset-4 hover:text-fuchsia-700 transition-colors"
+        >
+          Divs VS Semantic HTML
+        </a>
+      </h3>
+      <p class="text-gray-700">
+        Understanding how to code well starts with simple concepts. I explain the best practice of using semantic HTML vs divs.
+      </p>
+    </div>
+  </li>
+  <!-- Article 3 -->
+  <li class="relative pl-6">
+    <span class="absolute -left-3 top-2 w-6 h-6 bg-fuchsia-600 rounded-full ring-4 ring-white"></span>
+    <div class="bg-fuchsia-50/80 p-5 rounded-lg shadow-sm">
+      <h3 class="text-lg font-semibold text-purple-800 mb-2">
+        <a 
+          href="https://devjashele.wordpress.com/2021/12/30/css-rem-em-vs-px/" 
+          target="_blank"
+          class="underline decoration-fuchsia-300 decoration-2 underline-offset-4 hover:text-fuchsia-700 transition-colors"
+        >
+          CSS: Rem & Em vs Px
+        </a>
+      </h3>
+      <p class="text-gray-700">
+        I discuss what I’ve learned recently about using Rem and Em units as an approach to sizing properties in CSS and some benefits of using them over Px units.
+      </p>
+    </div>
+  </li>
+</ol>
+
+
+
+
+<!-- See More Posts Link -->
+<div class="mt-12 text-center">
+  <a
+    href="https://devjashele.wordpress.com/articles"
+    target="_blank"
+    class="inline-flex items-center gap-2 px-7 py-3 bg-gradient-to-r from-fuchsia-600 to-purple-600 text-white font-semibold rounded-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-fuchsia-300"
+  >
+    Visit Blog Site
+    <svg class="w-5 h-5 text-white transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+    </svg>
+  </a>
+</div>
+
+
+
   </div>
 </section>
 

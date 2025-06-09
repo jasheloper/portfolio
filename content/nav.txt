@@ -1,9 +1,50 @@
-About
-Work
-Skills
-Experience (more about me)
-Motto (more about me)
+About Me
+    - Overview of Skills
+    - Work Experience
+    - Motto: Continuous Growth
+
+
 Featured Video
 Featured Articles
+Work Samples
+Contributions
+Contact
+
+-
+
+my videos and articles are to showcase my hobbies of enjoying making tech videos and writing articles.
+
+work samples - i only have 1 right now which is my portfolio website that users will already be on and experiencing.
+
+contributions - these are contributions i've made beyond my personal website, professional/personal work. i.e. articles i've written for other websites.
+
+-
+
+so is the order good as far as my impact ?
+
+
+
+-
+
+
+
+About Me
+    - Overview of Skills
+    - Work Experience
+    - Motto: Continuous Growth
+Featured Video
+Featured Articles
+Work Samples
+Contributions
+Contact
+
+
+nav:
+
+Home
+About
+Video
+Blog
+Projects
 Contributions
 Contact

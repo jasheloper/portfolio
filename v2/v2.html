@@ -783,8 +783,19 @@
 
 
 
-<!-- Contributions  -->
-<section id="contributions" class="w-full bg-gradient-to-b from-white to-fuchsia-50 py-20 relative overflow-hidden">
+<!-- Contributions -->
+<section id="contributions" class="w-full bg-gradient-to-b from-fuchsia-50 via-white to-purple-50 py-20 relative overflow-hidden">
+  <!-- Dotted SVG Background (matches Featured Video) -->
+  <div class="absolute inset-0 z-0 pointer-events-none select-none">
+    <svg width="100%" height="100%" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="dotted-pattern-contributions" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+          <circle cx="2" cy="2" r="2" fill="#F3E8FF" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#dotted-pattern-contributions)" />
+    </svg>
+  </div>
   <div class="max-w-4xl mx-auto px-6 relative z-10 flex flex-col items-center">
     <!-- Badge and Section Header -->
     <span class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
@@ -883,6 +894,7 @@
     
   </div>
 </section>
+
 
 
 

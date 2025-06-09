@@ -44,6 +44,7 @@
     --color-teal-900: oklch(38.6% 0.063 188.416);
     --color-cyan-100: oklch(95.6% 0.045 203.388);
     --color-cyan-200: oklch(91.7% 0.08 205.041);
+    --color-cyan-400: oklch(78.9% 0.154 211.53);
     --color-cyan-700: oklch(52% 0.105 223.128);
     --color-sky-50: oklch(97.7% 0.013 236.62);
     --color-sky-100: oklch(95.1% 0.026 236.824);
@@ -1330,6 +1331,9 @@
   .bg-blue-900 {
     background-color: var(--color-blue-900);
   }
+  .bg-cyan-100 {
+    background-color: var(--color-cyan-100);
+  }
   .bg-cyan-200 {
     background-color: var(--color-cyan-200);
   }
@@ -1386,6 +1390,9 @@
   }
   .bg-pink-50 {
     background-color: var(--color-pink-50);
+  }
+  .bg-pink-100 {
+    background-color: var(--color-pink-100);
   }
   .bg-pink-200 {
     background-color: var(--color-pink-200);
@@ -2746,10 +2753,24 @@
       }
     }
   }
+  .hover\:bg-blue-200 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue-200);
+      }
+    }
+  }
   .hover\:bg-blue-700 {
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-700);
+      }
+    }
+  }
+  .hover\:bg-cyan-200 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-cyan-200);
       }
     }
   }
@@ -2798,10 +2819,24 @@
       }
     }
   }
+  .hover\:bg-green-200 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-green-200);
+      }
+    }
+  }
   .hover\:bg-indigo-600 {
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-indigo-600);
+      }
+    }
+  }
+  .hover\:bg-pink-200 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-pink-200);
       }
     }
   }
@@ -2857,6 +2892,13 @@
         @supports (color: color-mix(in lab, red, red)) {
           background-color: color-mix(in oklab, var(--color-white) 40%, transparent);
         }
+      }
+    }
+  }
+  .hover\:bg-yellow-200 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-yellow-200);
       }
     }
   }
@@ -3101,6 +3143,16 @@
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
+  .focus-visible\:ring-blue-400 {
+    &:focus-visible {
+      --tw-ring-color: var(--color-blue-400);
+    }
+  }
+  .focus-visible\:ring-cyan-400 {
+    &:focus-visible {
+      --tw-ring-color: var(--color-cyan-400);
+    }
+  }
   .focus-visible\:ring-fuchsia-400 {
     &:focus-visible {
       --tw-ring-color: var(--color-fuchsia-400);
@@ -3109,6 +3161,26 @@
   .focus-visible\:ring-fuchsia-500 {
     &:focus-visible {
       --tw-ring-color: var(--color-fuchsia-500);
+    }
+  }
+  .focus-visible\:ring-green-400 {
+    &:focus-visible {
+      --tw-ring-color: var(--color-green-400);
+    }
+  }
+  .focus-visible\:ring-pink-400 {
+    &:focus-visible {
+      --tw-ring-color: var(--color-pink-400);
+    }
+  }
+  .focus-visible\:ring-purple-400 {
+    &:focus-visible {
+      --tw-ring-color: var(--color-purple-400);
+    }
+  }
+  .focus-visible\:ring-yellow-400 {
+    &:focus-visible {
+      --tw-ring-color: var(--color-yellow-400);
     }
   }
   .aria-\[current\=page\]\:bg-white {

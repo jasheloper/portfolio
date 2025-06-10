@@ -1732,6 +1732,9 @@
   .text-cyan-700 {
     color: var(--color-cyan-700);
   }
+  .text-fuchsia-300 {
+    color: var(--color-fuchsia-300);
+  }
   .text-fuchsia-400 {
     color: var(--color-fuchsia-400);
   }

@@ -901,6 +901,9 @@
   .border-fuchsia-300 {
     border-color: var(--color-fuchsia-300);
   }
+  .border-fuchsia-400 {
+    border-color: var(--color-fuchsia-400);
+  }
   .border-fuchsia-500 {
     border-color: var(--color-fuchsia-500);
   }
@@ -1942,10 +1945,24 @@
       }
     }
   }
+  .hover\:border-fuchsia-600 {
+    &:hover {
+      @media (hover: hover) {
+        border-color: var(--color-fuchsia-600);
+      }
+    }
+  }
   .hover\:bg-blue-700 {
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-700);
+      }
+    }
+  }
+  .hover\:bg-fuchsia-50 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-fuchsia-50);
       }
     }
   }

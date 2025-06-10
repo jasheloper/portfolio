@@ -891,6 +891,10 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-b-5 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 5px;
+  }
   .border-b-6 {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 6px;
@@ -938,6 +942,9 @@
   }
   .border-fuchsia-600 {
     border-color: var(--color-fuchsia-600);
+  }
+  .border-gray-50 {
+    border-color: var(--color-gray-50);
   }
   .border-gray-100 {
     border-color: var(--color-gray-100);

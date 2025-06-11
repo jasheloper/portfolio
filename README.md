@@ -1,20 +1,17 @@
-# Web Portfolio
+# Portfolio Website Version 2.0
 
-[DevJashele.Tech](https://devjashele.tech/) is my personal portfolio website to showcase my web development projects and career journey.
+
+My personal portfolio website to showcase my technical work and career journey.
+- Highlights my skills, projects, and professional story with a clean, modern design.
+- Features social media–inspired touches like an online status and status update header.
 
 <br>
 
-<div align="center">
-<img src="./images/devjasheletech_preview.gif" style="border:5px solid #9CA3AF;" width="700" height="460">
-</div>
+![Portfolio website preview](/v2/images/v1-preview.png)
 
+<br>
 
-## Features
- 
-- A single-page layout with distinct sections showcasing my professional summary, skills, and projects.
+## Previous Versions
 
-- A minimalist design that presents key information concisely to keep users engaged with a user-friendly experience.
+Version 1.0
 
-## Key Concepts
-
-CSS Library Integration (Tailwind CSS) • Semantic HTML • Responsive Design

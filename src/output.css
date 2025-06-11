@@ -508,6 +508,9 @@
   .aspect-\[1155\/678\] {
     aspect-ratio: 1155/678;
   }
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
   .aspect-video {
     aspect-ratio: var(--aspect-video);
   }
@@ -564,6 +567,9 @@
   }
   .h-36 {
     height: calc(var(--spacing) * 36);
+  }
+  .h-40 {
+    height: calc(var(--spacing) * 40);
   }
   .h-44 {
     height: calc(var(--spacing) * 44);
@@ -639,6 +645,12 @@
   }
   .w-36 {
     width: calc(var(--spacing) * 36);
+  }
+  .w-40 {
+    width: calc(var(--spacing) * 40);
+  }
+  .w-48 {
+    width: calc(var(--spacing) * 48);
   }
   .w-50 {
     width: calc(var(--spacing) * 50);

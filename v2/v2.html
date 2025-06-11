@@ -4,14 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Meta Description -->
+  <meta name="description" content="Jashele T. is a tech professional / developer who is passionate about the web!">
+
+<!-- Keywords -->
+  <meta name="keywords"
+    content="Jashele T, Jashele Tillman, web developer, Arizona, HTML, CSS, Magento, WordPress, Drupal, JavaScript, Git, GitHub, command line, NGINX, DNS, SSL, VS code, Jira, Photoshop">
+
+<!-- Open Graph Tags for Social Sharing -->
+  <meta property="og:title" content="Jashele T. | Building with Passion, Learning for Life">
+  <meta property="og:description"
+    content="Portfolio of Jashele T. - showcasing web projects, skills, and technical contributions.">
+  <meta property="og:image" content="https://devjashele.tech/images/headshot-circle.png">
+  <meta property="og:url" content="https://devjashele.tech/">
+  <meta property="og:type" content="website">
+
   <title>Jashele T. | Building with Passion, Learning for Life</title>
-  <link href="style.css" rel="stylesheet">
-  <link href="../src/output.css" rel="stylesheet">
+
+  <link href="/src/output.css" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/purple-apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/purple-favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/purple-favicon-16x16.png">
   <link rel="manifest" href="/images/purple-site.webmanifest">
 </head>
+
 <style>
   @keyframes floatAround {
 
@@ -241,82 +258,88 @@
     <div class="flex-grow border-t-2 border-dotted border-fuchsia-600"></div>
   </div>
 
-<!-- Nav -->
-<nav
-  class="sticky top-0 w-full flex justify-center bg-gradient-to-b from-fuchsia-50 via-white to-purple-100 shadow-md z-30">
-  <ul
-    class="flex flex-wrap items-center justify-center gap-2 md:gap-4 px-2 py-2 border-b border-fuchsia-200 text-sm md:text-base">
+  <!-- Nav -->
+  <nav
+    class="sticky top-0 w-full flex justify-center bg-gradient-to-b from-fuchsia-50 via-white to-purple-100 shadow-md z-30">
+    <ul
+      class="flex flex-wrap items-center justify-center gap-2 md:gap-4 px-2 py-2 border-b border-fuchsia-200 text-sm md:text-base">
 
-    <!--Home-->
-    <li>
-      <a href="#home"
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-        <!-- Home Icon: Monochrome Fuchsia -->
-        <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-          <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7A1 1 0 003 11h1v6a1 1 0 001 1h3a1 1 0 001-1v-3h2v3a1 1 0 001 1h3a1 1 0 001-1v-6h1a1 1 0 00.707-1.707l-7-7z"/>
-        </svg>
-        Home
-      </a>
-    </li>
-    <!--About-->
-    <li>
-      <a href="#about"
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-        <!-- User Icon: Monochrome Fuchsia -->
-        <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-          <path fill-rule="evenodd" d="M10 2a5 5 0 100 10 5 5 0 000-10zm-7 14a7 7 0 0114 0v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1z" clip-rule="evenodd"/>
-        </svg>
-        About Me
-      </a>
-    </li>
-    <!--Work-->
-    <li>
-      <a href="#projects"
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-        <!-- Code Icon: Monochrome Fuchsia -->
-        <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6"/>
-        </svg>
-        Projects
-      </a>
-    </li>
-    <!--Contributions-->
-    <li>
-      <a href="#contributions"
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-        <!-- Heart Icon: Monochrome Fuchsia -->
-        <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M12 21C12 21 4 13.5 4 8.5C4 5.46 6.46 3 9.5 3C11.24 3 12.91 4.03 13.44 5.58C13.97 4.03 15.64 3 17.38 3C20.42 3 22.88 5.46 22.88 8.5C22.88 13.5 15 21 15 21H12Z"/>
-        </svg>
-        Contributions
-      </a>
-    </li>
-    <!--Video-->
-    <li>
-      <a href="#video"
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-        <!-- Video Icon: Monochrome Fuchsia -->
-        <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M17 10.5V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-3.5l4 4v-11l-4 4z"/>
-        </svg>
-        Video
-      </a>
-    </li>
-    <!--Contact-->
-    <li>
-      <a href="#contact"
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-        <!-- Mail Icon: Monochrome Fuchsia -->
-        <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
-        </svg>
-        Contact
-      </a>
-    </li>
-  </ul>
-</nav>
+      <!--Home-->
+      <li>
+        <a href="#home"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+          <!-- Home Icon: Monochrome Fuchsia -->
+          <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+            <path
+              d="M10.707 2.293a1 1 0 00-1.414 0l-7 7A1 1 0 003 11h1v6a1 1 0 001 1h3a1 1 0 001-1v-3h2v3a1 1 0 001 1h3a1 1 0 001-1v-6h1a1 1 0 00.707-1.707l-7-7z" />
+          </svg>
+          Home
+        </a>
+      </li>
+      <!--About-->
+      <li>
+        <a href="#about"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+          <!-- User Icon: Monochrome Fuchsia -->
+          <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M10 2a5 5 0 100 10 5 5 0 000-10zm-7 14a7 7 0 0114 0v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1z"
+              clip-rule="evenodd" />
+          </svg>
+          About Me
+        </a>
+      </li>
+      <!--Work-->
+      <li>
+        <a href="#projects"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+          <!-- Code Icon: Monochrome Fuchsia -->
+          <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+          </svg>
+          Projects
+        </a>
+      </li>
+      <!--Contributions-->
+      <li>
+        <a href="#contributions"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+          <!-- Heart Icon: Monochrome Fuchsia -->
+          <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 21C12 21 4 13.5 4 8.5C4 5.46 6.46 3 9.5 3C11.24 3 12.91 4.03 13.44 5.58C13.97 4.03 15.64 3 17.38 3C20.42 3 22.88 5.46 22.88 8.5C22.88 13.5 15 21 15 21H12Z" />
+          </svg>
+          Contributions
+        </a>
+      </li>
+      <!--Video-->
+      <li>
+        <a href="#video"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+          <!-- Video Icon: Monochrome Fuchsia -->
+          <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M17 10.5V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-3.5l4 4v-11l-4 4z" />
+          </svg>
+          Video
+        </a>
+      </li>
+      <!--Contact-->
+      <li>
+        <a href="#contact"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+          <!-- Mail Icon: Monochrome Fuchsia -->
+          <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+          </svg>
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
 
   <main class="leading-loose">
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -49,11 +49,9 @@
       transform: translate(20px, 20px);
     }
   }
-
   .smiley-animate {
     animation: floatAround 20s ease-in-out infinite;
   }
-
   @keyframes gradient-shift {
 
     0%,
@@ -65,8 +63,6 @@
       background-position: 100% 50%;
     }
   }
-
-
   @keyframes float {
 
     0%,
@@ -78,7 +74,6 @@
       transform: translateY(-10px);
     }
   }
-
   @keyframes floatAround {
 
     0%,
@@ -98,13 +93,22 @@
       transform: translate(-30px, 30px);
     }
   }
-
   .smiley-animate {
     animation: floatAround 18s ease-in-out infinite;
   }
+  @keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
 </style>
 
-<body id="top">
+<body id="top" class="fade-in">
 
   <!-- Header -->
   <header id="home"
@@ -416,45 +420,49 @@
               technology.
             </p>
 
-            <!-- Value Badges -->
-            <div class="flex flex-col items-center sm:flex-row sm:items-start sm:justify-center gap-3 mb-2">
-              <!-- Loves Community Badge: Pink/Purple -->
-              <span
-                class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-pink-100 to-fuchsia-200 text-fuchsia-800 border border-pink-200 shadow-sm">
-                <span
-                  class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-pink-200 text-pink-700 mr-1">
-                  <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path
-                      d="M12 12c2.7 0 4.5-2.2 4.5-4.5S14.7 3 12 3s-4.5 2.2-4.5 4.5S9.3 12 12 12zm0 1.5c-3 0-9 1.5-9 4.5V21h18v-3c0-3-6-4.5-9-4.5z" />
-                  </svg>
-                </span>
-                Loves Community
-              </span>
-              <!-- Always Learning Badge: Blue/Cyan -->
-              <span
-                class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-cyan-100 to-blue-200 text-blue-800 border border-cyan-200 shadow-sm">
-                <span
-                  class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-cyan-200 text-cyan-700 mr-1">
-                  <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13.09L5.47 12.5 12 8.91l6.53 3.59L12 16.09z" />
-                  </svg>
-                </span>
-                Always Learning
-              </span>
-              <!-- Creative Builder Badge: Green/Teal -->
-              <span
-                class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-green-100 to-teal-200 text-teal-800 border border-green-200 shadow-sm">
-                <span
-                  class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-green-200 text-green-700 mr-1">
-                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                    aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M12 2a7 7 0 0 0-4 12.9V18a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-3.1A7 7 0 0 0 12 2zm0 0v1m0 17v2m-3-2h6" />
-                  </svg>
-                </span>
-                Creative Builder
-              </span>
-            </div>
+           <!-- Value Badges -->
+<div class="flex flex-col items-center sm:flex-row sm:items-start sm:justify-center gap-3 mb-2">
+  <!-- Loves Community Badge: Pink/Purple -->
+  <span
+    class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-pink-100 to-fuchsia-200 text-fuchsia-800 border border-pink-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer"
+  >
+    <span
+      class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-pink-200 text-pink-700 mr-1">
+      <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M12 12c2.7 0 4.5-2.2 4.5-4.5S14.7 3 12 3s-4.5 2.2-4.5 4.5S9.3 12 12 12zm0 1.5c-3 0-9 1.5-9 4.5V21h18v-3c0-3-6-4.5-9-4.5z" />
+      </svg>
+    </span>
+    Loves Community
+  </span>
+  <!-- Always Learning Badge: Blue/Cyan -->
+  <span
+    class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-cyan-100 to-blue-200 text-blue-800 border border-cyan-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer"
+  >
+    <span
+      class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-cyan-200 text-cyan-700 mr-1">
+      <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13.09L5.47 12.5 12 8.91l6.53 3.59L12 16.09z" />
+      </svg>
+    </span>
+    Always Learning
+  </span>
+  <!-- Creative Builder Badge: Green/Teal -->
+  <span
+    class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-green-100 to-teal-200 text-teal-800 border border-green-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer"
+  >
+    <span
+      class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-green-200 text-green-700 mr-1">
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+        aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M12 2a7 7 0 0 0-4 12.9V18a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-3.1A7 7 0 0 0 12 2zm0 0v1m0 17v2m-3-2h6" />
+      </svg>
+    </span>
+    Creative Builder
+  </span>
+</div>
+
 
 
           </div>

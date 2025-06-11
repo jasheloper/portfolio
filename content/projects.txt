@@ -29,3 +29,20 @@ My personal portfolio website to showcase my technical work and career journey. 
 
 
 online status badge and 
+
+
+-
+
+My personal portfolio website to showcase my technical work and career journey. 
+
+
+
+It highlights my skills, projects, and professional story with a clean, modern design. 
+or 
+It highlights my skills, projects, and professional story with a creative, modern design. 
+
+
+
+It features social media–inspired touches like an online status and status update header.
+or 
+It features a social media–inspired header, i.e. an online status badge and post update.

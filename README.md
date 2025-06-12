@@ -5,6 +5,8 @@
 - Highlights my skills, projects, and professional story with a clean, modern design.
 - Features social media–inspired touches like an online status and status update header.
 
+**Technologies:** HTML, Tailwind CSS
+
 <br>
 
 ![Version 2.0 website preview](/v2/images/v1-preview.png)

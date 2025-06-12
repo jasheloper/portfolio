@@ -7,11 +7,12 @@ My personal portfolio website to showcase my technical work and career journey.
 
 <br>
 
-![Portfolio website preview](/v2/images/v1-preview.png)
+![Version 2.0 website preview](/v2/images/v1-preview.png)
 
 <br>
 
 ## Previous Versions
 
-Version 1.0
+**Version 1.0** : A single-page layout with distinct sections showcasing my professional summary, skills, and projects. A minimalist design that presents key information concisely to keep users engaged with a user-friendly experience.
 
+![Version 1.0 website preview](/v1/version1-preview.png)

@@ -7,11 +7,9 @@
 
 **Technologies:** HTML, Tailwind CSS
 
-<br>
-
 ![Version 2.0 website preview](/v2/images/v1-preview.png)
 
-<br>
+
 
 ## Previous Versions
 

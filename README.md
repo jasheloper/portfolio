@@ -7,7 +7,7 @@
 
 **Technologies:** HTML, Tailwind CSS
 
-![Version 2.0 website preview](/v2/images/v1-preview.png)
+![Version 2.0 website preview](/v2/images/v2.png)
 
 
 

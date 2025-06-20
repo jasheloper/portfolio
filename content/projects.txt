@@ -46,3 +46,93 @@ It highlights my skills, projects, and professional story with a creative, moder
 It features social media–inspired touches like an online status and status update header.
 or 
 It features a social media–inspired header, i.e. an online status badge and post update.
+
+
+-
+
+
+(Image URL)
+/images/portfolio-site.png
+
+(Title)
+Portfolio Website
+
+(Link)
+#portfolio-project
+
+(Description)
+My personal portfolio website to showcase my technical work and career journey.
+
+(Label)
+Technologies Used:
+JavaScript, HTML, CSS
+
+(View on GitHub button link)
+https://github.com/jasheloper/silly-story-js
+
+
+
+
+(Image URL)
+/images/silly-story-preview.png
+
+(Title)
+Silly Story Generator
+
+(Link)
+https://jasheloper.github.io/silly-story-js/
+
+(Description)
+An interactive web app that dynamically generates a customized story based on user input.
+
+(Label)
+Technologies Used:
+JavaScript, HTML, CSS
+
+(View on GitHub link)
+https://github.com/jasheloper/silly-story-js
+
+
+
+
+(Image URL)
+/images/image-gallery.png
+
+(Title)
+JavaScript Image Gallery
+
+(Link)
+https://jasheloper.github.io/img-gallery-js-2/
+
+
+(Description)
+An interactive image gallery designed with a thumbnail-based image switcher.
+
+(Label)
+Technologies Used: 
+JavaScript, HTML, CSS
+
+
+(View on GitHub button link)
+https://github.com/jasheloper/img-gallery-js-2
+
+
+
+
+(Image URL)
+/images/color-tiles.png
+
+(Title)
+Color Tile Playground
+
+(Link)
+https://jasheloper.github.io/color-tile-playground/
+
+(Description)
+An interactive web app that showcases a layout of tiles that generate random colors.
+
+(Label)
+Technologies Used: JavaScript, HTML, CSS
+
+(View on GitHub button link)
+https://github.com/jasheloper/color-tile-playground

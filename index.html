@@ -2,1262 +2,1365 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Meta Description -->
-<meta name="description" content="Jashele T. is a tech professional / developer who is passionate about the web!">
+    <!-- Meta Description -->
+    <meta name="description" content="Jashele T. is a tech professional / developer who is passionate about the web!">
 
-<!-- Keywords -->
-<meta name="keywords"
-content="Jashele T, Jashele Tillman, web developer, Arizona, HTML, CSS, Magento, WordPress, Drupal, JavaScript, Git, GitHub, command line, NGINX, DNS, SSL, VS code, Jira, Photoshop">
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="Jashele T, Jashele Tillman, web developer, Arizona, HTML, CSS, Magento, WordPress, Drupal, JavaScript, Git, GitHub, command line, NGINX, DNS, SSL, VS code, Jira, Photoshop">
 
-<!-- Open Graph Tags for Social Sharing -->
-<meta property="og:title" content="Jashele T. | Building with Passion, Learning for Life">
-<meta property="og:description"
-content="Portfolio of Jashele T. - showcasing web projects, skills, and technical contributions.">
-<meta property="og:image" content="https://devjashele.tech/images/headshot-circle.png">
-<meta property="og:url" content="https://devjashele.tech/">
-<meta property="og:type" content="website">
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="Jashele T. | Building with Passion, Learning for Life">
+    <meta property="og:description"
+        content="Portfolio of Jashele T. - showcasing web projects, skills, and technical contributions.">
+    <meta property="og:image" content="https://devjashele.tech/images/headshot-circle.png">
+    <meta property="og:url" content="https://devjashele.tech/">
+    <meta property="og:type" content="website">
 
-<title>Jashele T. | Building with Passion, Learning for Life</title>
+    <title>Jashele T. | Building with Passion, Learning for Life</title>
 
-<link href="/src/output.css" rel="stylesheet">
-<link rel="apple-touch-icon" sizes="180x180" href="/images/purple-apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/purple-favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/purple-favicon-16x16.png">
-<link rel="manifest" href="/images/purple-site.webmanifest">
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/purple-apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/purple-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/purple-favicon-16x16.png">
+    <link rel="manifest" href="/images/purple-site.webmanifest">
 </head>
 
 <style>
-@keyframes floatAround {
+    @keyframes floatAround {
 
-0%,
-100% {
-transform: translate(0, 0);
-}
+        0%,
+        100% {
+            transform: translate(0, 0);
+        }
 
-25% {
-transform: translate(20px, -10px);
-}
+        25% {
+            transform: translate(20px, -10px);
+        }
 
-50% {
-transform: translate(40px, 10px);
-}
+        50% {
+            transform: translate(40px, 10px);
+        }
 
-75% {
-transform: translate(20px, 20px);
-}
-}
+        75% {
+            transform: translate(20px, 20px);
+        }
+    }
 
-.smiley-animate {
-animation: floatAround 20s ease-in-out infinite;
-}
+    .smiley-animate {
+        animation: floatAround 20s ease-in-out infinite;
+    }
 
-@keyframes gradient-shift {
+    @keyframes gradient-shift {
 
-0%,
-100% {
-background-position: 0% 50%;
-}
+        0%,
+        100% {
+            background-position: 0% 50%;
+        }
 
-50% {
-background-position: 100% 50%;
-}
-}
+        50% {
+            background-position: 100% 50%;
+        }
+    }
 
-@keyframes float {
+    @keyframes float {
 
-0%,
-100% {
-transform: translateY(0);
-}
+        0%,
+        100% {
+            transform: translateY(0);
+        }
 
-50% {
-transform: translateY(-10px);
-}
-}
+        50% {
+            transform: translateY(-10px);
+        }
+    }
 
-@keyframes floatAround {
+    @keyframes floatAround {
 
-0%,
-100% {
-transform: translate(0, 0);
-}
+        0%,
+        100% {
+            transform: translate(0, 0);
+        }
 
-25% {
-transform: translate(-30px, -20px);
-}
+        25% {
+            transform: translate(-30px, -20px);
+        }
 
-50% {
-transform: translate(-60px, 10px);
-}
+        50% {
+            transform: translate(-60px, 10px);
+        }
 
-75% {
-transform: translate(-30px, 30px);
-}
-}
+        75% {
+            transform: translate(-30px, 30px);
+        }
+    }
 
-.smiley-animate {
-animation: floatAround 18s ease-in-out infinite;
-}
+    .smiley-animate {
+        animation: floatAround 18s ease-in-out infinite;
+    }
 
-@keyframes fadeIn {
-from {
-opacity: 0;
-}
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
 
-to {
-opacity: 1;
-}
-}
+        to {
+            opacity: 1;
+        }
+    }
 
-.fade-in {
-opacity: 0;
-animation: fadeIn 1.5s ease-in-out forwards;
-}
+    .fade-in {
+        opacity: 0;
+        animation: fadeIn 1.5s ease-in-out forwards;
+    }
 </style>
 
 <body id="home" class="fade-in">
 
-<!-- Header -->
-<header
-class="w-full bg-gradient-to-b from-fuchsia-50 via-white to-purple-100 py-10 px-4 flex flex-col items-center relative overflow-hidden shadow-md">
-<!-- Decorative Dots 2 -->
-<div class="absolute inset-0 pointer-events-none z-0 opacity-10">
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<pattern id="cuteDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-<circle cx="2" cy="2" r="1.5" fill="#e879f9" />
-</pattern>
-</defs>
-<rect width="100%" height="100%" fill="url(#cuteDotPattern)" />
-</svg>
-</div>
-
-<!-- Main Header Content -->
-<div class="relative z-10 w-full max-w-xl flex flex-col items-center gap-4">
-<!-- Profile Image with Online Badge -->
-<div class="relative w-36 h-36 flex items-center justify-center mb-2">
-<span
-class="absolute inset-0 w-36 h-36 rounded-full bg-gradient-to-br from-[#ffceec] via-[#d9b8f5] to-[#a5b4fc] blur-md opacity-70 z-0"></span>
-
-<img src="/images/headshot-circle.png" alt="Headshot of Jashele T."
-class="relative z-10 w-36 h-36 rounded-full object-cover border-4 border-white shadow-xl ring-4 ring-fuchsia-200 transition-transform duration-500 animate-[float_3s_ease-in-out_infinite]"
-style="background: #fff;" loading="lazy" />
-
-<!-- Online Badge -->
-<span
-class="absolute bottom-2 right-2 w-5 h-5 bg-green-400 border-2 border-white rounded-full z-20 shadow-md flex items-center justify-center animate-pulse">
-<span class="w-2.5 h-2.5 bg-white rounded-full opacity-70"></span>
-<span class="sr-only">Online</span>
-</span>
-
-</div>
-
-<!-- Name and Online Status (Social style) -->
-<div class="flex flex-col items-center">
-<div class="flex items-center gap-2 mb-1">
-<span class="font-bold text-purple-700 text-xl md:text-2xl">@Jashele</span>
-<span
-class="inline-flex items-center gap-1 px-2 py-0.5 bg-green-100 text-green-700 text-xs font-semibold rounded-full">
-<span class="w-2 h-2 bg-green-400 rounded-full inline-block"></span>
-Online
-</span>
-</div>
-<span class="text-xs text-fuchsia-500">Active Now</span>
-</div>
-
-<!-- Status Update -->
-<div class="w-full flex flex-col items-center mt-1">
-<div
-class="relative w-full max-w-md mx-auto bg-white border border-fuchsia-200 rounded-2xl shadow-xl overflow-hidden flex flex-col transition-shadow hover:shadow-2xl">
-<!-- Status Badge with Mac-style Window Controls -->
-<div
-class="flex flex-row items-center gap-2 bg-gradient-to-r from-fuchsia-500 via-purple-500 to-blue-500 px-4 py-3 sm:px-4 sm:py-3 transition-colors hover:from-fuchsia-400 hover:via-purple-400 hover:to-blue-400 relative">
-<!-- Mac-style window controls -->
-<div class="absolute right-4 top-1/2 -translate-y-1/2 flex flex-row gap-2">
-<!-- Close -->
-<span aria-label="Close"
-class="w-3.5 h-3.5 rounded-full bg-red-500 border border-red-400 shadow-sm flex items-center justify-center transition-all"
-style="box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10);"></span>
-<!-- Minimize -->
-<span aria-label="Minimize"
-class="w-3.5 h-3.5 rounded-full bg-yellow-400 border border-yellow-300 shadow-sm flex items-center justify-center transition-all"
-style="box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10);"></span>
-<!-- Maximize -->
-<span aria-label="Maximize"
-class="w-3.5 h-3.5 rounded-full bg-green-500 border border-green-400 shadow-sm flex items-center justify-center transition-all"
-style="box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10);"></span>
-</div>
-<svg class="w-6 h-6 drop-shadow" fill="white" viewBox="0 0 24 24" aria-hidden="true"
-aria-label="Status Icon" title="Status">
-<path
-d="M2 12c0-4.418 4.477-8 10-8s10 3.582 10 8-4.477 8-10 8c-1.146 0-2.25-.132-3.272-.38a1 1 0 00-.786.083l-2.548 1.274a1 1 0 01-1.447-1.054l.286-2.007a1 1 0 00-.217-.832C2.613 15.274 2 13.697 2 12z" />
-</svg>
-<span class="text-xs font-bold text-white uppercase tracking-wide">Status</span>
-</div>
-
-<!-- Divider for visual separation -->
-<div class="border-b border-fuchsia-200"></div>
-
-<!-- Main Content Area -->
-<div class="flex-1 flex flex-col justify-center px-6 py-5 sm:px-6 sm:py-5">
-<p class="text-purple-900 text-lg md:text-xl font-bold leading-snug mb-2">
-Building with Passion, Learning for Life
-</p>
-<span class="flex items-center gap-1 text-xs text-fuchsia-500 font-medium">
-<svg class="w-3 h-3 text-fuchsia-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-aria-hidden="true" aria-label="Time" title="Time">
-<circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" />
-<path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-stroke-linejoin="round" />
-</svg>
-Posted • 1 min ago
-</span>
-</div>
-
-</div>
-
-<!-- Social Media Icons Row -->
-<div class="flex flex-row items-center gap-3 mt-4">
-<!-- LinkedIn -->
-<a href="https://www.linkedin.com/in/jashelet/" target="_blank" aria-label="LinkedIn"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 16 16">
-<path
-d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-</svg>
-</a>
-<!-- GitHub -->
-<a href="https://github.com/jasheloper" target="_blank" aria-label="GitHub"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 24 24">
-<path
-d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.334-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.628-5.475 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-</svg>
-</a>
-<!-- YouTube -->
-<a href="https://www.youtube.com/jashelet" target="_blank" aria-label="YouTube"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 24 24">
-<path
-d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.115C19.36 3.5 12 3.5 12 3.5s-7.36 0-9.386.571A2.994 2.994 0 0 0 .502 6.186C0 8.216 0 12 0 12s0 3.784.502 5.814a2.994 2.994 0 0 0 2.112 2.115C4.64 20.5 12 20.5 12 20.5s7.36 0 9.386-.571a2.994 2.994 0 0 0 2.112-2.115C24 15.784 24 12 24 12s0-3.784-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-</svg>
-</a>
-<!-- Instagram -->
-<a href="https://www.instagram.com/jasheloper/" target="_blank" aria-label="Instagram"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 24 24">
-<path
-d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.415a4.92 4.92 0 0 1 1.675 1.077 4.918 4.918 0 0 1 1.077 1.675c.175.458.359 1.258.415 2.428.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.415 2.428a4.918 4.918 0 0 1-1.077 1.675 4.918 4.918 0 0 1-1.675 1.077c-.458.175-1.258.359-2.428.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.415a4.918 4.918 0 0 1-1.675-1.077 4.918 4.918 0 0 1-1.077-1.675c-.175-.458-.359-1.258-.415-2.428C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.415-2.428A4.918 4.918 0 0 1 3.725 3.047a4.918 4.918 0 0 1 1.675-1.077c.458-.175 1.258-.359 2.428-.415C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072c-1.276.06-2.15.25-2.91.54A7.075 7.075 0 0 0 .611 2.142a7.078 7.078 0 0 0-1.53 1.53c-.29.76-.48 1.634-.54 2.91C.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.06 1.276.25 2.15.54 2.91.29.76.677 1.47 1.53 2.323.853.853 1.563 1.24 2.323 1.53.76.29 1.634.48 2.91.54C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.276-.06 2.15-.25 2.91-.54a7.075 7.075 0 0 0 2.323-1.53 7.078 7.078 0 0 0 1.53-2.323c.29-.76.48-1.634.54-2.91.059-1.28.072-1.689.072-4.948s-.013-3.668-.072-4.948c-.06-1.276-.25-2.15-.54-2.91a7.075 7.075 0 0 0-1.53-2.323A7.075 7.075 0 0 0 19.858.611c-.76-.29-1.634-.48-2.91-.54C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
-</svg>
-</a>
-<!-- X (Twitter) -->
-<a href="https://x.com/jasheloper" target="_blank" aria-label="X"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 24 24">
-<path
-d="M17.53 3H21.5l-7.19 8.21L23 21h-6.26l-4.32-5.89L7.06 21H3.08l7.61-8.7L1 3h6.42l3.85 5.24L17.53 3zm-1.07 15h1.65l-5.07-6.91-1.32 1.5L16.46 18zM6.41 5h-1.7l5.13 7 1.32-1.5L6.41 5z" />
-</svg>
-</a>
-</div>
-</div>
-
-
-</div>
-</header>
-
-<!--Divider-->
-<div class="w-full flex items-center justify-center mt-6 mb-4">
-<div class="flex-grow border-t-2 border-dotted border-fuchsia-600"></div>
-<span
-class="mx-4 px-3 py-1 bg-fuchsia-100 rounded-full shadow text-fuchsia-800 font-semibold tracking-wide text-sm -mt-2 select-none">
-MENU
-</span>
-<div class="flex-grow border-t-2 border-dotted border-fuchsia-600"></div>
-</div>
-
-<div id="about"></div>
-
-<!-- Nav -->
-<nav
-class="sticky top-0 w-full flex justify-center bg-gradient-to-b from-fuchsia-50 via-white to-purple-100 shadow-md z-30">
-<ul
-class="flex flex-wrap items-center justify-center gap-2 md:gap-4 px-2 py-2 border-b border-fuchsia-200 text-sm md:text-base">
-
-<!--Home-->
-<li>
-<a href="#home"
-class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-<!-- Home Icon: Monochrome Fuchsia -->
-<svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-<path
-d="M10.707 2.293a1 1 0 00-1.414 0l-7 7A1 1 0 003 11h1v6a1 1 0 001 1h3a1 1 0 001-1v-3h2v3a1 1 0 001 1h3a1 1 0 001-1v-6h1a1 1 0 00.707-1.707l-7-7z" />
-</svg>
-Home
-</a>
-</li>
-<!--About-->
-<li>
-<a href="#about"
-class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-<!-- User Icon: Monochrome Fuchsia -->
-<svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-<path fill-rule="evenodd"
-d="M10 2a5 5 0 100 10 5 5 0 000-10zm-7 14a7 7 0 0114 0v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1z"
-clip-rule="evenodd" />
-</svg>
-About
-</a>
-</li>
-<!--Work-->
-<li>
-<a href="#projects"
-class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-<!-- Code Icon: Monochrome Fuchsia -->
-<svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
-</svg>
-Projects
-</a>
-</li>
-
-<!--Video-->
-<li>
-<a href="#video"
-class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-<!-- Video Icon: Monochrome Fuchsia -->
-<svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path d="M17 10.5V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-3.5l4 4v-11l-4 4z" />
-</svg>
-Video
-</a>
-</li>
-
-
-<!--Contributions-->
-<li>
-<a href="#contributions"
-class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-<!-- Heart Icon: Monochrome Fuchsia -->
-<svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round"
-d="M12 21C12 21 4 13.5 4 8.5C4 5.46 6.46 3 9.5 3C11.24 3 12.91 4.03 13.44 5.58C13.97 4.03 15.64 3 17.38 3C20.42 3 22.88 5.46 22.88 8.5C22.88 13.5 15 21 15 21H12Z" />
-</svg>
-Articles
-</a>
-</li>
-
-<!--Contact-->
-<li>
-<a href="#contact"
-class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
-<!-- Mail Icon: Monochrome Fuchsia -->
-<svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round"
-d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-</svg>
-Contact
-</a>
-</li>
-</ul>
-
-</nav>
-
-
-<main class="leading-loose">
-
-<!-- About Me Section -->
-<section class="pt-8 bg-gradient-to-b from-white to-purple-50 relative overflow-x-hidden">
-
-<!-- Introduction -->
-<section class="w-full bg-white relative overflow-hidden">
-
-<!-- Decorative Dots Pattern -->
-<div class="absolute inset-0 pointer-events-none z-0 opacity-20">
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<pattern id="workDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-<circle cx="2" cy="2" r="1.5" fill="#e879f9" />
-</pattern>
-</defs>
-<rect width="100%" height="100%" fill="url(#workDotPattern)" />
-</svg>
-</div>
-
-<div class="max-w-4xl mx-auto px-6 pb-7 md:pb-12 relative z-10">
-<!-- Card Container -->
-<div
-class="bg-white/90 rounded-2xl shadow-xl border border-gray-100 p-8 md:p-12 backdrop-blur-sm flex flex-col items-center text-center">
-<!-- About Me Badge and Header -->
-<span
-class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-purple-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
-<svg class="w-4 h-4 text-purple-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-<path
-d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.974a1 1 0 00.95.69h4.18c.969 0 1.371 1.24.588 1.81l-3.39 2.462a1 1 0 00-.364 1.118l1.287 3.974c.3.921-.755 1.688-1.54 1.118l-3.39-2.462a1 1 0 00-1.175 0l-3.39 2.462c-.784.57-1.838-.197-1.539-1.118l1.287-3.974a1 1 0 00-.364-1.118L2.035 9.4c-.783-.57-.38-1.81.588-1.81h4.18a1 1 0 00.95-.69l1.286-3.974z" />
-</svg>
-Introduction
-</span>
-
-<div class="relative w-fit mb-8 mx-auto">
-<h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-700 mb-2">About Me</h2>
-<span
-class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
-</div>
-
-<!-- About Me Intro -->
-<p class="text-gray-700 mb-6 max-w-2xl mx-auto">
-I’m a passionate problem-solver who thrives on leveraging my skills to elevate and refine online
-experiences.
-
-My approach is rooted in curiosity, creativity, and a drive to make a positive impact through
-technology.
-</p>
-
-<!-- Value Badges -->
-<div class="flex flex-col items-center sm:flex-row sm:items-start sm:justify-center gap-3 mb-2">
-<!-- Loves Community Badge: Pink/Purple -->
-<span
-class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-pink-100 to-fuchsia-200 text-fuchsia-800 border border-pink-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer">
-<span
-class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-pink-200 text-pink-700 mr-1">
-<svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path
-d="M12 12c2.7 0 4.5-2.2 4.5-4.5S14.7 3 12 3s-4.5 2.2-4.5 4.5S9.3 12 12 12zm0 1.5c-3 0-9 1.5-9 4.5V21h18v-3c0-3-6-4.5-9-4.5z" />
-</svg>
-</span>
-Loves Community
-</span>
-<!-- Always Learning Badge: Blue/Cyan -->
-<span
-class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-cyan-100 to-blue-200 text-blue-800 border border-cyan-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer">
-<span
-class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-cyan-200 text-cyan-700 mr-1">
-<svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13.09L5.47 12.5 12 8.91l6.53 3.59L12 16.09z" />
-</svg>
-</span>
-Always Learning
-</span>
-<!-- Creative Builder Badge: Green/Teal -->
-<span
-class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-green-100 to-teal-200 text-teal-800 border border-green-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer">
-<span
-class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-green-200 text-green-700 mr-1">
-<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round"
-d="M12 2a7 7 0 0 0-4 12.9V18a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-3.1A7 7 0 0 0 12 2zm0 0v1m0 17v2m-3-2h6" />
-</svg>
-</span>
-Creative Builder
-</span>
-</div>
-
-</div>
-</div>
-
-</section>
-
-<!-- Divider -->
-<div class="w-full flex items-center justify-center my-10">
-<div class="flex items-center w-full max-w-4xl px-6">
-<div class="flex-grow border-t-2 border-dotted border-fuchsia-500"></div>
-<span
-class="mx-4 flex items-center justify-center rounded-full bg-gradient-to-br from-fuchsia-400 via-pink-300 to-sky-200 shadow-lg border-2 border-white w-12 h-12">
-<!-- Downward arrow icon for continuation -->
-<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14m0 0l-7-7m7 7l7-7" />
-</svg>
-</span>
-<div class="flex-grow border-t-2 border-dotted border-fuchsia-500"></div>
-</div>
-</div>
-
-<!-- Skills Grid -->
-<section class="w-full bg-gradient-to-b from-gray-100 to-white relative overflow-hidden">
-<div class="max-w-4xl mx-auto px-6 mt-12 mb-10 w-full">
-
-<h3
-class="flex items-center justify-center gap-2 text-2xl font-bold text-purple-600 mb-5 underline decoration-fuchsia-300 decoration-4 underline-offset-6">
-<!-- Gears Icon -->
-<svg class="w-6 h-6 text-fuchsia-400" fill="none" stroke="currentColor" stroke-width="2.2"
-viewBox="0 0 24 24">
-<circle cx="12" cy="12" r="3" />
-<path stroke-linecap="round" stroke-linejoin="round"
-d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.09a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.09a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.09a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
-</svg>
-Overview of Skills
-</h3>
-
-<p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center leading-loose text-sm md:text-base">
-I’m committed to learning new things to improve my skills and discover new approaches to solving problems.
-Over the past 5 years, I have worked with and gained professional experience in a variety of web
-technologies & tools, including:
-</p>
-
-<!--skills icons-->
-<div class="grid grid-cols-5 sm:grid-cols-7 gap-4 justify-items-center">
-<!-- HTML5 -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML5"
-title="HTML5" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">HTML5</span>
-</div>
-<!-- CSS3 -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS3"
-title="CSS3" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">CSS3</span>
-</div>
-<!-- Tailwind CSS -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="images/tailwind-css.png" alt="Tailwind CSS" title="Tailwind CSS" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">Tailwind</span>
-</div>
-<!-- JavaScript -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
-alt="JavaScript" title="JavaScript" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">JavaScript</span>
-</div>
-<!-- Magento -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/magento/magento-original.svg" alt="Magento"
-title="Magento" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">Magento</span>
-</div>
-<!-- WordPress -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="/images/wordpress.png" alt="WordPress" title="WordPress" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">WordPress</span>
-</div>
-<!-- Drupal -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/drupal/drupal-plain.svg" alt="Drupal"
-title="Drupal" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">Drupal</span>
-</div>
-<!-- GitHub -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"
-title="GitHub" class="w-7 h-7 bg-white rounded-full" />
-</div>
-<span class="mt-1 text-xs text-gray-600">GitHub</span>
-</div>
-<!-- Command Line / Terminal Icon -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-gray-700" viewBox="0 0 24 24" fill="none"
-stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<title>Command Line</title>
-<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-<path d="M5 7l5 5l-5 5" />
-<path d="M12 19l7 0" />
-</svg>
-</div>
-<span class="mt-1 text-xs text-gray-600">Terminal</span>
-</div>
-<!-- NGINX -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="/images/nginx.png" alt="NGINX" title="NGINX" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">NGINX</span>
-</div>
-<!-- DNS -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="images/dns.png" alt="DNS" title="DNS" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">DNS</span>
-</div>
-<!-- SSL -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="images/ssl-icon.png" alt="SSL" title="SSL" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">SSL</span>
-</div>
-<!-- Jira -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira"
-title="Jira" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">Jira</span>
-</div>
-<!-- Adobe Photoshop -->
-<div class="flex flex-col items-center">
-<div
-class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
-alt="Photoshop" title="Photoshop" class="w-7 h-7" />
-</div>
-<span class="mt-1 text-xs text-gray-600">Photoshop</span>
-</div>
-</div>
-</div>
-</section>
-
-
-<!-- Divider -->
-<div class="w-full flex items-center justify-center my-10">
-<div class="flex items-center w-full max-w-4xl px-6">
-<div class="flex-grow border-t-2 border-dotted border-fuchsia-300"></div>
-<span
-class="mx-4 flex items-center justify-center rounded-full bg-gradient-to-br from-fuchsia-400 via-pink-300 to-sky-200 shadow-lg border-2 border-white w-12 h-12">
-<!-- Downward arrow icon for continuation -->
-<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14m0 0l-7-7m7 7l7-7" />
-</svg>
-</span>
-<div class="flex-grow border-t-2 border-dotted border-fuchsia-300"></div>
-</div>
-</div>
-
-<!-- Work Experience -->
-<div class="w-full bg-gradient-to-r from-purple-100 via-fuchsia-100 to-purple-200 py-12 relative overflow-hidden">
-
-<!-- Decorative Dots Pattern -->
-<div class="absolute inset-0 pointer-events-none z-0 opacity-20">
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<pattern id="workDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-<circle cx="2" cy="2" r="1.5" fill="#e879f9" />
-</pattern>
-</defs>
-<rect width="100%" height="100%" fill="url(#workDotPattern)" />
-</svg>
-</div>
-
-<div class="max-w-4xl mx-auto px-6 flex flex-col items-center text-center relative z-10">
-<h3
-class="flex items-center justify-center gap-2 text-2xl font-bold text-purple-600 mb-5 underline decoration-fuchsia-300 decoration-4 underline-offset-6">
-<!-- Briefcase Icon -->
-<svg class="w-6 h-6 text-fuchsia-400" fill="none" stroke="currentColor" stroke-width="2.2"
-viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round"
-d="M6 7V5a2 2 0 012-2h8a2 2 0 012 2v2M6 7h12M6 7v10a2 2 0 002 2h8a2 2 0 002-2V7"></path>
-</svg>
-Work Experience
-</h3>
-<p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center text-sm leading-loose md:text-base">
-Whether it’s solving technical issues or transforming concepts into digital realities, I find immense joy
-and purpose in my work.
-</p>
-<p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center text-sm leading-loose md:text-base">
-I have experience contributing to and supporting a wide range of software projects
-in various industries such as E-commerce and Higher Education, with a proven track record of delivering
-quality work.
-</p>
-<p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center text-sm leading-loose md:text-base">
-Each role I've worked in presents opportunities to explore fresh ideas and contribute to exceptional online
-experiences.
-</p>
-
-<div class="flex justify-center w-full">
-
-<ol class="relative mx-auto max-w-2xl w-full flex flex-col items-center text-center">
-<!-- Vertical timeline line -->
-<div
-class="absolute left-1/2 top-0 h-full w-1 bg-gradient-to-b from-purple-200 via-fuchsia-200 to-purple-100 rounded-full -translate-x-1/2 z-0">
-</div>
-
-<!-- Timeline Item 1 -->
-<li class="relative flex flex-col items-center mb-12 z-10 w-full">
-<!-- Timeline Dot -->
-<span
-class="flex items-center justify-center w-8 h-8 bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-600 rounded-full ring-8 ring-purple-100 shadow-lg z-10">
-<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2"
-viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round"
-d="M6 7V5a2 2 0 012-2h8a2 2 0 012 2v2M6 7h12M6 7v10a2 2 0 002 2h8a2 2 0 002-2V7"></path>
-</svg>
-</span>
-<!-- Timeline Card with zoom hover -->
-<div
-class="bg-white/90 rounded-xl shadow-md border border-purple-200 p-5 mt-4 w-full max-w-md mx-auto text-center transform transition-transform duration-300 hover:scale-105">
-<time class="block text-purple-400 font-semibold mb-1 underline text-sm md:text-base">2024</time>
-<h4 class="text-base md:text-lg font-bold text-purple-800 mb-1">Web Publisher at Red Ventures</h4>
-</div>
-</li>
-
-<!-- Timeline Item 2 -->
-<li class="relative flex flex-col items-center mb-12 z-10 w-full">
-<span
-class="flex items-center justify-center w-8 h-8 bg-gradient-to-br from-purple-400 via-blue-400 to-purple-600 rounded-full ring-8 ring-purple-100 shadow-lg z-10">
-<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2"
-viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6"></path>
-</svg>
-</span>
-<!-- Timeline Card with zoom hover -->
-<div
-class="bg-white/90 rounded-xl shadow-md border border-purple-200 p-5 mt-4 w-full max-w-md mx-auto text-center transform transition-transform duration-300 hover:scale-105">
-<time class="block text-purple-400 font-semibold mb-1 underline text-sm md:text-base">2022</time>
-<h4 class="text-base md:text-lg font-bold text-purple-800 mb-1">Web Administrator at AVB Marketing
-</h4>
-</div>
-</li>
-
-<!-- Timeline Item 3 (LinkedIn) -->
-<li class="relative flex flex-col items-center z-10 w-full">
-<span
-class="flex items-center justify-center w-8 h-8 bg-gradient-to-br from-gray-400 via-blue-400 to-blue-600 rounded-full ring-8 ring-purple-100 shadow-lg z-10">
-<svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-<path
-d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.36-1.54 2.81-1.54 3.01 0 3.57 1.98 3.57 4.56v4.75z" />
-</svg>
-</span>
-<div
-class="bg-white/90 rounded-xl shadow-md border-purple-200 border border-gray-200 p-5 mt-4 w-full max-w-md mx-auto text-center">
-
-<a href="https://www.linkedin.com/in/jashelet/" target="_blank" rel="noopener noreferrer"
-class="inline-flex items-center gap-2 mt-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 via-blue-500 to-purple-600 text-white font-semibold rounded-full shadow hover:from-blue-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-blue-400 border border-blue-500 transition text-xs transform transition-transform duration-300 hover:scale-105"
-aria-label="View more on LinkedIn">
-<svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path
-d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.36-1.54 2.81-1.54 3.01 0 3.57 1.98 3.57 4.56v4.75z" />
-</svg>
-View more on LinkedIn
-</a>
-
-</div>
-</li>
-</ol>
-
-</div>
-
-</div>
-
-<div id="projects"></div>
-
-</div>
-</section>
-
-
-<!-- Work Samples -->
-<section class="w-full bg-gradient-to-b from-white to-fuchsia-50 pt-20 pb-10 md:pb-20 relative overflow-hidden">
-<div class="max-w-4xl mx-auto px-6 relative z-10 flex flex-col items-center">
-<!-- Badge and Section Header -->
-<span class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
-<svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
-</svg>
-Coding & Projects
-</span>
-
-<div class="relative w-fit mb-8">
-<h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-center">
-Work Samples
-</h2>
-<span class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
-</div>
-
-<div id="portfolio-project"></div>
-
-<p class="text-gray-700 mb-2 max-w-2xl mx-auto text-center leading-loose">
-A showcase of recent web development projects that I've worked on.
-</p>
-
-<!-- Card Grid -->
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-20 w-full max-w-4xl p-6 shadow-2x">
-<!-- Card 1: Portfolio Site -->
-<div class="bg-white rounded-3xl shadow-xl border-2 border-fuchsia-200 hover:border-fuchsia-400 overflow-hidden flex flex-col transition-transform duration-200 hover:scale-105 focus-within:ring-2 focus-within:ring-fuchsia-400 min-h-[32rem] group">
-<div class="w-full h-64 bg-gradient-to-b from-fuchsia-50 to-white flex items-center justify-center">
-<a href="#portfolio-project" aria-label="View Portfolio Site Project">
-<img src="/images/portfolio-site.png" alt="Portfolio Site Screenshot" class="w-full h-full object-contain rounded-t-3xl" loading="lazy" />
-</a>
-</div>
-<div class="w-full px-6 py-4 rounded-b-3xl text-white bg-gradient-to-r from-purple-900/80 via-fuchsia-900/80 to-purple-800/90 flex flex-col flex-1">
-<a href="#portfolio-project" aria-label="Portfolio Site Project">
-<h3 class="font-serif font-semibold text-xl underline decoration-fuchsia-300 decoration-2 underline-offset-6">Portfolio Site</h3>
-</a>
-<p class="text-sm mt-2 font-sans text-fuchsia-50">My personal portfolio website to showcase my technical work and career journey.</p>
-<div class="flex flex-wrap gap-2 mt-4">
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">HTML</span>
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">Tailwind CSS</span>
-</div>
-<div class="w-full mt-auto pt-4">
-<a href="https://github.com/jasheloper/portfolio" target="_blank" rel="noopener noreferrer"
-class="group inline-flex items-center justify-center w-full px-4 py-2 bg-gradient-to-r from-fuchsia-100 via-white to-fuchsia-50 text-purple-900 font-bold rounded-full border border-fuchsia-200 shadow-md transition-all duration-200 hover:bg-fuchsia-200 hover:text-fuchsia-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
-aria-label="View Portfolio Site on GitHub">
-<svg class="w-5 h-5 text-fuchsia-700 group-hover:text-fuchsia-900 transition" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.154-1.11-1.462-1.11-1.462-.908-.621.069-.609.069-.609 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.09.636-1.341-2.221-.253-4.555-1.112-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.025 2.748-1.025.546 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.48C19.138 20.2 22 16.446 22 12.021 22 6.484 17.523 2 12 2z"/>
-</svg>
-<span class="ml-2">View on GitHub</span>
-</a>
-</div>
-</div>
-</div>
-<!-- Card 2: Silly Story Generator -->
-<div class="bg-white rounded-3xl shadow-xl border-2 border-fuchsia-200 hover:border-fuchsia-400 overflow-hidden flex flex-col transition-transform duration-200 hover:scale-105 focus-within:ring-2 focus-within:ring-fuchsia-400 min-h-[32rem] group">
-<div class="w-full h-64 bg-gradient-to-b from-fuchsia-50 to-white flex items-center justify-center">
-<a href="https://jasheloper.github.io/silly-story-js/" target="_blank" aria-label="View Silly Story Generator Project">
-<img src="/images/silly-story-preview.png" alt="Silly Story Generator Preview" class="w-full h-full object-contain rounded-t-3xl" loading="lazy" />
-</a>
-</div>
-<div class="w-full px-6 py-4 rounded-b-3xl text-white bg-gradient-to-r from-purple-900/80 via-fuchsia-900/80 to-purple-800/90 flex flex-col flex-1">
-<a href="https://jasheloper.github.io/silly-story-js/" target="_blank" aria-label="Silly Story Generator Project">
-<h3 class="font-serif font-semibold text-xl underline decoration-fuchsia-300 decoration-2 underline-offset-6">Silly Story Generator</h3>
-</a>
-<p class="text-sm mt-2 font-sans text-fuchsia-50">An interactive web app that dynamically generates a custom silly story.</p>
-<div class="flex flex-wrap gap-2 mt-4">
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">HTML</span>
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">CSS</span>
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">JavaScript</span>
-</div>
-<div class="w-full mt-auto pt-4">
-<a href="https://github.com/jasheloper/silly-story-js" target="_blank" rel="noopener noreferrer"
-class="group inline-flex items-center justify-center w-full px-4 py-2 bg-gradient-to-r from-fuchsia-100 via-white to-fuchsia-50 text-purple-900 font-bold rounded-full border border-fuchsia-200 shadow-md transition-all duration-200 hover:bg-fuchsia-200 hover:text-fuchsia-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
-aria-label="View Silly Story Generator on GitHub">
-<svg class="w-5 h-5 text-fuchsia-700 group-hover:text-fuchsia-900 transition" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.154-1.11-1.462-1.11-1.462-.908-.621.069-.609.069-.609 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.09.636-1.341-2.221-.253-4.555-1.112-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.025 2.748-1.025.546 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.48C19.138 20.2 22 16.446 22 12.021 22 6.484 17.523 2 12 2z"/>
-</svg>
-<span class="ml-2">View on GitHub</span>
-</a>
-</div>
-</div>
-</div>
-<!-- Card 3: Image Gallery -->
-<div class="bg-white rounded-3xl shadow-xl border-2 border-fuchsia-200 hover:border-fuchsia-400 overflow-hidden flex flex-col transition-transform duration-200 hover:scale-105 focus-within:ring-2 focus-within:ring-fuchsia-400 min-h-[32rem] group">
-<div class="w-full h-64 bg-gradient-to-b from-fuchsia-50 to-white flex items-center justify-center">
-<a href="https://jasheloper.github.io/img-gallery-js-2/" target="_blank" aria-label="View Image Gallery Project">
-<img src="/images/image-gallery.png" alt="Image Gallery Preview" class="w-full h-full object-contain rounded-t-3xl" loading="lazy" />
-</a>
-</div>
-<div class="w-full px-6 py-4 rounded-b-3xl text-white bg-gradient-to-r from-purple-900/80 via-fuchsia-900/80 to-purple-800/90 flex flex-col flex-1">
-<a href="https://jasheloper.github.io/img-gallery-js-2/" target="_blank" aria-label="Image Gallery Project">
-<h3 class="font-serif font-semibold text-xl underline decoration-fuchsia-300 decoration-2 underline-offset-6">Image Gallery</h3>
-</a>
-<p class="text-sm mt-2 font-sans text-fuchsia-50">An interactive image gallery designed with a thumbnail-based image switcher.</p>
-<div class="flex flex-wrap gap-2 mt-4">
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">HTML</span>
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">CSS</span>
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">JavaScript</span>
-</div>
-<div class="w-full mt-auto pt-4">
-<a href="https://github.com/jasheloper/img-gallery-js-2" target="_blank" rel="noopener noreferrer"
-class="group inline-flex items-center justify-center w-full px-4 py-2 bg-gradient-to-r from-fuchsia-100 via-white to-fuchsia-50 text-purple-900 font-bold rounded-full border border-fuchsia-200 shadow-md transition-all duration-200 hover:bg-fuchsia-200 hover:text-fuchsia-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
-aria-label="View JavaScript Image Gallery on GitHub">
-<svg class="w-5 h-5 text-fuchsia-700 group-hover:text-fuchsia-900 transition" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.154-1.11-1.462-1.11-1.462-.908-.621.069-.609.069-.609 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.09.636-1.341-2.221-.253-4.555-1.112-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.025 2.748-1.025.546 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.48C19.138 20.2 22 16.446 22 12.021 22 6.484 17.523 2 12 2z"/>
-</svg>
-<span class="ml-2">View on GitHub</span>
-</a>
-</div>
-</div>
-</div>
-<!-- Card 4: Color Tile Playground -->
-<div class="bg-white rounded-3xl shadow-xl border-2 border-fuchsia-200 hover:border-fuchsia-400 overflow-hidden flex flex-col transition-transform duration-200 hover:scale-105 focus-within:ring-2 focus-within:ring-fuchsia-400 min-h-[32rem] group">
-<div class="w-full h-64 bg-gradient-to-b from-fuchsia-50 to-white flex items-center justify-center">
-<a href="https://jasheloper.github.io/color-tile-playground/" target="_blank" aria-label="View Color Tile Playground Project">
-<img src="/images/color-tiles.png" alt="Color Tile Playground Preview" class="w-full h-full object-contain rounded-t-3xl" loading="lazy" />
-</a>
-</div>
-<div class="w-full px-6 py-4 rounded-b-3xl text-white bg-gradient-to-r from-purple-900/80 via-fuchsia-900/80 to-purple-800/90 flex flex-col flex-1">
-<a href="https://jasheloper.github.io/color-tile-playground/" target="_blank" aria-label="Color Tile Playground Project">
-<h3 class="font-serif font-semibold text-xl underline decoration-fuchsia-300 decoration-2 underline-offset-6">Color Tile Playground</h3>
-</a>
-<p class="text-sm mt-2 font-sans text-fuchsia-50">An interactive web app that showcases a layout of tiles that generate random colors.</p>
-<div class="flex flex-wrap gap-2 mt-4">
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">HTML</span>
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">CSS</span>
-<span class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">JavaScript</span>
-</div>
-<div class="w-full mt-auto pt-4">
-<a href="https://github.com/jasheloper/color-tile-playground" target="_blank" rel="noopener noreferrer"
-class="group inline-flex items-center justify-center w-full px-4 py-2 bg-gradient-to-r from-fuchsia-100 via-white to-fuchsia-50 text-purple-900 font-bold rounded-full border border-fuchsia-200 shadow-md transition-all duration-200 hover:bg-fuchsia-200 hover:text-fuchsia-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
-aria-label="View Color Tile Playground on GitHub">
-<svg class="w-5 h-5 text-fuchsia-700 group-hover:text-fuchsia-900 transition" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.154-1.11-1.462-1.11-1.462-.908-.621.069-.609.069-.609 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.09.636-1.341-2.221-.253-4.555-1.112-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.025 2.748-1.025.546 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.48C19.138 20.2 22 16.446 22 12.021 22 6.484 17.523 2 12 2z"/>
-</svg>
-<span class="ml-2">View on GitHub</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-
-
-<div id="video"></div>
-</div>
-</section>
-
-
-<!-- Featured Video -->
-<section class="w-full bg-gradient-to-b from-white to-fuchsia-50 pt-20 pb-10 relative overflow-hidden">
-
-<!-- Decorative Dots Pattern -->
-<div class="absolute inset-0 pointer-events-none z-0 opacity-20">
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<pattern id="workDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-<circle cx="2" cy="2" r="1.5" fill="#e879f9" />
-</pattern>
-</defs>
-<rect width="100%" height="100%" fill="url(#workDotPattern)" />
-</svg>
-</div>
-
-<div class="max-w-2xl mx-auto flex flex-col items-center px-6 relative z-10">
-
-<!-- Community Badge & Header -->
-<span
-class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
-<!-- Video Camera Icon -->
-<svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path d="M17 10.5V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-3.5l4 4v-11l-4 4z" />
-</svg>
-Video Content
-</span>
-
-<div class="relative w-fit mb-8 mx-auto">
-<h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-700 mb-2">Featured Video</h2>
-<span
-class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
-</div>
-
-
-<!-- Timeline: Top Info -->
-<div class="relative flex flex-col items-center w-full mb-8">
-<div
-class="absolute left-1/2 top-0 -translate-x-1/2 w-1 h-full bg-gradient-to-b from-fuchsia-200 via-purple-200 to-white rounded-full">
-</div>
-<div class="relative bg-white/90 rounded-xl shadow border border-fuchsia-100 p-6 w-full max-w-lg mb-8 z-10">
-<p class="text-purple-800 text-center">
-I enjoy creating tech videos to share my career journey and connect with others in the tech industry,
-which has now grown to a community of
-<span class="font-bold text-fuchsia-700">3,400+</span> subscribers.
-</p>
-</div>
-<!-- Video in the center of the timeline -->
-<div
-class="relative z-20 w-full max-w-2xl rounded-3xl overflow-hidden shadow-2xl border-4 border-fuchsia-200 mb-8 bg-white">
-<div class="aspect-video">
-<iframe src="https://www.youtube.com/embed/no2xIVDLD8Q" title="AI Tool for Documentation - Scribe"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen class="w-full h-full"></iframe>
-</div>
-</div>
-<!-- Timeline: Bottom Info -->
-<div
-class="relative bg-white/90 rounded-xl shadow border border-fuchsia-100 p-6 w-full max-w-lg z-10 flex flex-col items-center">
-<h3
-class="text-lg font-bold text-purple-700 mb-1 decoration-fuchsia-300 decoration-2 underline-offset-4 text-center">
-AI Tool for Documentation – Scribe
-</h3>
-<p class="text-gray-700 text-center mb-4">
-Scribe is a handy AI tool for quickly creating documentation and step-by-step guides. In this video, I
-show a simple demo of how this tool works.
-</p>
-<!-- "Watch on YouTube" Button -->
-<a href="https://youtu.be/no2xIVDLD8Q" target="_blank"
-class="inline-flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-white bg-gradient-to-r from-red-500 via-fuchsia-600 to-purple-600 shadow-lg transition-all duration-200 hover:from-red-600 hover:to-purple-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2">
-<!-- YouTube Icon -->
-<svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-<path
-d="M23.498 6.186a2.998 2.998 0 00-2.11-2.117C19.16 3.5 12 3.5 12 3.5s-7.16 0-9.388.569a2.998 2.998 0 00-2.11 2.117C0 8.414 0 12 0 12s0 3.586.502 5.814a2.998 2.998 0 002.11 2.117C4.84 20.5 12 20.5 12 20.5s7.16 0 9.388-.569a2.998 2.998 0 002.11-2.117C24 15.586 24 12 24 12s0-3.586-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-</svg>
-Watch on YouTube
-</a>
-</div>
-</div>
-</div>
-
-<div id="contributions"></div>
-</section>
-
-<!-- Contributions -->
-<section class="w-full bg-gradient-to-b from-white to-fuchsia-50 py-20 relative overflow-hidden">
-
-<div class="max-w-4xl mx-auto px-6 relative z-10 flex flex-col items-center">
-<!-- Badge and Section Header -->
-<span
-class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
-<!-- Heart/Contribution Icon -->
-<svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round"
-d="M12 21C12 21 4 13.5 4 8.5C4 5.46 6.46 3 9.5 3C11.24 3 12.91 4.03 13.44 5.58C13.97 4.03 15.64 3 17.38 3C20.42 3 22.88 5.46 22.88 8.5C22.88 13.5 15 21 15 21H12Z" />
-</svg>
-Community
-</span>
-<div class="relative w-fit mb-8">
-<h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-center">
-Contributions
-</h2>
-<span
-class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
-</div>
-
-<p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center leading-loose">
-
-My passion for technical content creation & storytelling has led to amazing opportunities to collaborate with
-the following companies.
-</p>
-
-<!-- Timeline Container -->
-<div class="relative flex flex-col gap-14">
-<!-- Vertical Timeline Line -->
-<div
-class="absolute left-1/2 top-0 h-full w-1 bg-gradient-to-b from-fuchsia-200 via-purple-200 to-fuchsia-100 rounded-full -translate-x-1/2 z-0">
-</div>
-
-<!-- Timeline Item 1 -->
-<div class="relative flex flex-col md:flex-row items-center md:items-stretch z-10">
-<!-- Dot & Connector -->
-<div class="flex flex-col items-center md:w-1/2 md:pr-8">
-<div class="flex items-center justify-center relative z-10" style="width: 144px; height: 144px;">
-<img src="/images/screenpal.png" alt="ScreenPal Logo"
-class="w-36 h-36 object-contain rounded-full border-4 border-white shadow-lg"
-style="background: #fff; opacity: 1;" />
-</div>
-<div class="hidden md:block flex-1 border-r-2 border-dotted border-fuchsia-300 mx-auto"></div>
-</div>
-<!-- Card -->
-<div
-class="bg-white rounded-xl shadow-xl border border-fuchsia-100 p-8 flex-1 ml-0 md:ml-8 mt-8 md:mt-0 group">
-<h3 class="text-xl font-bold text-fuchsia-800 mb-2 group-hover:text-fuchsia-600 transition">
-ScreenPal
-</h3>
-<p class="text-gray-700 text-sm leading-loose">
-From time to time, I share some of my favorite software tools that I use via my YouTube tech channel.
-
-ScreenPal is one that I use to create all my screen recordings and GIFs.
-
-The ScreenPal team <a href="https://youtu.be/FI14qIK7rgo" target="_blank"
-class="font-bold text-purple-800 underline decoration-fuchsia-300 decoration-2 underline-offset-4 hover:text-fuchsia-700 transition-colors">found
-my video</a> and invited me to write a blog post to share more about how I use this tool in my
-everyday
-life.
-</p>
-<!-- View Article Button -->
-<a href="https://screenpal.com/blog/screenpal-for-remote-work-and-content-creation" target="_blank"
-class="inline-flex items-center gap-2 mt-5 px-6 py-2 rounded-full font-semibold text-white bg-gradient-to-r from-fuchsia-600 to-purple-600 shadow-lg transition-all duration-200 hover:from-fuchsia-700 hover:to-purple-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2 text-sm"
-aria-label="View ScreenPal Article">
-View Article
-<svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
-</svg>
-</a>
-
-</div>
-</div>
-
-<!-- Timeline Item 2 -->
-<div class="relative flex flex-col md:flex-row-reverse items-center md:items-stretch z-10">
-<!-- Dot & Connector -->
-<div class="flex flex-col items-center md:w-1/2 md:pl-8">
-<div class="flex items-center justify-center relative z-10" style="width: 144px; height: 144px;">
-<img src="/images/onymos.png" alt="Onymos Logo"
-class="w-36 h-36 object-contain rounded-full border-4 border-white shadow-lg"
-style="background: #fff; opacity: 1;" />
-</div>
-<div class="hidden md:block flex-1 border-l-2 border-dotted border-purple-300 mx-auto"></div>
-</div>
-<!-- Card -->
-<div
-class="bg-white rounded-xl shadow-xl border border-purple-100 p-8 flex-1 mr-0 md:mr-8 mt-8 md:mt-0 group">
-<h3 class="text-xl font-bold text-purple-800 mb-2 group-hover:text-purple-600 transition">
-Onymos
-</h3>
-<p class="text-gray-700 text-sm leading-loose">
-I previously wrote a blog post where I shared some HTML
-code nuggets that I find very useful. The team at Onymos really liked the post and invited me as
-a guest blogger.
-</p>
-<!-- View Article Button -->
-<a href="https://onymos.com/blog/mdn-code-nuggets-5-piece-meal/" target="_blank"
-class="inline-flex items-center gap-2 mt-5 px-6 py-2 rounded-full font-semibold text-white bg-gradient-to-r from-purple-600 to-fuchsia-600 shadow-lg transition-all duration-200 hover:from-purple-700 hover:to-fuchsia-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 text-sm"
-aria-label="View Onymos Article">
-View Article
-<svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
-</svg>
-</a>
-</div>
-</div>
-</div>
-
-</div>
-<div id="contact"></div>
-</section>
-
-
-<!-- Contact -->
-<section class="w-full bg-gradient-to-b from-white to-fuchsia-50 py-20 relative overflow-hidden">
-
-<!-- Decorative Dots Pattern -->
-<div class="absolute inset-0 pointer-events-none z-0 opacity-20">
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<pattern id="workDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-<circle cx="2" cy="2" r="1.5" fill="#e879f9" />
-</pattern>
-</defs>
-<rect width="100%" height="100%" fill="url(#workDotPattern)" />
-</svg>
-</div>
-
-<!-- Smiley Face -->
-<div class="smiley-animate absolute bottom-0 right-0 z-0 pointer-events-none">
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg"
-class="opacity-60">
-<!-- Face circle -->
-<circle cx="90" cy="90" r="70" fill="#D8B4FE" fill-opacity="0.45" />
-<!-- Eyes -->
-<ellipse cx="70" cy="85" rx="7" ry="9" fill="#a78bfa" fill-opacity="0.8" />
-<ellipse cx="110" cy="85" rx="7" ry="9" fill="#a78bfa" fill-opacity="0.8" />
-<!-- Smile -->
-<path d="M70 110 Q90 130 110 110" stroke="#a78bfa" stroke-width="5" fill="none" stroke-linecap="round" />
-</svg>
-</div>
-
-<div class="max-w-4xl mx-auto px-6 relative z-10">
-<!-- Badge and Section Header -->
-<div class="flex flex-col items-center mb-8">
-<span
-class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
-<!-- Message/Contact Icon -->
-<svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round"
-d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-</svg>
-Connect with me
-</span>
-<div class="relative w-fit">
-<h2
-class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 text-center underline decoration-fuchsia-300 decoration-4 underline-offset-8">
-Contact
-</h2>
-</div>
-</div>
-<p class="text-gray-700 mb-8 max-w-2xl text-center mx-auto">
-Connect with me on the following social media platforms:
-</p>
-<!-- Social Media Icons -->
-<div class="flex justify-center items-center gap-4 mt-4">
-<!-- LinkedIn -->
-<a href="https://www.linkedin.com/in/jashelet/" target="_blank" aria-label="LinkedIn"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 16 16">
-<path
-d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-</svg>
-</a>
-<!-- GitHub -->
-<a href="https://github.com/jasheloper" target="_blank" aria-label="GitHub"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 24 24">
-<path
-d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.334-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.628-5.475 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-</svg>
-</a>
-<!-- YouTube -->
-<a href="https://www.youtube.com/jashelet" target="_blank" aria-label="YouTube"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 24 24">
-<path
-d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.115C19.36 3.5 12 3.5 12 3.5s-7.36 0-9.386.571A2.994 2.994 0 0 0 .502 6.186C0 8.216 0 12 0 12s0 3.784.502 5.814a2.994 2.994 0 0 0 2.112 2.115C4.64 20.5 12 20.5 12 20.5s7.36 0 9.386-.571a2.994 2.994 0 0 0 2.112-2.115C24 15.784 24 12 24 12s0-3.784-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-</svg>
-</a>
-<!-- Instagram -->
-<a href="https://www.instagram.com/jasheloper/" target="_blank" aria-label="Instagram"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 24 24">
-<path
-d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.415a4.92 4.92 0 0 1 1.675 1.077 4.918 4.918 0 0 1 1.077 1.675c.175.458.359 1.258.415 2.428.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.415 2.428a4.918 4.918 0 0 1-1.077 1.675 4.918 4.918 0 0 1-1.675 1.077c-.458.175-1.258.359-2.428.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.415a4.918 4.918 0 0 1-1.675-1.077 4.918 4.918 0 0 1-1.077-1.675c-.175-.458-.359-1.258-.415-2.428C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.415-2.428A4.918 4.918 0 0 1 3.725 3.047a4.918 4.918 0 0 1 1.675-1.077c.458-.175 1.258-.359 2.428-.415C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072c-1.276.06-2.15.25-2.91.54A7.075 7.075 0 0 0 .611 2.142a7.078 7.078 0 0 0-1.53 1.53c-.29.76-.48 1.634-.54 2.91C.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.06 1.276.25 2.15.54 2.91.29.76.677 1.47 1.53 2.323.853.853 1.563 1.24 2.323 1.53.76.29 1.634.48 2.91.54C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.276-.06 2.15-.25 2.91-.54a7.075 7.075 0 0 0 2.323-1.53 7.078 7.078 0 0 0 1.53-2.323c.29-.76.48-1.634.54-2.91.059-1.28.072-1.689.072-4.948s-.013-3.668-.072-4.948c-.06-1.276-.25-2.15-.54-2.91a7.075 7.075 0 0 0-1.53-2.323A7.075 7.075 0 0 0 19.858.611c-.76-.29-1.634-.48-2.91-.54C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
-</svg>
-</a>
-<!-- X (Twitter) -->
-<a href="https://x.com/jasheloper" target="_blank" aria-label="X"
-class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
-<svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors" fill="currentColor"
-viewBox="0 0 24 24">
-<path
-d="M17.53 3H21.5l-7.19 8.21L23 21h-6.26l-4.32-5.89L7.06 21H3.08l7.61-8.7L1 3h6.42l3.85 5.24L17.53 3zm-1.07 15h1.65l-5.07-6.91-1.32 1.5L16.46 18zM6.41 5h-1.7l5.13 7 1.32-1.5L6.41 5z" />
-</svg>
-</a>
-</div>
-</div>
-</section>
-
-<!-- Footer -->
-<footer
-class="w-full bg-gradient-to-b from-purple-100 via-fuchsia-50 to-white py-8 px-4 relative overflow-hidden shadow-inner mt-0 border-t-0">
-<!-- Decorative Dots Pattern -->
-<div class="absolute inset-0 pointer-events-none z-0 opacity-10">
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<pattern id="footerDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-<circle cx="2" cy="2" r="1.5" fill="#e879f9" />
-</pattern>
-</defs>
-<rect width="100%" height="100%" fill="url(#footerDotPattern)" />
-</svg>
-</div>
-<div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center text-center gap-4">
-<!-- Back to Top Link -->
-<a href="#home"
-class="inline-flex items-center gap-2 px-5 py-2 rounded-full font-semibold text-purple-700 bg-gradient-to-r from-fuchsia-100 to-purple-200 shadow hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400 text-sm"
-aria-label="Back to top">
-<svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
-</svg>
-Back to Top
-</a>
-<div class="text-xs text-purple-400 mt-2">
-&copy; 2025 Jashele T. &mdash; Built with <span class="text-fuchsia-500">Tailwind CSS</span>
-</div>
-</div>
-</footer>
-
-</main>
+    <!-- Header -->
+    <header
+        class="w-full bg-gradient-to-b from-fuchsia-50 via-white to-purple-100 py-10 px-4 flex flex-col items-center relative overflow-hidden shadow-md">
+        <!-- Decorative Dots 2 -->
+        <div class="absolute inset-0 pointer-events-none z-0 opacity-10">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="cuteDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+                        <circle cx="2" cy="2" r="1.5" fill="#e879f9" />
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#cuteDotPattern)" />
+            </svg>
+        </div>
+
+        <!-- Main Header Content -->
+        <div class="relative z-10 w-full max-w-xl flex flex-col items-center gap-4">
+            <!-- Profile Image with Online Badge -->
+            <div class="relative w-36 h-36 flex items-center justify-center mb-2">
+                <span
+                    class="absolute inset-0 w-36 h-36 rounded-full bg-gradient-to-br from-[#ffceec] via-[#d9b8f5] to-[#a5b4fc] blur-md opacity-70 z-0"></span>
+
+                <img src="/images/headshot-circle.png" alt="Headshot of Jashele T."
+                    class="relative z-10 w-36 h-36 rounded-full object-cover border-4 border-white shadow-xl ring-4 ring-fuchsia-200 transition-transform duration-500 animate-[float_3s_ease-in-out_infinite]"
+                    style="background: #fff;" loading="lazy" />
+
+                <!-- Online Badge -->
+                <span
+                    class="absolute bottom-2 right-2 w-5 h-5 bg-green-400 border-2 border-white rounded-full z-20 shadow-md flex items-center justify-center animate-pulse">
+                    <span class="w-2.5 h-2.5 bg-white rounded-full opacity-70"></span>
+                    <span class="sr-only">Online</span>
+                </span>
+
+            </div>
+
+            <!-- Name and Online Status (Social style) -->
+            <div class="flex flex-col items-center">
+                <div class="flex items-center gap-2 mb-1">
+                    <span class="font-bold text-purple-700 text-xl md:text-2xl">@Jashele</span>
+                    <span
+                        class="inline-flex items-center gap-1 px-2 py-0.5 bg-green-100 text-green-700 text-xs font-semibold rounded-full">
+                        <span class="w-2 h-2 bg-green-400 rounded-full inline-block"></span>
+                        Online
+                    </span>
+                </div>
+                <span class="text-xs text-fuchsia-500">Active Now</span>
+            </div>
+
+            <!-- Status Update -->
+            <div class="w-full flex flex-col items-center mt-1">
+                <div
+                    class="relative w-full max-w-md mx-auto bg-white border border-fuchsia-200 rounded-2xl shadow-xl overflow-hidden flex flex-col transition-shadow hover:shadow-2xl">
+                    <!-- Status Badge with Mac-style Window Controls -->
+                    <div
+                        class="flex flex-row items-center gap-2 bg-gradient-to-r from-fuchsia-500 via-purple-500 to-blue-500 px-4 py-3 sm:px-4 sm:py-3 transition-colors hover:from-fuchsia-400 hover:via-purple-400 hover:to-blue-400 relative">
+                        <!-- Mac-style window controls -->
+                        <div class="absolute right-4 top-1/2 -translate-y-1/2 flex flex-row gap-2">
+                            <!-- Close -->
+                            <span aria-label="Close"
+                                class="w-3.5 h-3.5 rounded-full bg-red-500 border border-red-400 shadow-sm flex items-center justify-center transition-all"
+                                style="box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10);"></span>
+                            <!-- Minimize -->
+                            <span aria-label="Minimize"
+                                class="w-3.5 h-3.5 rounded-full bg-yellow-400 border border-yellow-300 shadow-sm flex items-center justify-center transition-all"
+                                style="box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10);"></span>
+                            <!-- Maximize -->
+                            <span aria-label="Maximize"
+                                class="w-3.5 h-3.5 rounded-full bg-green-500 border border-green-400 shadow-sm flex items-center justify-center transition-all"
+                                style="box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10);"></span>
+                        </div>
+                        <svg class="w-6 h-6 drop-shadow" fill="white" viewBox="0 0 24 24" aria-hidden="true"
+                            aria-label="Status Icon" title="Status">
+                            <path
+                                d="M2 12c0-4.418 4.477-8 10-8s10 3.582 10 8-4.477 8-10 8c-1.146 0-2.25-.132-3.272-.38a1 1 0 00-.786.083l-2.548 1.274a1 1 0 01-1.447-1.054l.286-2.007a1 1 0 00-.217-.832C2.613 15.274 2 13.697 2 12z" />
+                        </svg>
+                        <span class="text-xs font-bold text-white uppercase tracking-wide">Status</span>
+                    </div>
+
+                    <!-- Divider for visual separation -->
+                    <div class="border-b border-fuchsia-200"></div>
+
+                    <!-- Main Content Area -->
+                    <div class="flex-1 flex flex-col justify-center px-6 py-5 sm:px-6 sm:py-5">
+                        <p class="text-purple-900 text-lg md:text-xl font-bold leading-snug mb-2">
+                            Building with Passion, Learning for Life
+                        </p>
+                        <span class="flex items-center gap-1 text-xs text-fuchsia-500 font-medium">
+                            <svg class="w-3 h-3 text-fuchsia-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                aria-hidden="true" aria-label="Time" title="Time">
+                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" />
+                                <path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Posted • 1 min ago
+                        </span>
+                    </div>
+
+                </div>
+
+                <!-- Social Media Icons Row -->
+                <div class="flex flex-row items-center gap-3 mt-4">
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/jashelet/" target="_blank" aria-label="LinkedIn"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/jasheloper" target="_blank" aria-label="GitHub"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.334-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.628-5.475 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/jashelet" target="_blank" aria-label="YouTube"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.115C19.36 3.5 12 3.5 12 3.5s-7.36 0-9.386.571A2.994 2.994 0 0 0 .502 6.186C0 8.216 0 12 0 12s0 3.784.502 5.814a2.994 2.994 0 0 0 2.112 2.115C4.64 20.5 12 20.5 12 20.5s7.36 0 9.386-.571a2.994 2.994 0 0 0 2.112-2.115C24 15.784 24 12 24 12s0-3.784-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/jasheloper/" target="_blank" aria-label="Instagram"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.415a4.92 4.92 0 0 1 1.675 1.077 4.918 4.918 0 0 1 1.077 1.675c.175.458.359 1.258.415 2.428.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.415 2.428a4.918 4.918 0 0 1-1.077 1.675 4.918 4.918 0 0 1-1.675 1.077c-.458.175-1.258.359-2.428.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.415a4.918 4.918 0 0 1-1.675-1.077 4.918 4.918 0 0 1-1.077-1.675c-.175-.458-.359-1.258-.415-2.428C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.415-2.428A4.918 4.918 0 0 1 3.725 3.047a4.918 4.918 0 0 1 1.675-1.077c.458-.175 1.258-.359 2.428-.415C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072c-1.276.06-2.15.25-2.91.54A7.075 7.075 0 0 0 .611 2.142a7.078 7.078 0 0 0-1.53 1.53c-.29.76-.48 1.634-.54 2.91C.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.06 1.276.25 2.15.54 2.91.29.76.677 1.47 1.53 2.323.853.853 1.563 1.24 2.323 1.53.76.29 1.634.48 2.91.54C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.276-.06 2.15-.25 2.91-.54a7.075 7.075 0 0 0 2.323-1.53 7.078 7.078 0 0 0 1.53-2.323c.29-.76.48-1.634.54-2.91.059-1.28.072-1.689.072-4.948s-.013-3.668-.072-4.948c-.06-1.276-.25-2.15-.54-2.91a7.075 7.075 0 0 0-1.53-2.323A7.075 7.075 0 0 0 19.858.611c-.76-.29-1.634-.48-2.91-.54C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                        </svg>
+                    </a>
+                    <!-- X (Twitter) -->
+                    <a href="https://x.com/jasheloper" target="_blank" aria-label="X"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-1.5 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-4 h-4 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M17.53 3H21.5l-7.19 8.21L23 21h-6.26l-4.32-5.89L7.06 21H3.08l7.61-8.7L1 3h6.42l3.85 5.24L17.53 3zm-1.07 15h1.65l-5.07-6.91-1.32 1.5L16.46 18zM6.41 5h-1.7l5.13 7 1.32-1.5L6.41 5z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <!--Divider-->
+    <div class="w-full flex items-center justify-center mt-6 mb-4">
+        <div class="flex-grow border-t-2 border-dotted border-fuchsia-600"></div>
+        <span
+            class="mx-4 px-3 py-1 bg-fuchsia-100 rounded-full shadow text-fuchsia-800 font-semibold tracking-wide text-sm -mt-2 select-none">
+            MENU
+        </span>
+        <div class="flex-grow border-t-2 border-dotted border-fuchsia-600"></div>
+    </div>
+
+    <div id="about"></div>
+
+    <!-- Nav -->
+    <nav
+        class="sticky top-0 w-full flex justify-center bg-gradient-to-b from-fuchsia-50 via-white to-purple-100 shadow-md z-30">
+        <ul
+            class="flex flex-wrap items-center justify-center gap-2 md:gap-4 px-2 py-2 border-b border-fuchsia-200 text-sm md:text-base">
+
+            <!--Home-->
+            <li>
+                <a href="#home"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+                    <!-- Home Icon: Monochrome Fuchsia -->
+                    <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path
+                            d="M10.707 2.293a1 1 0 00-1.414 0l-7 7A1 1 0 003 11h1v6a1 1 0 001 1h3a1 1 0 001-1v-3h2v3a1 1 0 001 1h3a1 1 0 001-1v-6h1a1 1 0 00.707-1.707l-7-7z" />
+                    </svg>
+                    Home
+                </a>
+            </li>
+            <!--About-->
+            <li>
+                <a href="#about"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+                    <!-- User Icon: Monochrome Fuchsia -->
+                    <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M10 2a5 5 0 100 10 5 5 0 000-10zm-7 14a7 7 0 0114 0v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    About
+                </a>
+            </li>
+            <!--Work-->
+            <li>
+                <a href="#projects"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+                    <!-- Code Icon: Monochrome Fuchsia -->
+                    <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                    </svg>
+                    Projects
+                </a>
+            </li>
+
+            <!--Video-->
+            <li>
+                <a href="#video"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+                    <!-- Video Icon: Monochrome Fuchsia -->
+                    <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M17 10.5V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-3.5l4 4v-11l-4 4z" />
+                    </svg>
+                    Video
+                </a>
+            </li>
+
+
+            <!--Contributions-->
+            <li>
+                <a href="#contributions"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+                    <!-- Heart Icon: Monochrome Fuchsia -->
+                    <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 21C12 21 4 13.5 4 8.5C4 5.46 6.46 3 9.5 3C11.24 3 12.91 4.03 13.44 5.58C13.97 4.03 15.64 3 17.38 3C20.42 3 22.88 5.46 22.88 8.5C22.88 13.5 15 21 15 21H12Z" />
+                    </svg>
+                    Articles
+                </a>
+            </li>
+
+            <!--Contact-->
+            <li>
+                <a href="#contact"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-t-lg font-semibold text-purple-700 bg-fuchsia-100 border border-fuchsia-200 hover:border-fuchsia-400 hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400">
+                    <!-- Mail Icon: Monochrome Fuchsia -->
+                    <svg class="w-5 h-5 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                    </svg>
+                    Contact
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+    <main class="leading-loose">
+
+        <!-- About Me Section -->
+        <section class="pt-8 bg-gradient-to-b from-white to-purple-50 relative overflow-x-hidden">
+
+            <!-- Introduction -->
+            <section class="w-full bg-white relative overflow-hidden">
+
+                <!-- Decorative Dots Pattern -->
+                <div class="absolute inset-0 pointer-events-none z-0 opacity-20">
+                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="workDotPattern" x="0" y="0" width="32" height="32"
+                                patternUnits="userSpaceOnUse">
+                                <circle cx="2" cy="2" r="1.5" fill="#e879f9" />
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#workDotPattern)" />
+                    </svg>
+                </div>
+
+                <div class="max-w-4xl mx-auto px-6 pb-7 md:pb-12 relative z-10">
+                    <!-- Card Container -->
+                    <div
+                        class="bg-white/90 rounded-2xl shadow-xl border border-gray-100 p-8 md:p-12 backdrop-blur-sm flex flex-col items-center text-center">
+                        <!-- About Me Badge and Header -->
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-purple-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
+                            <svg class="w-4 h-4 text-purple-500" fill="currentColor" viewBox="0 0 20 20"
+                                aria-hidden="true">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.974a1 1 0 00.95.69h4.18c.969 0 1.371 1.24.588 1.81l-3.39 2.462a1 1 0 00-.364 1.118l1.287 3.974c.3.921-.755 1.688-1.54 1.118l-3.39-2.462a1 1 0 00-1.175 0l-3.39 2.462c-.784.57-1.838-.197-1.539-1.118l1.287-3.974a1 1 0 00-.364-1.118L2.035 9.4c-.783-.57-.38-1.81.588-1.81h4.18a1 1 0 00.95-.69l1.286-3.974z" />
+                            </svg>
+                            Introduction
+                        </span>
+
+                        <div class="relative w-fit mb-8 mx-auto">
+                            <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-700 mb-2">About Me
+                            </h2>
+                            <span
+                                class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
+                        </div>
+
+                        <!-- About Me Intro -->
+                        <p class="text-gray-700 mb-6 max-w-2xl mx-auto">
+                            I’m a passionate problem-solver who thrives on leveraging my skills to elevate and refine
+                            online
+                            experiences.
+
+                            My approach is rooted in curiosity, creativity, and a drive to make a positive impact
+                            through
+                            technology.
+                        </p>
+
+                        <!-- Value Badges -->
+                        <div class="flex flex-col items-center sm:flex-row sm:items-start sm:justify-center gap-3 mb-2">
+                            <!-- Loves Community Badge: Pink/Purple -->
+                            <span
+                                class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-pink-100 to-fuchsia-200 text-fuchsia-800 border border-pink-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer">
+                                <span
+                                    class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-pink-200 text-pink-700 mr-1">
+                                    <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M12 12c2.7 0 4.5-2.2 4.5-4.5S14.7 3 12 3s-4.5 2.2-4.5 4.5S9.3 12 12 12zm0 1.5c-3 0-9 1.5-9 4.5V21h18v-3c0-3-6-4.5-9-4.5z" />
+                                    </svg>
+                                </span>
+                                Loves Community
+                            </span>
+                            <!-- Always Learning Badge: Blue/Cyan -->
+                            <span
+                                class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-cyan-100 to-blue-200 text-blue-800 border border-cyan-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer">
+                                <span
+                                    class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-cyan-200 text-cyan-700 mr-1">
+                                    <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13.09L5.47 12.5 12 8.91l6.53 3.59L12 16.09z" />
+                                    </svg>
+                                </span>
+                                Always Learning
+                            </span>
+                            <!-- Creative Builder Badge: Green/Teal -->
+                            <span
+                                class="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-green-100 to-teal-200 text-teal-800 border border-green-200 shadow-sm transition transform duration-200 hover:scale-105 hover:shadow-lg hover:-translate-y-1 cursor-pointer">
+                                <span
+                                    class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-green-200 text-green-700 mr-1">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                        viewBox="0 0 24 24" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 2a7 7 0 0 0-4 12.9V18a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-3.1A7 7 0 0 0 12 2zm0 0v1m0 17v2m-3-2h6" />
+                                    </svg>
+                                </span>
+                                Creative Builder
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Divider -->
+            <div class="w-full flex items-center justify-center my-10">
+                <div class="flex items-center w-full max-w-4xl px-6">
+                    <div class="flex-grow border-t-2 border-dotted border-fuchsia-500"></div>
+                    <span
+                        class="mx-4 flex items-center justify-center rounded-full bg-gradient-to-br from-fuchsia-400 via-pink-300 to-sky-200 shadow-lg border-2 border-white w-12 h-12">
+                        <!-- Downward arrow icon for continuation -->
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2.5"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14m0 0l-7-7m7 7l7-7" />
+                        </svg>
+                    </span>
+                    <div class="flex-grow border-t-2 border-dotted border-fuchsia-500"></div>
+                </div>
+            </div>
+
+            <!-- Skills Grid -->
+            <section class="w-full bg-gradient-to-b from-gray-100 to-white relative overflow-hidden">
+                <div class="max-w-4xl mx-auto px-6 mt-12 mb-10 w-full">
+
+                    <h3
+                        class="flex items-center justify-center gap-2 text-2xl font-bold text-purple-600 mb-5 underline decoration-fuchsia-300 decoration-4 underline-offset-6">
+                        <!-- Gears Icon -->
+                        <svg class="w-6 h-6 text-fuchsia-400" fill="none" stroke="currentColor" stroke-width="2.2"
+                            viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="3" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.09a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.09a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.09a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                        </svg>
+                        Overview of Skills
+                    </h3>
+
+                    <p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center leading-loose text-sm md:text-base">
+                        I’m committed to learning new things to improve my skills and discover new approaches to solving
+                        problems.
+                        Over the past 5 years, I have worked with and gained professional experience in a variety of web
+                        technologies & tools, including:
+                    </p>
+
+                    <!--skills icons-->
+                    <div class="grid grid-cols-5 sm:grid-cols-7 gap-4 justify-items-center">
+                        <!-- HTML5 -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+                                    alt="HTML5" title="HTML5" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">HTML5</span>
+                        </div>
+                        <!-- CSS3 -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+                                    alt="CSS3" title="CSS3" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">CSS3</span>
+                        </div>
+                        <!-- Tailwind CSS -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="images/tailwind-css.png" alt="Tailwind CSS" title="Tailwind CSS"
+                                    class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">Tailwind</span>
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+                                    alt="JavaScript" title="JavaScript" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">JavaScript</span>
+                        </div>
+                        <!-- Magento -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/magento/magento-original.svg"
+                                    alt="Magento" title="Magento" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">Magento</span>
+                        </div>
+                        <!-- WordPress -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="/images/wordpress.png" alt="WordPress" title="WordPress" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">WordPress</span>
+                        </div>
+                        <!-- Drupal -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/drupal/drupal-plain.svg"
+                                    alt="Drupal" title="Drupal" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">Drupal</span>
+                        </div>
+                        <!-- GitHub -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                    alt="GitHub" title="GitHub" class="w-7 h-7 bg-white rounded-full" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">GitHub</span>
+                        </div>
+                        <!-- Command Line / Terminal Icon -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-gray-700"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <title>Command Line</title>
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M5 7l5 5l-5 5" />
+                                    <path d="M12 19l7 0" />
+                                </svg>
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">Terminal</span>
+                        </div>
+                        <!-- NGINX -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="/images/nginx.png" alt="NGINX" title="NGINX" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">NGINX</span>
+                        </div>
+                        <!-- DNS -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="images/dns.png" alt="DNS" title="DNS" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">DNS</span>
+                        </div>
+                        <!-- SSL -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="images/ssl-icon.png" alt="SSL" title="SSL" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">SSL</span>
+                        </div>
+                        <!-- Jira -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                                    alt="Jira" title="Jira" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">Jira</span>
+                        </div>
+                        <!-- Adobe Photoshop -->
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="bg-white/80 rounded-xl shadow-md flex items-center justify-center w-12 h-12 hover:scale-105 transition-transform duration-200">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+                                    alt="Photoshop" title="Photoshop" class="w-7 h-7" />
+                            </div>
+                            <span class="mt-1 text-xs text-gray-600">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Divider -->
+            <div class="w-full flex items-center justify-center my-10">
+                <div class="flex items-center w-full max-w-4xl px-6">
+                    <div class="flex-grow border-t-2 border-dotted border-fuchsia-300"></div>
+                    <span
+                        class="mx-4 flex items-center justify-center rounded-full bg-gradient-to-br from-fuchsia-400 via-pink-300 to-sky-200 shadow-lg border-2 border-white w-12 h-12">
+                        <!-- Downward arrow icon for continuation -->
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2.5"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14m0 0l-7-7m7 7l7-7" />
+                        </svg>
+                    </span>
+                    <div class="flex-grow border-t-2 border-dotted border-fuchsia-300"></div>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <div
+                class="w-full bg-gradient-to-r from-purple-100 via-fuchsia-100 to-purple-200 py-12 relative overflow-hidden">
+
+                <!-- Decorative Dots Pattern -->
+                <div class="absolute inset-0 pointer-events-none z-0 opacity-20">
+                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="workDotPattern" x="0" y="0" width="32" height="32"
+                                patternUnits="userSpaceOnUse">
+                                <circle cx="2" cy="2" r="1.5" fill="#e879f9" />
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#workDotPattern)" />
+                    </svg>
+                </div>
+
+                <div class="max-w-4xl mx-auto px-6 flex flex-col items-center text-center relative z-10">
+                    <h3
+                        class="flex items-center justify-center gap-2 text-2xl font-bold text-purple-600 mb-5 underline decoration-fuchsia-300 decoration-4 underline-offset-6">
+                        <!-- Briefcase Icon -->
+                        <svg class="w-6 h-6 text-fuchsia-400" fill="none" stroke="currentColor" stroke-width="2.2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M6 7V5a2 2 0 012-2h8a2 2 0 012 2v2M6 7h12M6 7v10a2 2 0 002 2h8a2 2 0 002-2V7"></path>
+                        </svg>
+                        Work Experience
+                    </h3>
+                    <p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center text-sm leading-loose md:text-base">
+                        Whether it’s solving technical issues or transforming concepts into digital realities, I find
+                        immense joy
+                        and purpose in my work.
+                    </p>
+                    <p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center text-sm leading-loose md:text-base">
+                        I have experience contributing to and supporting a wide range of software projects
+                        in various industries such as E-commerce and Higher Education, with a proven track record of
+                        delivering
+                        quality work.
+                    </p>
+                    <p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center text-sm leading-loose md:text-base">
+                        Each role I've worked in presents opportunities to explore fresh ideas and contribute to
+                        exceptional online
+                        experiences.
+                    </p>
+
+                    <div class="flex justify-center w-full">
+
+                        <ol class="relative mx-auto max-w-2xl w-full flex flex-col items-center text-center">
+                            <!-- Vertical timeline line -->
+                            <div
+                                class="absolute left-1/2 top-0 h-full w-1 bg-gradient-to-b from-purple-200 via-fuchsia-200 to-purple-100 rounded-full -translate-x-1/2 z-0">
+                            </div>
+
+                            <!-- Timeline Item 1 -->
+                            <li class="relative flex flex-col items-center mb-12 z-10 w-full">
+                                <!-- Timeline Dot -->
+                                <span
+                                    class="flex items-center justify-center w-8 h-8 bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-600 rounded-full ring-8 ring-purple-100 shadow-lg z-10">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6 7V5a2 2 0 012-2h8a2 2 0 012 2v2M6 7h12M6 7v10a2 2 0 002 2h8a2 2 0 002-2V7">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <!-- Timeline Card with zoom hover -->
+                                <div
+                                    class="bg-white/90 rounded-xl shadow-md border border-purple-200 p-5 mt-4 w-full max-w-md mx-auto text-center transform transition-transform duration-300 hover:scale-105">
+                                    <time
+                                        class="block text-purple-400 font-semibold mb-1 underline text-sm md:text-base">2024</time>
+                                    <h4 class="text-base md:text-lg font-bold text-purple-800 mb-1">Web Publisher at Red
+                                        Ventures</h4>
+                                </div>
+                            </li>
+
+                            <!-- Timeline Item 2 -->
+                            <li class="relative flex flex-col items-center mb-12 z-10 w-full">
+                                <span
+                                    class="flex items-center justify-center w-8 h-8 bg-gradient-to-br from-purple-400 via-blue-400 to-purple-600 rounded-full ring-8 ring-purple-100 shadow-lg z-10">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M16 18l6-6-6-6M8 6l-6 6 6 6"></path>
+                                    </svg>
+                                </span>
+                                <!-- Timeline Card with zoom hover -->
+                                <div
+                                    class="bg-white/90 rounded-xl shadow-md border border-purple-200 p-5 mt-4 w-full max-w-md mx-auto text-center transform transition-transform duration-300 hover:scale-105">
+                                    <time
+                                        class="block text-purple-400 font-semibold mb-1 underline text-sm md:text-base">2022</time>
+                                    <h4 class="text-base md:text-lg font-bold text-purple-800 mb-1">Web Administrator at
+                                        AVB Marketing
+                                    </h4>
+                                </div>
+                            </li>
+
+                            <!-- Timeline Item 3 (LinkedIn) -->
+                            <li class="relative flex flex-col items-center z-10 w-full">
+                                <span
+                                    class="flex items-center justify-center w-8 h-8 bg-gradient-to-br from-gray-400 via-blue-400 to-blue-600 rounded-full ring-8 ring-purple-100 shadow-lg z-10">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.36-1.54 2.81-1.54 3.01 0 3.57 1.98 3.57 4.56v4.75z" />
+                                    </svg>
+                                </span>
+                                <div
+                                    class="bg-white/90 rounded-xl shadow-md border-purple-200 border border-gray-200 p-5 mt-4 w-full max-w-md mx-auto text-center">
+
+                                    <a href="https://www.linkedin.com/in/jashelet/" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="inline-flex items-center gap-2 mt-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 via-blue-500 to-purple-600 text-white font-semibold rounded-full shadow hover:from-blue-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-blue-400 border border-blue-500 transition text-xs transform transition-transform duration-300 hover:scale-105"
+                                        aria-label="View more on LinkedIn">
+                                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.36-1.54 2.81-1.54 3.01 0 3.57 1.98 3.57 4.56v4.75z" />
+                                        </svg>
+                                        View more on LinkedIn
+                                    </a>
+
+                                </div>
+                            </li>
+                        </ol>
+
+                    </div>
+
+                </div>
+
+                <div id="projects"></div>
+
+            </div>
+        </section>
+
+
+        <!-- Work Samples -->
+        <section class="w-full bg-gradient-to-b from-white to-fuchsia-50 pt-20 pb-10 md:pb-20 relative overflow-hidden">
+            <div class="max-w-4xl mx-auto px-6 relative z-10 flex flex-col items-center">
+                <!-- Badge and Section Header -->
+                <span
+                    class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
+                    <svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                    </svg>
+                    Coding & Projects
+                </span>
+
+                <div class="relative w-fit mb-8">
+                    <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-center">
+                        Work Samples
+                    </h2>
+                    <span
+                        class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
+                </div>
+
+                <div id="portfolio-project"></div>
+
+                <p class="text-gray-700 mb-2 max-w-2xl mx-auto text-center leading-loose">
+                    A showcase of recent web development projects that I've worked on.
+                </p>
+
+                <!-- Card Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-20 w-full max-w-4xl p-6 shadow-2x">
+                    <!-- Card 1: Portfolio Site -->
+                    <div
+                        class="bg-white rounded-3xl shadow-xl border-2 border-fuchsia-200 hover:border-fuchsia-400 overflow-hidden flex flex-col transition-transform duration-200 hover:scale-105 focus-within:ring-2 focus-within:ring-fuchsia-400 min-h-[32rem] group">
+                        <div
+                            class="w-full h-64 bg-gradient-to-b from-fuchsia-50 to-white flex items-center justify-center">
+                            <a href="#portfolio-project" aria-label="View Portfolio Site Project">
+                                <img src="/images/portfolio-site.png" alt="Portfolio Site Screenshot"
+                                    class="w-full h-full object-contain rounded-t-3xl" loading="lazy" />
+                            </a>
+                        </div>
+                        <div
+                            class="w-full px-6 py-4 rounded-b-3xl text-white bg-gradient-to-r from-purple-900/80 via-fuchsia-900/80 to-purple-800/90 flex flex-col flex-1">
+                            <a href="#portfolio-project" aria-label="Portfolio Site Project">
+                                <h3
+                                    class="font-serif font-semibold text-xl underline decoration-fuchsia-300 decoration-2 underline-offset-6">
+                                    Portfolio Site</h3>
+                            </a>
+                            <p class="text-sm mt-2 font-sans text-fuchsia-50">My personal portfolio website to showcase
+                                my technical work and career journey.</p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">HTML</span>
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">Tailwind
+                                    CSS</span>
+                            </div>
+                            <div class="w-full mt-auto pt-4">
+                                <a href="https://github.com/jasheloper/portfolio" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="group inline-flex items-center justify-center w-full px-4 py-2 bg-gradient-to-r from-fuchsia-100 via-white to-fuchsia-50 text-purple-900 font-bold rounded-full border border-fuchsia-200 shadow-md transition-all duration-200 hover:bg-fuchsia-200 hover:text-fuchsia-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
+                                    aria-label="View Portfolio Site on GitHub">
+                                    <svg class="w-5 h-5 text-fuchsia-700 group-hover:text-fuchsia-900 transition"
+                                        fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.154-1.11-1.462-1.11-1.462-.908-.621.069-.609.069-.609 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.09.636-1.341-2.221-.253-4.555-1.112-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.025 2.748-1.025.546 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.48C19.138 20.2 22 16.446 22 12.021 22 6.484 17.523 2 12 2z" />
+                                    </svg>
+                                    <span class="ml-2">View on GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2: Silly Story Generator -->
+                    <div
+                        class="bg-white rounded-3xl shadow-xl border-2 border-fuchsia-200 hover:border-fuchsia-400 overflow-hidden flex flex-col transition-transform duration-200 hover:scale-105 focus-within:ring-2 focus-within:ring-fuchsia-400 min-h-[32rem] group">
+                        <div
+                            class="w-full h-64 bg-gradient-to-b from-fuchsia-50 to-white flex items-center justify-center">
+                            <a href="https://jasheloper.github.io/silly-story-js/" target="_blank"
+                                aria-label="View Silly Story Generator Project">
+                                <img src="/images/silly-story-preview.png" alt="Silly Story Generator Preview"
+                                    class="w-full h-full object-contain rounded-t-3xl" loading="lazy" />
+                            </a>
+                        </div>
+                        <div
+                            class="w-full px-6 py-4 rounded-b-3xl text-white bg-gradient-to-r from-purple-900/80 via-fuchsia-900/80 to-purple-800/90 flex flex-col flex-1">
+                            <a href="https://jasheloper.github.io/silly-story-js/" target="_blank"
+                                aria-label="Silly Story Generator Project">
+                                <h3
+                                    class="font-serif font-semibold text-xl underline decoration-fuchsia-300 decoration-2 underline-offset-6">
+                                    Silly Story Generator</h3>
+                            </a>
+                            <p class="text-sm mt-2 font-sans text-fuchsia-50">An interactive web app that dynamically
+                                generates a custom silly story.</p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">HTML</span>
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">CSS</span>
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">JavaScript</span>
+                            </div>
+                            <div class="w-full mt-auto pt-4">
+                                <a href="https://github.com/jasheloper/silly-story-js" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="group inline-flex items-center justify-center w-full px-4 py-2 bg-gradient-to-r from-fuchsia-100 via-white to-fuchsia-50 text-purple-900 font-bold rounded-full border border-fuchsia-200 shadow-md transition-all duration-200 hover:bg-fuchsia-200 hover:text-fuchsia-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
+                                    aria-label="View Silly Story Generator on GitHub">
+                                    <svg class="w-5 h-5 text-fuchsia-700 group-hover:text-fuchsia-900 transition"
+                                        fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.154-1.11-1.462-1.11-1.462-.908-.621.069-.609.069-.609 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.09.636-1.341-2.221-.253-4.555-1.112-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.025 2.748-1.025.546 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.48C19.138 20.2 22 16.446 22 12.021 22 6.484 17.523 2 12 2z" />
+                                    </svg>
+                                    <span class="ml-2">View on GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3: Image Gallery -->
+                    <div
+                        class="bg-white rounded-3xl shadow-xl border-2 border-fuchsia-200 hover:border-fuchsia-400 overflow-hidden flex flex-col transition-transform duration-200 hover:scale-105 focus-within:ring-2 focus-within:ring-fuchsia-400 min-h-[32rem] group">
+                        <div
+                            class="w-full h-64 bg-gradient-to-b from-fuchsia-50 to-white flex items-center justify-center">
+                            <a href="https://jasheloper.github.io/img-gallery-js-2/" target="_blank"
+                                aria-label="View Image Gallery Project">
+                                <img src="/images/image-gallery.png" alt="Image Gallery Preview"
+                                    class="w-full h-full object-contain rounded-t-3xl" loading="lazy" />
+                            </a>
+                        </div>
+                        <div
+                            class="w-full px-6 py-4 rounded-b-3xl text-white bg-gradient-to-r from-purple-900/80 via-fuchsia-900/80 to-purple-800/90 flex flex-col flex-1">
+                            <a href="https://jasheloper.github.io/img-gallery-js-2/" target="_blank"
+                                aria-label="Image Gallery Project">
+                                <h3
+                                    class="font-serif font-semibold text-xl underline decoration-fuchsia-300 decoration-2 underline-offset-6">
+                                    Image Gallery</h3>
+                            </a>
+                            <p class="text-sm mt-2 font-sans text-fuchsia-50">An interactive image gallery designed with
+                                a thumbnail-based image switcher.</p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">HTML</span>
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">CSS</span>
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">JavaScript</span>
+                            </div>
+                            <div class="w-full mt-auto pt-4">
+                                <a href="https://github.com/jasheloper/img-gallery-js-2" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="group inline-flex items-center justify-center w-full px-4 py-2 bg-gradient-to-r from-fuchsia-100 via-white to-fuchsia-50 text-purple-900 font-bold rounded-full border border-fuchsia-200 shadow-md transition-all duration-200 hover:bg-fuchsia-200 hover:text-fuchsia-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
+                                    aria-label="View JavaScript Image Gallery on GitHub">
+                                    <svg class="w-5 h-5 text-fuchsia-700 group-hover:text-fuchsia-900 transition"
+                                        fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.154-1.11-1.462-1.11-1.462-.908-.621.069-.609.069-.609 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.09.636-1.341-2.221-.253-4.555-1.112-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.025 2.748-1.025.546 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.48C19.138 20.2 22 16.446 22 12.021 22 6.484 17.523 2 12 2z" />
+                                    </svg>
+                                    <span class="ml-2">View on GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4: Color Tile Playground -->
+                    <div
+                        class="bg-white rounded-3xl shadow-xl border-2 border-fuchsia-200 hover:border-fuchsia-400 overflow-hidden flex flex-col transition-transform duration-200 hover:scale-105 focus-within:ring-2 focus-within:ring-fuchsia-400 min-h-[32rem] group">
+                        <div
+                            class="w-full h-64 bg-gradient-to-b from-fuchsia-50 to-white flex items-center justify-center">
+                            <a href="https://jasheloper.github.io/color-tile-playground/" target="_blank"
+                                aria-label="View Color Tile Playground Project">
+                                <img src="/images/color-tiles.png" alt="Color Tile Playground Preview"
+                                    class="w-full h-full object-contain rounded-t-3xl" loading="lazy" />
+                            </a>
+                        </div>
+                        <div
+                            class="w-full px-6 py-4 rounded-b-3xl text-white bg-gradient-to-r from-purple-900/80 via-fuchsia-900/80 to-purple-800/90 flex flex-col flex-1">
+                            <a href="https://jasheloper.github.io/color-tile-playground/" target="_blank"
+                                aria-label="Color Tile Playground Project">
+                                <h3
+                                    class="font-serif font-semibold text-xl underline decoration-fuchsia-300 decoration-2 underline-offset-6">
+                                    Color Tile Playground</h3>
+                            </a>
+                            <p class="text-sm mt-2 font-sans text-fuchsia-50">An interactive web app that showcases a
+                                layout of tiles that generate random colors.</p>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">HTML</span>
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">CSS</span>
+                                <span
+                                    class="bg-fuchsia-100 text-fuchsia-800 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">JavaScript</span>
+                            </div>
+                            <div class="w-full mt-auto pt-4">
+                                <a href="https://github.com/jasheloper/color-tile-playground" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="group inline-flex items-center justify-center w-full px-4 py-2 bg-gradient-to-r from-fuchsia-100 via-white to-fuchsia-50 text-purple-900 font-bold rounded-full border border-fuchsia-200 shadow-md transition-all duration-200 hover:bg-fuchsia-200 hover:text-fuchsia-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
+                                    aria-label="View Color Tile Playground on GitHub">
+                                    <svg class="w-5 h-5 text-fuchsia-700 group-hover:text-fuchsia-900 transition"
+                                        fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.154-1.11-1.462-1.11-1.462-.908-.621.069-.609.069-.609 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.09.636-1.341-2.221-.253-4.555-1.112-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.025 2.748-1.025.546 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.48C19.138 20.2 22 16.446 22 12.021 22 6.484 17.523 2 12 2z" />
+                                    </svg>
+                                    <span class="ml-2">View on GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="video"></div>
+            </div>
+        </section>
+
+
+        <!-- Featured Video -->
+        <section class="w-full bg-gradient-to-b from-white to-fuchsia-50 pt-20 pb-10 relative overflow-hidden">
+
+            <!-- Decorative Dots Pattern -->
+            <div class="absolute inset-0 pointer-events-none z-0 opacity-20">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <pattern id="workDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+                            <circle cx="2" cy="2" r="1.5" fill="#e879f9" />
+                        </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#workDotPattern)" />
+                </svg>
+            </div>
+
+            <div class="max-w-2xl mx-auto flex flex-col items-center px-6 relative z-10">
+
+                <!-- Community Badge & Header -->
+                <span
+                    class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
+                    <!-- Video Camera Icon -->
+                    <svg class="w-5 h-5 text-fuchsia-500" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M17 10.5V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-3.5l4 4v-11l-4 4z" />
+                    </svg>
+                    Video Content
+                </span>
+
+                <div class="relative w-fit mb-8 mx-auto">
+                    <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-700 mb-2">Featured Video</h2>
+                    <span
+                        class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
+                </div>
+
+
+                <!-- Timeline: Top Info -->
+                <div class="relative flex flex-col items-center w-full mb-8">
+                    <div
+                        class="absolute left-1/2 top-0 -translate-x-1/2 w-1 h-full bg-gradient-to-b from-fuchsia-200 via-purple-200 to-white rounded-full">
+                    </div>
+                    <div
+                        class="relative bg-white/90 rounded-xl shadow border border-fuchsia-100 p-6 w-full max-w-lg mb-8 z-10">
+                        <p class="text-purple-800 text-center">
+                            I enjoy creating tech videos to share my career journey and connect with others in the tech
+                            industry,
+                            which has now grown to a community of
+                            <span class="font-bold text-fuchsia-700">3,400+</span> subscribers.
+                        </p>
+                    </div>
+                    <!-- Video in the center of the timeline -->
+                    <div
+                        class="relative z-20 w-full max-w-2xl rounded-3xl overflow-hidden shadow-2xl border-4 border-fuchsia-200 mb-8 bg-white">
+                        <div class="aspect-video">
+                            <iframe src="https://www.youtube.com/embed/no2xIVDLD8Q"
+                                title="AI Tool for Documentation - Scribe" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen class="w-full h-full"></iframe>
+                        </div>
+                    </div>
+                    <!-- Timeline: Bottom Info -->
+                    <div
+                        class="relative bg-white/90 rounded-xl shadow border border-fuchsia-100 p-6 w-full max-w-lg z-10 flex flex-col items-center">
+                        <h3
+                            class="text-lg font-bold text-purple-700 mb-1 decoration-fuchsia-300 decoration-2 underline-offset-4 text-center">
+                            AI Tool for Documentation – Scribe
+                        </h3>
+                        <p class="text-gray-700 text-center mb-4">
+                            Scribe is a handy AI tool for quickly creating documentation and step-by-step guides. In
+                            this video, I
+                            show a simple demo of how this tool works.
+                        </p>
+                        <!-- "Watch on YouTube" Button -->
+                        <a href="https://youtu.be/no2xIVDLD8Q" target="_blank"
+                            class="inline-flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-white bg-gradient-to-r from-red-500 via-fuchsia-600 to-purple-600 shadow-lg transition-all duration-200 hover:from-red-600 hover:to-purple-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2">
+                            <!-- YouTube Icon -->
+                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M23.498 6.186a2.998 2.998 0 00-2.11-2.117C19.16 3.5 12 3.5 12 3.5s-7.16 0-9.388.569a2.998 2.998 0 00-2.11 2.117C0 8.414 0 12 0 12s0 3.586.502 5.814a2.998 2.998 0 002.11 2.117C4.84 20.5 12 20.5 12 20.5s7.16 0 9.388-.569a2.998 2.998 0 002.11-2.117C24 15.586 24 12 24 12s0-3.586-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contributions"></div>
+        </section>
+
+        <!-- Contributions -->
+        <section class="w-full bg-gradient-to-b from-white to-fuchsia-50 py-20 relative overflow-hidden">
+
+            <div class="max-w-4xl mx-auto px-6 relative z-10 flex flex-col items-center">
+                <!-- Badge and Section Header -->
+                <span
+                    class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
+                    <!-- Heart/Contribution Icon -->
+                    <svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 21C12 21 4 13.5 4 8.5C4 5.46 6.46 3 9.5 3C11.24 3 12.91 4.03 13.44 5.58C13.97 4.03 15.64 3 17.38 3C20.42 3 22.88 5.46 22.88 8.5C22.88 13.5 15 21 15 21H12Z" />
+                    </svg>
+                    Community
+                </span>
+                <div class="relative w-fit mb-8">
+                    <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 mb-2 text-center">
+                        Contributions
+                    </h2>
+                    <span
+                        class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-[#FFCEEC] via-[#D9B8F5] to-[#FFCEEC] rounded-full"></span>
+                </div>
+
+                <p class="text-gray-700 mb-6 max-w-2xl mx-auto text-center leading-loose">
+
+                    My passion for technical content creation & storytelling has led to amazing opportunities to
+                    collaborate with
+                    the following companies.
+                </p>
+
+                <!-- Timeline Container -->
+                <div class="relative flex flex-col gap-14">
+                    <!-- Vertical Timeline Line -->
+                    <div
+                        class="absolute left-1/2 top-0 h-full w-1 bg-gradient-to-b from-fuchsia-200 via-purple-200 to-fuchsia-100 rounded-full -translate-x-1/2 z-0">
+                    </div>
+
+                    <!-- Timeline Item 1 -->
+                    <div class="relative flex flex-col md:flex-row items-center md:items-stretch z-10">
+                        <!-- Dot & Connector -->
+                        <div class="flex flex-col items-center md:w-1/2 md:pr-8">
+                            <div class="flex items-center justify-center relative z-10"
+                                style="width: 144px; height: 144px;">
+                                <img src="/images/screenpal.png" alt="ScreenPal Logo"
+                                    class="w-36 h-36 object-contain rounded-full border-4 border-white shadow-lg"
+                                    style="background: #fff; opacity: 1;" />
+                            </div>
+                            <div class="hidden md:block flex-1 border-r-2 border-dotted border-fuchsia-300 mx-auto">
+                            </div>
+                        </div>
+                        <!-- Card -->
+                        <div
+                            class="bg-white rounded-xl shadow-xl border border-fuchsia-100 p-8 flex-1 ml-0 md:ml-8 mt-8 md:mt-0 group">
+                            <h3 class="text-xl font-bold text-fuchsia-800 mb-2 group-hover:text-fuchsia-600 transition">
+                                ScreenPal
+                            </h3>
+                            <p class="text-gray-700 text-sm leading-loose">
+                                From time to time, I share some of my favorite software tools that I use via my YouTube
+                                tech channel.
+
+                                ScreenPal is one that I use to create all my screen recordings and GIFs.
+
+                                The ScreenPal team <a href="https://youtu.be/FI14qIK7rgo" target="_blank"
+                                    class="font-bold text-purple-800 underline decoration-fuchsia-300 decoration-2 underline-offset-4 hover:text-fuchsia-700 transition-colors">found
+                                    my video</a> and invited me to write a blog post to share more about how I use this
+                                tool in my
+                                everyday
+                                life.
+                            </p>
+                            <!-- View Article Button -->
+                            <a href="https://screenpal.com/blog/screenpal-for-remote-work-and-content-creation"
+                                target="_blank"
+                                class="inline-flex items-center gap-2 mt-5 px-6 py-2 rounded-full font-semibold text-white bg-gradient-to-r from-fuchsia-600 to-purple-600 shadow-lg transition-all duration-200 hover:from-fuchsia-700 hover:to-purple-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2 text-sm"
+                                aria-label="View ScreenPal Article">
+                                View Article
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="relative flex flex-col md:flex-row-reverse items-center md:items-stretch z-10">
+                        <!-- Dot & Connector -->
+                        <div class="flex flex-col items-center md:w-1/2 md:pl-8">
+                            <div class="flex items-center justify-center relative z-10"
+                                style="width: 144px; height: 144px;">
+                                <img src="/images/onymos.png" alt="Onymos Logo"
+                                    class="w-36 h-36 object-contain rounded-full border-4 border-white shadow-lg"
+                                    style="background: #fff; opacity: 1;" />
+                            </div>
+                            <div class="hidden md:block flex-1 border-l-2 border-dotted border-purple-300 mx-auto">
+                            </div>
+                        </div>
+                        <!-- Card -->
+                        <div
+                            class="bg-white rounded-xl shadow-xl border border-purple-100 p-8 flex-1 mr-0 md:mr-8 mt-8 md:mt-0 group">
+                            <h3 class="text-xl font-bold text-purple-800 mb-2 group-hover:text-purple-600 transition">
+                                Onymos
+                            </h3>
+                            <p class="text-gray-700 text-sm leading-loose">
+                                I previously wrote a blog post where I shared some HTML
+                                code nuggets that I find very useful. The team at Onymos really liked the post and
+                                invited me as
+                                a guest blogger.
+                            </p>
+                            <!-- View Article Button -->
+                            <a href="https://onymos.com/blog/mdn-code-nuggets-5-piece-meal/" target="_blank"
+                                class="inline-flex items-center gap-2 mt-5 px-6 py-2 rounded-full font-semibold text-white bg-gradient-to-r from-purple-600 to-fuchsia-600 shadow-lg transition-all duration-200 hover:from-purple-700 hover:to-fuchsia-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 text-sm"
+                                aria-label="View Onymos Article">
+                                View Article
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="contact"></div>
+        </section>
+
+
+        <!-- Contact -->
+        <section class="w-full bg-gradient-to-b from-white to-fuchsia-50 py-20 relative overflow-hidden">
+
+            <!-- Decorative Dots Pattern -->
+            <div class="absolute inset-0 pointer-events-none z-0 opacity-20">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <pattern id="workDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+                            <circle cx="2" cy="2" r="1.5" fill="#e879f9" />
+                        </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#workDotPattern)" />
+                </svg>
+            </div>
+
+            <!-- Smiley Face -->
+            <div class="smiley-animate absolute bottom-0 right-0 z-0 pointer-events-none">
+                <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="opacity-60">
+                    <!-- Face circle -->
+                    <circle cx="90" cy="90" r="70" fill="#D8B4FE" fill-opacity="0.45" />
+                    <!-- Eyes -->
+                    <ellipse cx="70" cy="85" rx="7" ry="9" fill="#a78bfa" fill-opacity="0.8" />
+                    <ellipse cx="110" cy="85" rx="7" ry="9" fill="#a78bfa" fill-opacity="0.8" />
+                    <!-- Smile -->
+                    <path d="M70 110 Q90 130 110 110" stroke="#a78bfa" stroke-width="5" fill="none"
+                        stroke-linecap="round" />
+                </svg>
+            </div>
+
+            <div class="max-w-4xl mx-auto px-6 relative z-10">
+                <!-- Badge and Section Header -->
+                <div class="flex flex-col items-center mb-8">
+                    <span
+                        class="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold text-fuchsia-800 bg-gradient-to-r from-[#FFCEEC] to-[#D9B8F5] rounded-full uppercase tracking-wider shadow">
+                        <!-- Message/Contact Icon -->
+                        <svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                        </svg>
+                        Connect with me
+                    </span>
+                    <div class="relative w-fit">
+                        <h2
+                            class="font-serif text-3xl md:text-4xl font-extrabold text-purple-800 text-center underline decoration-fuchsia-300 decoration-4 underline-offset-8">
+                            Contact
+                        </h2>
+                    </div>
+                </div>
+                <p class="text-gray-700 mb-8 max-w-2xl text-center mx-auto">
+                    Connect with me on the following social media platforms:
+                </p>
+                <!-- Social Media Icons -->
+                <div class="flex justify-center items-center gap-4 mt-4">
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/jashelet/" target="_blank" aria-label="LinkedIn"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/jasheloper" target="_blank" aria-label="GitHub"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.334-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.628-5.475 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/jashelet" target="_blank" aria-label="YouTube"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.115C19.36 3.5 12 3.5 12 3.5s-7.36 0-9.386.571A2.994 2.994 0 0 0 .502 6.186C0 8.216 0 12 0 12s0 3.784.502 5.814a2.994 2.994 0 0 0 2.112 2.115C4.64 20.5 12 20.5 12 20.5s7.36 0 9.386-.571a2.994 2.994 0 0 0 2.112-2.115C24 15.784 24 12 24 12s0-3.784-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/jasheloper/" target="_blank" aria-label="Instagram"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.415a4.92 4.92 0 0 1 1.675 1.077 4.918 4.918 0 0 1 1.077 1.675c.175.458.359 1.258.415 2.428.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.415 2.428a4.918 4.918 0 0 1-1.077 1.675 4.918 4.918 0 0 1-1.675 1.077c-.458.175-1.258.359-2.428.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.415a4.918 4.918 0 0 1-1.675-1.077 4.918 4.918 0 0 1-1.077-1.675c-.175-.458-.359-1.258-.415-2.428C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.415-2.428A4.918 4.918 0 0 1 3.725 3.047a4.918 4.918 0 0 1 1.675-1.077c.458-.175 1.258-.359 2.428-.415C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072c-1.276.06-2.15.25-2.91.54A7.075 7.075 0 0 0 .611 2.142a7.078 7.078 0 0 0-1.53 1.53c-.29.76-.48 1.634-.54 2.91C.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.06 1.276.25 2.15.54 2.91.29.76.677 1.47 1.53 2.323.853.853 1.563 1.24 2.323 1.53.76.29 1.634.48 2.91.54C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.276-.06 2.15-.25 2.91-.54a7.075 7.075 0 0 0 2.323-1.53 7.078 7.078 0 0 0 1.53-2.323c.29-.76.48-1.634.54-2.91.059-1.28.072-1.689.072-4.948s-.013-3.668-.072-4.948c-.06-1.276-.25-2.15-.54-2.91a7.075 7.075 0 0 0-1.53-2.323A7.075 7.075 0 0 0 19.858.611c-.76-.29-1.634-.48-2.91-.54C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                        </svg>
+                    </a>
+                    <!-- X (Twitter) -->
+                    <a href="https://x.com/jasheloper" target="_blank" aria-label="X"
+                        class="bg-gradient-to-br from-purple-500 via-fuchsia-400 to-purple-300 rounded-full p-2 shadow-lg border-2 border-white hover:scale-110 transition-transform group">
+                        <svg class="w-6 h-6 text-white group-hover:text-purple-700 transition-colors"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M17.53 3H21.5l-7.19 8.21L23 21h-6.26l-4.32-5.89L7.06 21H3.08l7.61-8.7L1 3h6.42l3.85 5.24L17.53 3zm-1.07 15h1.65l-5.07-6.91-1.32 1.5L16.46 18zM6.41 5h-1.7l5.13 7 1.32-1.5L6.41 5z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer
+            class="w-full bg-gradient-to-b from-purple-100 via-fuchsia-50 to-white py-8 px-4 relative overflow-hidden shadow-inner mt-0 border-t-0">
+            <!-- Decorative Dots Pattern -->
+            <div class="absolute inset-0 pointer-events-none z-0 opacity-10">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <pattern id="footerDotPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+                            <circle cx="2" cy="2" r="1.5" fill="#e879f9" />
+                        </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#footerDotPattern)" />
+                </svg>
+            </div>
+            <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center text-center gap-4">
+                <!-- Back to Top Link -->
+                <a href="#home"
+                    class="inline-flex items-center gap-2 px-5 py-2 rounded-full font-semibold text-purple-700 bg-gradient-to-r from-fuchsia-100 to-purple-200 shadow hover:bg-fuchsia-200 hover:text-fuchsia-700 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400 text-sm"
+                    aria-label="Back to top">
+                    <svg class="w-4 h-4 text-fuchsia-500" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+                    </svg>
+                    Back to Top
+                </a>
+                <div class="text-xs text-purple-400 mt-2">
+                    &copy; 2025 Jashele T. &mdash; Built with <span class="text-fuchsia-500">Tailwind CSS</span>
+                </div>
+            </div>
+        </footer>
+
+    </main>
 
 </body>
 

@@ -1,5 +1,17 @@
 # Portfolio Website - Version 2.0
 
+
+
+### 🔗 Link
+[Click to view demo](https://devjashele.tech/)
+<br><br>
+
+[![Version 2.0 website preview](/v2/images/v2.png)](https://devjashele.tech/)
+
+<br>
+
+
+
 ### 💬 About
 My personal portfolio website to showcase my technical work and career journey.
 <br><br>
@@ -16,13 +28,6 @@ HTML, Tailwind CSS
 <br><br>
 
 
-### 🔗 Link
-[Click to view demo](https://devjashele.tech/)
-<br><br>
-
-[![Version 2.0 website preview](/v2/images/v2.png)](https://devjashele.tech/)
-
-<br>
 
 
 

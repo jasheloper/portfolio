@@ -3,7 +3,7 @@
 
 
 ### 🔗 Link
-[Click to view demo](https://devjashele.tech/)
+https://jasheloper.github.io/portfolio/
 <br><br>
 
 [![Version 2.0 website preview](/v2/images/v2.png)](https://devjashele.tech/)
@@ -35,4 +35,6 @@ HTML, Tailwind CSS
 
 **Version 1.0** : A single-page layout with distinct sections showcasing my professional summary, skills, and projects. A minimalist design that presents key information concisely to keep users engaged with a user-friendly experience.
 
-![Version 1.0 website preview](/v1/images/devjashele-v1.png)
+https://jasheloper.github.io/portfolio/v1/v1.html
+
+[![Version 1.0 website preview](/v1/images/devjashele-v1.png)](https://jasheloper.github.io/portfolio/v1/v1.html)
